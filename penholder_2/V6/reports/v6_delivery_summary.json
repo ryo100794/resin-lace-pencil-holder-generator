@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "dimensions_mm": [
+    110.97357940673828,
+    108.23391342163086,
+    111.40023803710938
+  ],
+  "holder_temporary_branches": 451,
+  "sphere_temporary_branches": 426,
+  "base_start_tacks": 200,
+  "permanent_fixed_micro_reinforcements": 778,
+  "minimum_new_temporary_neck_minor_width_mm": 0.204,
+  "original_internal_supports": 81,
+  "external_removal_planned_count": 1053,
+  "endpoint_band_cut_operation_count": 434,
+  "endpoint_band_count": 868,
+  "holder_finite_endpoint_operation_count": 8,
+  "endpoint_band_modeled_width_range_mm": [
+    0.035,
+    0.04
+  ],
+  "endpoint_cuts_only_operation_count": 6,
+  "external_operations_with_free_body_extraction": 1047,
+  "endpoint_cuts_only_ids": [
+    "S3_A080_038",
+    "S3_A200_038",
+    "S3_A320_038",
+    "S4_A040_032",
+    "S4_A160_032",
+    "S4_A280_032"
+  ],
+  "physical_kerf_feasibility_certified": false,
+  "base_contacts_without_separate_extracted_piece": 24,
+  "base_finishing_actual_added_stock_partitions": 40,
+  "temporary_branches_requiring_additional_body_cuts": 378,
+  "positive_non_plate_material_birth_count": 0,
+  "physical_print_tested": false,
+  "complete_source_to_export_surface_error_upper_bound_mm": 1.924441082054015e-05
+}

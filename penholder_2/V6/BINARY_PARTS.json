@@ -1,0 +1,350 @@
+{
+  "schema": "penholder_v6_binary_parts_v1",
+  "format": "Ordered raw byte parts; concatenate exactly in listed order to reconstruct each unchanged original file.",
+  "part_size_limit_bytes": 8388608,
+  "transport_constraint": "The connector call transport rejected a 94,042,450-byte frame above its 67,108,864-byte limit, and a 32-MiB raw part encountered a separate HTTP transport-send failure. An 8-MiB raw part was successfully uploaded and its Git blob SHA-1 matched. These parts use that tested size; this is not the GitHub repository file-size limit.",
+  "source_release_bytes_modified": false,
+  "files": [
+    {
+      "path": "archives/ivory_v6_project.zip",
+      "bytes": 75443087,
+      "sha256": "932e622d88c7aaa2cf811efdef336f00cafc6150f5458689e3b97853778ddcb2",
+      "git_blob_sha1": "9f4bb71119b7492eb3131c0c366a423d6132e60e",
+      "parts": [
+        {
+          "path": "archives/ivory_v6_project.zip.part001",
+          "bytes": 8388608,
+          "sha256": "c13364515cdde18a4fa6ab29f8c192afc388d8ad8a8d92cfbbf9f8f0a3775694",
+          "git_blob_sha1": "98de1ac57aac9e31a99d2d49e4db6b98bbf82fc1",
+          "offset_bytes": 0
+        },
+        {
+          "path": "archives/ivory_v6_project.zip.part002",
+          "bytes": 8388608,
+          "sha256": "67106af54d8afeaf52bfa604dbada4e380de8e316fa4bf7f9a3cf206d6ad7b13",
+          "git_blob_sha1": "8fccb350984bd5c0dfbe39c21bacec2d3a29d1bf",
+          "offset_bytes": 8388608
+        },
+        {
+          "path": "archives/ivory_v6_project.zip.part003",
+          "bytes": 8388608,
+          "sha256": "50171817ff73ec5431f9c8bc980851b4cf23c055f28cc639c8415bc61d5544b9",
+          "git_blob_sha1": "c04781016f80818bef30fc7cd18a35b37f7d6b08",
+          "offset_bytes": 16777216
+        },
+        {
+          "path": "archives/ivory_v6_project.zip.part004",
+          "bytes": 8388608,
+          "sha256": "56cab266b11d280a92c749270f185630d6227f34471b85e3972109e9156cbed0",
+          "git_blob_sha1": "14fdd87517c8088daf33de35bef4df94ba7b4abe",
+          "offset_bytes": 25165824
+        },
+        {
+          "path": "archives/ivory_v6_project.zip.part005",
+          "bytes": 8388608,
+          "sha256": "5e125db0815a0f1186cd8715ae70954ba7510e0555c3e93a30ee42de33df3724",
+          "git_blob_sha1": "a7cbd5bebe7e744394a2e421a3d4e383f11525a0",
+          "offset_bytes": 33554432
+        },
+        {
+          "path": "archives/ivory_v6_project.zip.part006",
+          "bytes": 8388608,
+          "sha256": "282a26f03ae5db84271ae8f23bbca01f904f821c61986cbcec6e6be6607b6103",
+          "git_blob_sha1": "4c608f22ab4dc5d77ff34264a41e9cfe6f372f29",
+          "offset_bytes": 41943040
+        },
+        {
+          "path": "archives/ivory_v6_project.zip.part007",
+          "bytes": 8388608,
+          "sha256": "e758ed8ae020b2fae6e4d5acbf4ec1d82b48df26a58733595b904b541866e14a",
+          "git_blob_sha1": "7e814174d840430ffcd557d571d6aabd2073e64a",
+          "offset_bytes": 50331648
+        },
+        {
+          "path": "archives/ivory_v6_project.zip.part008",
+          "bytes": 8388608,
+          "sha256": "47e57653f9a89c432fdd3e3903f5e6c4176491ff9993d39a9084dfc9c9972a3d",
+          "git_blob_sha1": "820812cea0220da58590c8ea0d6a50e559332136",
+          "offset_bytes": 58720256
+        },
+        {
+          "path": "archives/ivory_v6_project.zip.part009",
+          "bytes": 8334223,
+          "sha256": "48253ff6e0e459d638b98db328c4b50b7f89ddcebd4420686213c36bdb106adc",
+          "git_blob_sha1": "df206f531a0f436fa0407db97c756d4d64f3d2bd",
+          "offset_bytes": 67108864
+        }
+      ]
+    },
+    {
+      "path": "archives/ivory_v6_support_assets.zip",
+      "bytes": 73949882,
+      "sha256": "626d63d79064c7b07265898adc9ee17af5d7c1f7cdaed6e759826fd4820d12ee",
+      "git_blob_sha1": "3e16cd608a5f7bab654f3708368adde1cac2ef9e",
+      "parts": [
+        {
+          "path": "archives/ivory_v6_support_assets.zip.part001",
+          "bytes": 8388608,
+          "sha256": "d3244a3bff73907b6c22528bd984d92900c42c3fd78e48a7a67173d88a99421f",
+          "git_blob_sha1": "ef566681446f9488630a340db44e4eaeff335ca0",
+          "offset_bytes": 0
+        },
+        {
+          "path": "archives/ivory_v6_support_assets.zip.part002",
+          "bytes": 8388608,
+          "sha256": "095d3fe1c924b7e873f54714be3196f26b9c3e002de81c3aa3ed06f43102b44d",
+          "git_blob_sha1": "ba103770fa55ccf41e368b14b9631743eb734f8a",
+          "offset_bytes": 8388608
+        },
+        {
+          "path": "archives/ivory_v6_support_assets.zip.part003",
+          "bytes": 8388608,
+          "sha256": "7dcdd2fb0003a6fbfefd9728b7c8aaaf7f09dfc2a5f38a8bd48e29681fc296e1",
+          "git_blob_sha1": "079e3994763d9c4bd73067c1231ac674d3f5aaf8",
+          "offset_bytes": 16777216
+        },
+        {
+          "path": "archives/ivory_v6_support_assets.zip.part004",
+          "bytes": 8388608,
+          "sha256": "3a9a7f4df0adcea89d3b2c162d6aa429e022daf86f67960224dad3278848f69c",
+          "git_blob_sha1": "b22ea5672f4729b8873f5240c6bbb3b1996a0a48",
+          "offset_bytes": 25165824
+        },
+        {
+          "path": "archives/ivory_v6_support_assets.zip.part005",
+          "bytes": 8388608,
+          "sha256": "d306ef20d8697c95cf080b77ef5bd304b858f08b4dc6143e4e3e183918aa9558",
+          "git_blob_sha1": "25cf47cdb079c774c1567ae70d0963d91734e56b",
+          "offset_bytes": 33554432
+        },
+        {
+          "path": "archives/ivory_v6_support_assets.zip.part006",
+          "bytes": 8388608,
+          "sha256": "28a74754969bc24abf90e5add82ea41aa379e56c47b18c2fdf13c72c8217709e",
+          "git_blob_sha1": "b8a7f8f60d98db3a3b962aa4be39805f46e1c1bc",
+          "offset_bytes": 41943040
+        },
+        {
+          "path": "archives/ivory_v6_support_assets.zip.part007",
+          "bytes": 8388608,
+          "sha256": "4d618635646117191c56b4ef4daeb2b8bf42a520dbe8ba259772cf20df2a5958",
+          "git_blob_sha1": "982f7d1a820376668def07788fef5b6c710c6237",
+          "offset_bytes": 50331648
+        },
+        {
+          "path": "archives/ivory_v6_support_assets.zip.part008",
+          "bytes": 8388608,
+          "sha256": "d743f7a25c9d89b002886ed3a5ff237e5381db7d896d7cd5b172883853b53840",
+          "git_blob_sha1": "f11ff0f6f0c5bd6225eb024690446b5e71095386",
+          "offset_bytes": 58720256
+        },
+        {
+          "path": "archives/ivory_v6_support_assets.zip.part009",
+          "bytes": 6841018,
+          "sha256": "d665f1d74afd0ae41ef803413bdb84e8569687e5bdf9fbdc000393d426c021a7",
+          "git_blob_sha1": "23d2a815f556ede3a614b453d9748217b3fdece6",
+          "offset_bytes": 67108864
+        }
+      ]
+    },
+    {
+      "path": "history/ivory_v6_repair_history.zip",
+      "bytes": 44244657,
+      "sha256": "8cfa518792f1e42bcddcaa0fa66922562bd046d2595dc00caedae2e515417b70",
+      "git_blob_sha1": "2696e0f0518c45dafc1e72ae924a9ea78a11c527",
+      "parts": [
+        {
+          "path": "history/ivory_v6_repair_history.zip.part001",
+          "bytes": 8388608,
+          "sha256": "2f73f9bf0b02be9dc121343af70cc1188cfc81f30bbc81d8e52a2b44008c4cfe",
+          "git_blob_sha1": "77d0ba0852b79521f495db30f6d900c67cc567e6",
+          "offset_bytes": 0
+        },
+        {
+          "path": "history/ivory_v6_repair_history.zip.part002",
+          "bytes": 8388608,
+          "sha256": "ff1e76318c4007bb6d34ed1750e978704f278318e89c92ab8205f17907967f0e",
+          "git_blob_sha1": "554d04c922b5ab1f4eaca25ec8edbae5443bbb0e",
+          "offset_bytes": 8388608
+        },
+        {
+          "path": "history/ivory_v6_repair_history.zip.part003",
+          "bytes": 8388608,
+          "sha256": "0c659d26bb5d4552b5e4073b3b72019e1a8495c284f5be6e307f72c27e02c6be",
+          "git_blob_sha1": "5b845c72b995685b2226314188046a0487efa92b",
+          "offset_bytes": 16777216
+        },
+        {
+          "path": "history/ivory_v6_repair_history.zip.part004",
+          "bytes": 8388608,
+          "sha256": "0634575f00cc1e687aaef878b130a9bd41297c03c74867c006661b3665edbdc9",
+          "git_blob_sha1": "5b6589f19b81107dbc683b67544ef434ae29bd04",
+          "offset_bytes": 25165824
+        },
+        {
+          "path": "history/ivory_v6_repair_history.zip.part005",
+          "bytes": 8388608,
+          "sha256": "2bfb9be8ed5a3374479fa990a1d1539f79150bed5e6692428e036e13993b97a6",
+          "git_blob_sha1": "3e6cdb6b7b9dea9808b54fa6aface9244bdde0a1",
+          "offset_bytes": 33554432
+        },
+        {
+          "path": "history/ivory_v6_repair_history.zip.part006",
+          "bytes": 2301617,
+          "sha256": "45287e5944a38441d24eb933286fc9decde0dba0645772c0fb8bb9c8b1e0c632",
+          "git_blob_sha1": "c421f8271f7d4296f53264f4263afa6c1c040668",
+          "offset_bytes": 41943040
+        }
+      ]
+    },
+    {
+      "path": "models/ivory_penholder_v6_custom_supported.3mf",
+      "bytes": 70531562,
+      "sha256": "d7d72127579dd9ab1cc64e3216ffd86eff1ddd82a86e3ba1e94c241949c91efe",
+      "git_blob_sha1": "61ba0d8f934955d4a8e6f442b1f259bb1e606398",
+      "parts": [
+        {
+          "path": "models/ivory_penholder_v6_custom_supported.3mf.part001",
+          "bytes": 8388608,
+          "sha256": "d39e2a6af84bdb6d81586baa86ce15eb18c51fdd379f2a50ed5c81e750db202e",
+          "git_blob_sha1": "7fa4acf44a8e4f5ff7ebfff20325eed67d5c5c12",
+          "offset_bytes": 0
+        },
+        {
+          "path": "models/ivory_penholder_v6_custom_supported.3mf.part002",
+          "bytes": 8388608,
+          "sha256": "aa3283aebe36ee8651701ad925626de9389643d2aa8d0f95dbdd20ed1cc29df6",
+          "git_blob_sha1": "077d8a745138fe99ecef012afbd7ee0dc1b25802",
+          "offset_bytes": 8388608
+        },
+        {
+          "path": "models/ivory_penholder_v6_custom_supported.3mf.part003",
+          "bytes": 8388608,
+          "sha256": "01d3dc534979a6cbc6f72d9aa59b720fd8c16a4d00455d8d38aec2920093de8d",
+          "git_blob_sha1": "f1f71da1999a600686f34c9f95c4f8d01cf32421",
+          "offset_bytes": 16777216
+        },
+        {
+          "path": "models/ivory_penholder_v6_custom_supported.3mf.part004",
+          "bytes": 8388608,
+          "sha256": "cf3b64ed7db8b06888e8d83e67d4bd7e7c54bb34e35e3d848afd6c36890b055f",
+          "git_blob_sha1": "c9085141eaecfaa6238743861dc454f407aa0fa2",
+          "offset_bytes": 25165824
+        },
+        {
+          "path": "models/ivory_penholder_v6_custom_supported.3mf.part005",
+          "bytes": 8388608,
+          "sha256": "f72facc0d1fc2585e0dba436cf50ac1e4c2dfe3b75cc04e4c3bdd7697dc0d665",
+          "git_blob_sha1": "b26fc96ef9a5fa29c98fc23c044ff8aca709c7c4",
+          "offset_bytes": 33554432
+        },
+        {
+          "path": "models/ivory_penholder_v6_custom_supported.3mf.part006",
+          "bytes": 8388608,
+          "sha256": "c9e1759dafe7cc4760707dfc418bed93680dc96b4718ed42f6b6991f71544c5e",
+          "git_blob_sha1": "d5f45d0e15d2810fdb812984433cdadf75ce0722",
+          "offset_bytes": 41943040
+        },
+        {
+          "path": "models/ivory_penholder_v6_custom_supported.3mf.part007",
+          "bytes": 8388608,
+          "sha256": "f59b8bf20b067d2bbd00c9ee3e6ddfd788013f35f81afb17bca184c287e951cb",
+          "git_blob_sha1": "2ee1984422a788d8f41119c9fd0620941e28e677",
+          "offset_bytes": 50331648
+        },
+        {
+          "path": "models/ivory_penholder_v6_custom_supported.3mf.part008",
+          "bytes": 8388608,
+          "sha256": "b2b426cc61b46839eaabbe8d71a6c49eff37b2fe9b2e85001219b63e5bf270da",
+          "git_blob_sha1": "4a475500f8daed81368eac687bb96d6bae7fc7a8",
+          "offset_bytes": 58720256
+        },
+        {
+          "path": "models/ivory_penholder_v6_custom_supported.3mf.part009",
+          "bytes": 3422698,
+          "sha256": "c2ad70b26158ec3fa21c8ba18748e9116c0ca16ef4e173cec2e218f70859f019",
+          "git_blob_sha1": "4365540a8d961b7a8169332f182a6ac723928373",
+          "offset_bytes": 67108864
+        }
+      ]
+    },
+    {
+      "path": "models/ivory_v6_stl.zip",
+      "bytes": 82080795,
+      "sha256": "63167ef3cbc6c2420cd8847ed2d9e484fafb204b352f096f048da22318a54d96",
+      "git_blob_sha1": "7fa01fc70e80a59f7c9de934d6be2a3bd15a799a",
+      "parts": [
+        {
+          "path": "models/ivory_v6_stl.zip.part001",
+          "bytes": 8388608,
+          "sha256": "12336b4b449b4ce0330e8f4341836ffb9fc609a9c618c0e625dfbbdcc9805ff5",
+          "git_blob_sha1": "f69115ad5e2a589771cf99dede3a53234f1d5b72",
+          "offset_bytes": 0
+        },
+        {
+          "path": "models/ivory_v6_stl.zip.part002",
+          "bytes": 8388608,
+          "sha256": "5ef0a0a9d4bd14ad443672af12df2ad4335b3556824226040772b3b3bc8671f4",
+          "git_blob_sha1": "5828016cbf42a4ddc2abf1a2142f602fd80dbb93",
+          "offset_bytes": 8388608
+        },
+        {
+          "path": "models/ivory_v6_stl.zip.part003",
+          "bytes": 8388608,
+          "sha256": "3b8d35ffc2a88cc30a8df191ad42b82ef89cd47db25c9abad32c8fe725a7d432",
+          "git_blob_sha1": "ead0eb573a43ad0deb9a6c51a5f5326f4d86004a",
+          "offset_bytes": 16777216
+        },
+        {
+          "path": "models/ivory_v6_stl.zip.part004",
+          "bytes": 8388608,
+          "sha256": "56318109fd94a7884f229c012b439ef72112e5b451907c88f6a31e2bf430d469",
+          "git_blob_sha1": "4eca45f31c40a01bc35d6d0cffba60f50fe65812",
+          "offset_bytes": 25165824
+        },
+        {
+          "path": "models/ivory_v6_stl.zip.part005",
+          "bytes": 8388608,
+          "sha256": "f905ddbc00adabd3ee0874125dc1b4a6dde549d63d24ebacdf9aa7b9a495c40b",
+          "git_blob_sha1": "e0aced3b73a6ecae6377d8bde932e4ce16780e1a",
+          "offset_bytes": 33554432
+        },
+        {
+          "path": "models/ivory_v6_stl.zip.part006",
+          "bytes": 8388608,
+          "sha256": "915f80d12ec0d56cea52be1c118fde486e31f46ba69dc6a518641a417b0642de",
+          "git_blob_sha1": "8af2ab3a4b1df710531e5064553999ad30f82729",
+          "offset_bytes": 41943040
+        },
+        {
+          "path": "models/ivory_v6_stl.zip.part007",
+          "bytes": 8388608,
+          "sha256": "cffd8bdcb2a4a0ab42ea724f760d9a8351f908b2eb16a04a54fb6b9bb2bdbb74",
+          "git_blob_sha1": "40b57e19390278899a2bb91eb0315fdcfb4b8755",
+          "offset_bytes": 50331648
+        },
+        {
+          "path": "models/ivory_v6_stl.zip.part008",
+          "bytes": 8388608,
+          "sha256": "cc67ff3866afb00853b74d06d2fd45204fd1b35d787e9380bfc538eac95939e2",
+          "git_blob_sha1": "816254e6252ee66f619ab97cd68d7e9847289dbe",
+          "offset_bytes": 58720256
+        },
+        {
+          "path": "models/ivory_v6_stl.zip.part009",
+          "bytes": 8388608,
+          "sha256": "fdcf92783143d5a11009c749f7a37707930256ec3395dd812e4f0212eee3f4da",
+          "git_blob_sha1": "0d9afff792020512840a6eb667a849fdb778d071",
+          "offset_bytes": 67108864
+        },
+        {
+          "path": "models/ivory_v6_stl.zip.part010",
+          "bytes": 6583323,
+          "sha256": "5771011bc52155e28ed362e5b29cbf9af94bf396d75fdeb5007ebf5d44f09af9",
+          "git_blob_sha1": "697059c0d7e52a11753ab4d35f35f973a5cf65f5",
+          "offset_bytes": 75497472
+        }
+      ]
+    }
+  ]
+}

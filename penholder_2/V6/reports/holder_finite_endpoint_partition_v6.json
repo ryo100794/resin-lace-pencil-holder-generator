@@ -1,0 +1,1747 @@
+{
+  "schema": "holder_finite_endpoint_partition_v1",
+  "passed": true,
+  "scope": "Local finite-cut partition only. No original/current-scene cutter or route test performed.",
+  "volume_tolerance_mm3": 1e-08,
+  "source_sha256": "8c7c53d2f04de0fdcba536376d84c14bcf90aea60403e85a78c0027fd1ace3ae",
+  "inputs": {
+    "cache/custom_holder_supports/holder_supports.json": "d77097a5efc1bc6c0ba28042a9e528b26e2bfd17743711278764b83d0c58c967",
+    "source/holder_finite_endpoint_partition_v6.py": "8c7c53d2f04de0fdcba536376d84c14bcf90aea60403e85a78c0027fd1ace3ae",
+    "source/custom_holder_supports.py": "0e8953282a7fea05c7dd25f40fc2f4c4cbe8514ff9c6f414ccabb66b72067808",
+    "cache/custom_holder_supports/holder_support_0206_full.npz": "14135be37056ff68ab41f6b6458abb5713ff4cddcc3af670a7c3b5006ec31c48",
+    "cache/custom_holder_supports/holder_support_0206_removable.npz": "2239f46b48b65228dfdcc6b758c8e9a4ab76eb5df91e0eb6b4e57c42bff1bbb3",
+    "cache/custom_holder_supports/holder_support_0206_retained.npz": "a2c91ee491cff7055d33cd9fedcfec2e5f73f2f281d945d59cb2eabe0adb8709",
+    "cache/custom_holder_supports/holder_support_0206_convex_sweep_piece_00.npz": "9074db487623fcd5b61ea0083a236185bee9dafbee1f20ee5c464bc112a1ffa8",
+    "cache/custom_holder_supports/holder_support_0206_convex_sweep_piece_01.npz": "4701c12f18bb3b311388123f6bbfd64cc936187cf5f339ee75dc54323f5303ed",
+    "cache/custom_holder_supports/holder_support_0206_convex_sweep_piece_02.npz": "6499b5fff658c38f1539795830146cac59b43c9876fd6d916b8da16fe368a538",
+    "cache/custom_holder_supports/holder_support_0206_convex_sweep_piece_03.npz": "bd9c575aca5a86a743e968d2fce333969726f54210a4f102ebb173eee2ca4325",
+    "cache/custom_holder_supports/holder_support_0206_convex_sweep_piece_04.npz": "0a1c78e92a60924baac0be8e9717022d0c02635ced60b408ce934da73e62b724",
+    "cache/custom_holder_supports/holder_support_0206_convex_sweep_piece_05.npz": "e32441b2d893ce2e943e66c3119e933ca2728b3f509f580024f338287a5db2e7",
+    "cache/custom_holder_supports/holder_support_0206_convex_sweep_piece_06.npz": "f0a294f8f492812ee439fafc01cd4e7ed09d92bc8ab932de7dc78b6e73044f27",
+    "cache/custom_holder_supports/holder_support_0226_full.npz": "1134796220d92ac6117337014e28a5bd514f9d890a00dd22d89e1ce6ef8debd6",
+    "cache/custom_holder_supports/holder_support_0226_removable.npz": "ab1c40a381c4a95e520fd247b57adf93721b600ad455b934ccc20e317adbc22c",
+    "cache/custom_holder_supports/holder_support_0226_retained.npz": "c44d00aaac11394a30afdef9a8ca22ccceef07b78896cd99f7da8114f246967e",
+    "cache/custom_holder_supports/holder_support_0226_convex_sweep_piece_00.npz": "12fcd0f03b13469494cb92d04aa805d6d46a5656a80a189060afcc4a04f57771",
+    "cache/custom_holder_supports/holder_support_0226_convex_sweep_piece_01.npz": "b6ca94c235545524c8fcb1f7a2fada303d4be0084e6ba62bae2c633a8310cb1f",
+    "cache/custom_holder_supports/holder_support_0226_convex_sweep_piece_02.npz": "ed9bef49e158153c8bae87c3a61204080800c9490d4397487aa31c7312ac4a05",
+    "cache/custom_holder_supports/holder_support_0226_convex_sweep_piece_03.npz": "43fce38a408ca99ec536a7b95da0996765859d41818d1b3fc8a2358576984557",
+    "cache/custom_holder_supports/holder_support_0226_convex_sweep_piece_04.npz": "69f139b332a9827727c26049a2a8c1f42df155aff9203d6c770035430f3fb342",
+    "cache/custom_holder_supports/holder_support_0226_convex_sweep_piece_05.npz": "9e11c2917977539361281ae49a8848d4ac2538a9ea077c5efdaf2dd173c6ae87",
+    "cache/custom_holder_supports/holder_support_0226_convex_sweep_piece_06.npz": "8cee1008ec0c51e71a6860306b76b4d205e30f62334c33ac8986efe7401fc0fc",
+    "cache/custom_holder_supports/holder_support_0267_full.npz": "aceccf1a37c42fb0c54ee223dc0831f6c4009781e71b77c37623e28e99b52e12",
+    "cache/custom_holder_supports/holder_support_0267_removable.npz": "e475b136aca10dc288fb76570615b45990106d9dea4aeda684a64116345ce05d",
+    "cache/custom_holder_supports/holder_support_0267_retained.npz": "db82173e076850351847e3348755a08329adc3189e32c6bdac2e2807c829f927",
+    "cache/custom_holder_supports/holder_support_0267_convex_sweep_piece_00.npz": "cfa4fc5bf57ce8eaa50369f4083a1a2029607ea44e8bff081c2e8c5500080296",
+    "cache/custom_holder_supports/holder_support_0267_convex_sweep_piece_01.npz": "2c6c6f39caa658e1f8f53cc9fe28af0332c99f6bf986fab414f8eed1989af742",
+    "cache/custom_holder_supports/holder_support_0267_convex_sweep_piece_02.npz": "4a2a2eb1096df012f178d28acc0b86c6a7a1cdf3c34e1a00d16c173efb48ac03",
+    "cache/custom_holder_supports/holder_support_0267_convex_sweep_piece_03.npz": "0323241f0787ec83c52fd64c116e4777bfa7be029072109064d6cafc58f2f872",
+    "cache/custom_holder_supports/holder_support_0267_convex_sweep_piece_04.npz": "48e66ae8e609acdfe01f035e397d2f4f67c035f6ba50ef0615010854a6ee27d2",
+    "cache/custom_holder_supports/holder_support_0267_convex_sweep_piece_05.npz": "152c2b1268f1e3aa1481e167380147236fd344789864a3ccebb37f64b71b61d4",
+    "cache/custom_holder_supports/holder_support_0267_convex_sweep_piece_06.npz": "3ad25b3bf4985397ff17416ff3135227833a70eb21879b7f712e89a756cd657f",
+    "cache/custom_holder_supports/holder_support_0277_full.npz": "f174b41fc1bdaa8228d90b7238e0da49080c829e68657b7cb7069129cc2a7709",
+    "cache/custom_holder_supports/holder_support_0277_removable.npz": "e86b07d5cd4ca9b526b4e59f931f0dde0122dcc512adf5f5d86396e1b603b407",
+    "cache/custom_holder_supports/holder_support_0277_retained.npz": "21f083e4c34ccc5d89ded0fff90ca1ab605eed87c1b1536e5e492c461d2fe228",
+    "cache/custom_holder_supports/holder_support_0277_convex_sweep_piece_00.npz": "e6ca702b476aecb2c1cdf6db20d636f34f94280cc321b442c16250b9e1076c60",
+    "cache/custom_holder_supports/holder_support_0277_convex_sweep_piece_01.npz": "8424eec7c9284371f3ce8479748ebe93c0cdc6091db80c48130c8e6f0c6f70d7",
+    "cache/custom_holder_supports/holder_support_0277_convex_sweep_piece_02.npz": "50e075908da12f406a5c33fc7b90edf41a098df4679d7c807c4fd53c5683fbf8",
+    "cache/custom_holder_supports/holder_support_0277_convex_sweep_piece_03.npz": "136c728f8a808d956d633090ee16077d5030c1044193b776df50b2b32262e33d",
+    "cache/custom_holder_supports/holder_support_0277_convex_sweep_piece_04.npz": "4abdbf9f1846e7234d0ec76da4461fd08c6761cd503ab5f50d05c4de5f2d7539",
+    "cache/custom_holder_supports/holder_support_0277_convex_sweep_piece_05.npz": "d4fd8606281268107e3812d35b674786c705f370ca9fd174ffd0a9878a065c8e",
+    "cache/custom_holder_supports/holder_support_0277_convex_sweep_piece_06.npz": "0725adeeebc28c89c4970e56128e5497df3d51e7f6f86f34695467350136871b",
+    "cache/custom_holder_supports/holder_support_0384_full.npz": "11d012eb0434630815c1890ce5c6295da00708fde383b86d752ab3b9b716f7f3",
+    "cache/custom_holder_supports/holder_support_0384_removable.npz": "e0971d79ac300f0e68221f029792be06e6ea14fd181ae790be6cb4232e914e16",
+    "cache/custom_holder_supports/holder_support_0384_retained.npz": "dff7d3916a29252c61cfac34d9bafb3219d5758f87f98d6f328b57b261b7468c",
+    "cache/custom_holder_supports/holder_support_0384_convex_sweep_piece_00.npz": "b4e8984db4f272857cd34df66bdea4b8d96d69e61f140b08ce13addc09912216",
+    "cache/custom_holder_supports/holder_support_0384_convex_sweep_piece_01.npz": "a567919cfcc6a0fe888158f6c096a15a8dafc31076f4bca5f6a7955009cc0c46",
+    "cache/custom_holder_supports/holder_support_0384_convex_sweep_piece_02.npz": "306a8e23ed13608e442fa81b59dbccd8ef972fe66bb97a9e5bcc9f64333760ef",
+    "cache/custom_holder_supports/holder_support_0384_convex_sweep_piece_03.npz": "4af9995e3dcf39691e66b7d1b0a3838e917e50d68f7fb1d56bb9952f5705e905",
+    "cache/custom_holder_supports/holder_support_0384_convex_sweep_piece_04.npz": "6ff2ffd696c330ca1249ab37b579d05ed8175d402b0aaa42abb8557508a1d86b",
+    "cache/custom_holder_supports/holder_support_0384_convex_sweep_piece_05.npz": "91fc602482efb6059d205066373ab88e9dc63662126e25c597ff681cb45743c3",
+    "cache/custom_holder_supports/holder_support_0384_convex_sweep_piece_06.npz": "422d9f727c8bf1c6b49d7e891808f09f58890de3c77eab9b3c1dc64584de0940",
+    "cache/custom_holder_supports/holder_support_0492_full.npz": "3982723c52f61a032e8e75beed15de9a13d3f61bcd67a38efe4abf75d35eb92b",
+    "cache/custom_holder_supports/holder_support_0492_removable.npz": "e5e08f0704222c667184e32fe71563efb92f3e8015466d38dd434432ed6015d2",
+    "cache/custom_holder_supports/holder_support_0492_retained.npz": "6347a1c276254fe4c9ccdf477ad0f6699b31b7a060ce4c9190b45eb00dc9df2b",
+    "cache/custom_holder_supports/holder_support_0492_convex_sweep_piece_00.npz": "3c23103fb999c838efe641f52d1251c03f2a538701d35a2156337145d9496b94",
+    "cache/custom_holder_supports/holder_support_0492_convex_sweep_piece_01.npz": "7e6b1f80a564b2a1a82e39675171be3c299276fec679c71871f8678b7fceb498",
+    "cache/custom_holder_supports/holder_support_0492_convex_sweep_piece_02.npz": "f402035347719fc225e657e591522e282a8d3a50bb3b00deaf591d005b924797",
+    "cache/custom_holder_supports/holder_support_0492_convex_sweep_piece_03.npz": "695d7e04f7ce68130267072db084ad9043f8c074bd010902e278f05b7eb45e6b",
+    "cache/custom_holder_supports/holder_support_0492_convex_sweep_piece_04.npz": "5776cec08ba0fe998ee8154820be5cf5ea8a1d2dd953679c62235f2f4d885276",
+    "cache/custom_holder_supports/holder_support_0492_convex_sweep_piece_05.npz": "fa018a8c95ce06fd4e85815e8919cee0dcc2e177e819eca396add0640df04487",
+    "cache/custom_holder_supports/holder_support_0492_convex_sweep_piece_06.npz": "5a2f1305ab71dfac7596846123f5236495f591bcc3b91bb3fe0ba2b35a8bd25b",
+    "cache/custom_holder_supports/holder_support_0550_full.npz": "abfa20571cd76c69c8f209782d238059f5ddf657a177824ee3a61ad1da3a4ab6",
+    "cache/custom_holder_supports/holder_support_0550_removable.npz": "fcb74af5a4a3f87f47453209fe6286b52e9d8719ef1c37fb58b477bc2d181ce6",
+    "cache/custom_holder_supports/holder_support_0550_retained.npz": "7d048de4e54ea3ca6974cf1b0a5f91b0bad1b39167323e7c72be7eeb2e17e9e8",
+    "cache/custom_holder_supports/holder_support_0550_convex_sweep_piece_00.npz": "c711b48724659e40dd3eb7a252c46fcd62ba05bce3a235b71c78438a7a7ec9a3",
+    "cache/custom_holder_supports/holder_support_0550_convex_sweep_piece_01.npz": "e63d1ba4813441eacc4e6db260ea3001b6ec2146cd2c12d50e8067f04d1f4763",
+    "cache/custom_holder_supports/holder_support_0550_convex_sweep_piece_02.npz": "6ac7fbc0ad1a888c41f40888a1f76f798ece294e4b8a8e8f1ee89e2a00d53ae8",
+    "cache/custom_holder_supports/holder_support_0550_convex_sweep_piece_03.npz": "cdd08e24389dab262018880603bb4ed12f33353aeb51557a5156a7c32bea7785",
+    "cache/custom_holder_supports/holder_support_0550_convex_sweep_piece_04.npz": "e15a34b49d7029142ac1bd23c490d7966cb91b7791160804c7eb9604bd1ef589",
+    "cache/custom_holder_supports/holder_support_0550_convex_sweep_piece_05.npz": "aa3daa2b5a27b48c7370430f32eaeb05e50172ad35e39d8b6a4e5d6c9e089013",
+    "cache/custom_holder_supports/holder_support_0550_convex_sweep_piece_06.npz": "bc78683e140f7712142a6c25f0bb2dc86cb9d6b4773103751739744758421fa1",
+    "cache/custom_holder_supports/holder_support_0613_full.npz": "e45720006960d6e69f5bf748ec9777b7d0e2a1854531083e63f6f17f431e3233",
+    "cache/custom_holder_supports/holder_support_0613_removable.npz": "f6e0725648e419f77f30397e1da3c3a2bd3d90e6d10d775cb4025f5ac6cefeeb",
+    "cache/custom_holder_supports/holder_support_0613_retained.npz": "27bbd31cf19e02bf0a3490b09a2842dbef57f79ff1362163a81e4e008ddd8107",
+    "cache/custom_holder_supports/holder_support_0613_convex_sweep_piece_00.npz": "a046722f021ff0a7305e9f072273b56602b56a5b04277bbead9d9b11bc7f16ab",
+    "cache/custom_holder_supports/holder_support_0613_convex_sweep_piece_01.npz": "da4636fdbccb3f80d68c88ec5c69e152843f060a85e2ea12c3d7aaacf7c75327",
+    "cache/custom_holder_supports/holder_support_0613_convex_sweep_piece_02.npz": "e00a107e91bd6164a63dbf0d0fe00a401976eacc61c78278ba81e69961795885",
+    "cache/custom_holder_supports/holder_support_0613_convex_sweep_piece_03.npz": "8eec64920da4ec5e2ce2f454ee3c9ada6dfaffdfa14bf5daabd56e4dc94c3820",
+    "cache/custom_holder_supports/holder_support_0613_convex_sweep_piece_04.npz": "a818de7d6c6b13ee2954597e0dc5b7afad424a3194a1d09d584e5db8e48d0fe0",
+    "cache/custom_holder_supports/holder_support_0613_convex_sweep_piece_05.npz": "36e0774d913ef23fdd6da2bba53e06fbe8f3ec8843d75f8202aee5cefdde5c8d",
+    "cache/custom_holder_supports/holder_support_0613_convex_sweep_piece_06.npz": "d2fd929be36bfb35dde090d99a458ec0509d19869c6628b798c4bb584e5a9044"
+  },
+  "records": [
+    {
+      "id": "H0206",
+      "support_index": 206,
+      "paths": {
+        "retained": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_retained.npz",
+          "sha256": "11279519b69fb19663ad0bbed0844e82502d3c2cad4545e12d46cfb132cd264f"
+        },
+        "removable": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_removable.npz",
+          "sha256": "0761aa4822cfe2e1c1d761d1478e21c5effcd056fa8220fdf9c0ae4280dd1ece"
+        },
+        "kerf": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_kerf.npz",
+          "sha256": "674f47aae7d9b125aad511912abb24313e0a23713d8e93afc3dc82de95edf809"
+        },
+        "cutters": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_cutters_00.npz",
+            "sha256": "5d3ee9c0cecb951de2106fa8dc2b98b82ce7842aca01b004c997db3a22c48652"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_cutters_01.npz",
+            "sha256": "4caa593a0e836b45ac4da751284d623faa7303c7a9a92e9fd2905016330c18d2"
+          }
+        ],
+        "fragments": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_fragments_00.npz",
+            "sha256": "0761aa4822cfe2e1c1d761d1478e21c5effcd056fa8220fdf9c0ae4280dd1ece"
+          }
+        ],
+        "proxies": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_proxies_00.npz",
+            "sha256": "9074db487623fcd5b61ea0083a236185bee9dafbee1f20ee5c464bc112a1ffa8"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_proxies_01.npz",
+            "sha256": "e27605ce900a8efcc428be22868573873b292d2aee2b753941b89ead3c65041a"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_proxies_02.npz",
+            "sha256": "6499b5fff658c38f1539795830146cac59b43c9876fd6d916b8da16fe368a538"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_proxies_03.npz",
+            "sha256": "bd9c575aca5a86a743e968d2fce333969726f54210a4f102ebb173eee2ca4325"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_proxies_04.npz",
+            "sha256": "1c8fb3bf57de5712032a9699c0a4005486547aa6dbf13db67def8d17dd5ea891"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_proxies_05.npz",
+            "sha256": "e32441b2d893ce2e943e66c3119e933ca2728b3f509f580024f338287a5db2e7"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0206_proxies_06.npz",
+            "sha256": "f0a294f8f492812ee439fafc01cd4e7ed09d92bc8ab932de7dc78b6e73044f27"
+          }
+        ]
+      },
+      "cuts": [
+        {
+          "endpoint_index": 0,
+          "center_mm": [
+            39.72419686964382,
+            -25.008907585922802,
+            5.60972288094439
+          ],
+          "axis_toward_free_body": [
+            0.546290280739772,
+            0.37291678585075927,
+            0.75
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            39.71327106402902,
+            -25.016365921639817,
+            5.594722880944389
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.175,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": 16.561993386206986,
+          "free_side_plane_offset_mm": 16.601993386206985
+        },
+        {
+          "endpoint_index": 1,
+          "center_mm": [
+            40.2148614819194,
+            -24.10685131780153,
+            7.171215249279483
+          ],
+          "axis_toward_free_body": [
+            0.29892973768074904,
+            0.25153593503693794,
+            -0.9205273952008229
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            40.208882887165785,
+            -24.111882036502273,
+            7.1896257971835
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.175,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": -0.6636214872054856,
+          "free_side_plane_offset_mm": -0.6236214872054856
+        }
+      ],
+      "checks": {
+        "old_retained_outside_unchanged_full_mm3": 2.492225040706328e-17,
+        "new_retained_outside_unchanged_full_mm3": 1.713039432527097e-17,
+        "new_removable_outside_unchanged_full_mm3": 0.0,
+        "actual_kerf_outside_unchanged_full_mm3": 3.124704542421114e-18,
+        "new_retained_outside_existing_maximum_mm3": 1.0408340855860843e-17,
+        "actual_kerf_outside_original_waists_mm3": 4.64258758390082e-18,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 0.0,
+        "removable_kerf_interior_overlap_mm3": 4.8091142613310156e-17,
+        "partition_uncovered_printed_mm3": 1.6411856276115147e-16,
+        "partition_outside_printed_mm3": 8.850139046091832e-17,
+        "signed_partition_volume_error_mm3": 0.0,
+        "serialized_fragments_uncovered_removable_mm3": 0.0,
+        "serialized_fragments_outside_removable_mm3": 0.0,
+        "serialized_proxy_uncovered_removable_mm3": 1.0829112942738889e-15,
+        "serialized_actual_kerf_outside_cutters_mm3": 0.0,
+        "serialized_cutter_stock_uncovered_by_kerf_mm3": 0.0
+      },
+      "construction_checks": {
+        "old_retained_outside_unchanged_full_mm3": 2.492225040706328e-17,
+        "new_retained_outside_unchanged_full_mm3": 1.713039432527097e-17,
+        "new_removable_outside_unchanged_full_mm3": 0.0,
+        "actual_kerf_outside_unchanged_full_mm3": 3.124704542421114e-18,
+        "new_retained_outside_existing_maximum_mm3": 1.0408340855860843e-17,
+        "actual_kerf_outside_original_waists_mm3": 4.64258758390082e-18,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 0.0,
+        "removable_kerf_interior_overlap_mm3": 4.830798304780726e-17,
+        "partition_uncovered_printed_mm3": 1.6411856276115147e-16,
+        "partition_outside_printed_mm3": 8.850139046091832e-17,
+        "signed_partition_volume_error_mm3": 0.0,
+        "endpoint_0_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "endpoint_1_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "cutter_0_new_retained_overlap_mm3": 0.0,
+        "cutter_0_new_removable_overlap_mm3": 1.5813893367000974e-17,
+        "cutter_1_new_retained_overlap_mm3": 0.0,
+        "cutter_1_new_removable_overlap_mm3": 0.0,
+        "tight_proxy_uncovered_actual_removable_mm3": 1.0829112942738889e-15
+      },
+      "passed": true,
+      "component_records": [
+        {
+          "component_index": 0,
+          "signed_volume_mm3": 0.06626481992122663,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            0
+          ],
+          "outside_existing_retained_maximum_mm3": 6.071532165918825e-18
+        },
+        {
+          "component_index": 1,
+          "signed_volume_mm3": 0.45682246103976537,
+          "assignment": "removable",
+          "endpoint_candidates": [],
+          "outside_existing_retained_maximum_mm3": 0.4549473122211774
+        },
+        {
+          "component_index": 2,
+          "signed_volume_mm3": 0.06626482534261847,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            1
+          ],
+          "outside_existing_retained_maximum_mm3": 3.469446951953614e-18
+        }
+      ],
+      "minimum_retained_body_gap_mm": 0.03999999999999519,
+      "serialized_oriented_triangles_identical": true,
+      "all_oriented_components_preserved": true,
+      "source_full_mesh_file": "cache/custom_holder_supports/holder_support_0206_full.npz",
+      "source_full_sha256": "14135be37056ff68ab41f6b6458abb5713ff4cddcc3af670a7c3b5006ec31c48",
+      "source_removable_mesh_file": "cache/custom_holder_supports/holder_support_0206_removable.npz",
+      "source_removable_sha256": "2239f46b48b65228dfdcc6b758c8e9a4ab76eb5df91e0eb6b4e57c42bff1bbb3",
+      "source_maximum_mesh_file": "cache/custom_holder_supports/holder_support_0206_retained.npz",
+      "source_maximum_sha256": "a2c91ee491cff7055d33cd9fedcfec2e5f73f2f281d945d59cb2eabe0adb8709",
+      "full_scene_cut_and_route_validation_required": true
+    },
+    {
+      "id": "H0226",
+      "support_index": 226,
+      "paths": {
+        "retained": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_retained.npz",
+          "sha256": "ab06735e4f69f09d4bf1b559da627c9fa46b98afa782c99a0f150f5839ebf356"
+        },
+        "removable": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_removable.npz",
+          "sha256": "1f3d5cf6b229caaf359767210b7e3251ed5a78b12fa227b9382500aaa4943d18"
+        },
+        "kerf": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_kerf.npz",
+          "sha256": "e660707341c9b94de3adabfad8e06682739891ce7bdd749f18f66d338a85210c"
+        },
+        "cutters": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_cutters_00.npz",
+            "sha256": "6e8072d84a4d054ea7d29967bc032097f178e2e26de8174b21b4c122ba216972"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_cutters_01.npz",
+            "sha256": "6dbe2190cc0f338c51b9e5700c9c9306e538bdeef9df942f6660bc6d33b78f58"
+          }
+        ],
+        "fragments": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_fragments_00.npz",
+            "sha256": "1f3d5cf6b229caaf359767210b7e3251ed5a78b12fa227b9382500aaa4943d18"
+          }
+        ],
+        "proxies": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_proxies_00.npz",
+            "sha256": "12fcd0f03b13469494cb92d04aa805d6d46a5656a80a189060afcc4a04f57771"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_proxies_01.npz",
+            "sha256": "57ca4d2ee27c25960738c5f29ca6d41ec61bdc4dcc6b841d4e219fc199f03c18"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_proxies_02.npz",
+            "sha256": "ed9bef49e158153c8bae87c3a61204080800c9490d4397487aa31c7312ac4a05"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_proxies_03.npz",
+            "sha256": "43fce38a408ca99ec536a7b95da0996765859d41818d1b3fc8a2358576984557"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_proxies_04.npz",
+            "sha256": "066a6d4155438373adf0db23798500cbd4b11be55596643ea260d4c5a6bc5301"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_proxies_05.npz",
+            "sha256": "9e11c2917977539361281ae49a8848d4ac2538a9ea077c5efdaf2dd173c6ae87"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0226_proxies_06.npz",
+            "sha256": "8cee1008ec0c51e71a6860306b76b4d205e30f62334c33ac8986efe7401fc0fc"
+          }
+        ]
+      },
+      "cuts": [
+        {
+          "endpoint_index": 0,
+          "center_mm": [
+            26.529218022264583,
+            -38.09693671814504,
+            16.753919117220814
+          ],
+          "axis_toward_free_body": [
+            0.6451648004873268,
+            0.14581625496544554,
+            0.75
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            26.516314726254837,
+            -38.099853043244345,
+            16.738919117220814
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.15,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": 24.106004352439253,
+          "free_side_plane_offset_mm": 24.146004352439252
+        },
+        {
+          "endpoint_index": 1,
+          "center_mm": [
+            26.154126109625903,
+            -38.38543698064491,
+            17.826552987878422
+          ],
+          "axis_toward_free_body": [
+            -0.0344953002531887,
+            -0.02448119789974705,
+            -0.9991049720674179
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            26.154816015630967,
+            -38.384947356686915,
+            17.84653508731977
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.15,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": -17.79307067883249,
+          "free_side_plane_offset_mm": -17.75307067883249
+        }
+      ],
+      "checks": {
+        "old_retained_outside_unchanged_full_mm3": 1.1357017756785659e-17,
+        "new_retained_outside_unchanged_full_mm3": 3.2525271081177082e-18,
+        "new_removable_outside_unchanged_full_mm3": 1.2780033108172884e-17,
+        "actual_kerf_outside_unchanged_full_mm3": 0.0,
+        "new_retained_outside_existing_maximum_mm3": 3.903127820947816e-18,
+        "actual_kerf_outside_original_waists_mm3": 0.0,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 2.7755575615628914e-17,
+        "removable_kerf_interior_overlap_mm3": 0.0,
+        "partition_uncovered_printed_mm3": 1.459991515908427e-16,
+        "partition_outside_printed_mm3": 9.305564177284337e-17,
+        "signed_partition_volume_error_mm3": 1.1102230246251565e-16,
+        "serialized_fragments_uncovered_removable_mm3": 0.0,
+        "serialized_fragments_outside_removable_mm3": 0.0,
+        "serialized_proxy_uncovered_removable_mm3": 6.938893903907228e-18,
+        "serialized_actual_kerf_outside_cutters_mm3": 2.5642228412229434e-17,
+        "serialized_cutter_stock_uncovered_by_kerf_mm3": 0.0
+      },
+      "construction_checks": {
+        "old_retained_outside_unchanged_full_mm3": 1.1357017756785659e-17,
+        "new_retained_outside_unchanged_full_mm3": 3.2525271081177082e-18,
+        "new_removable_outside_unchanged_full_mm3": 1.2780033108172884e-17,
+        "actual_kerf_outside_unchanged_full_mm3": 0.0,
+        "new_retained_outside_existing_maximum_mm3": 3.903127820947816e-18,
+        "actual_kerf_outside_original_waists_mm3": 0.0,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 2.7755575615628914e-17,
+        "removable_kerf_interior_overlap_mm3": 0.0,
+        "partition_uncovered_printed_mm3": 1.459991515908427e-16,
+        "partition_outside_printed_mm3": 9.305564177284337e-17,
+        "signed_partition_volume_error_mm3": 1.1102230246251565e-16,
+        "endpoint_0_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "endpoint_1_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "cutter_0_new_retained_overlap_mm3": 1.677802861921318e-17,
+        "cutter_0_new_removable_overlap_mm3": 0.0,
+        "cutter_1_new_retained_overlap_mm3": 0.0,
+        "cutter_1_new_removable_overlap_mm3": 2.597003016281685e-18,
+        "tight_proxy_uncovered_actual_removable_mm3": 6.938893903907228e-18
+      },
+      "passed": true,
+      "component_records": [
+        {
+          "component_index": 0,
+          "signed_volume_mm3": 0.04643224954118612,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            0
+          ],
+          "outside_existing_retained_maximum_mm3": 3.469446951953614e-18
+        },
+        {
+          "component_index": 1,
+          "signed_volume_mm3": 0.20637095797689564,
+          "assignment": "removable",
+          "endpoint_candidates": [],
+          "outside_existing_retained_maximum_mm3": 0.20499329762038035
+        },
+        {
+          "component_index": 2,
+          "signed_volume_mm3": 0.04643225646029754,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            1
+          ],
+          "outside_existing_retained_maximum_mm3": 3.469446951953614e-18
+        }
+      ],
+      "minimum_retained_body_gap_mm": 0.039999999999994706,
+      "serialized_oriented_triangles_identical": true,
+      "all_oriented_components_preserved": true,
+      "source_full_mesh_file": "cache/custom_holder_supports/holder_support_0226_full.npz",
+      "source_full_sha256": "1134796220d92ac6117337014e28a5bd514f9d890a00dd22d89e1ce6ef8debd6",
+      "source_removable_mesh_file": "cache/custom_holder_supports/holder_support_0226_removable.npz",
+      "source_removable_sha256": "ab1c40a381c4a95e520fd247b57adf93721b600ad455b934ccc20e317adbc22c",
+      "source_maximum_mesh_file": "cache/custom_holder_supports/holder_support_0226_retained.npz",
+      "source_maximum_sha256": "c44d00aaac11394a30afdef9a8ca22ccceef07b78896cd99f7da8114f246967e",
+      "full_scene_cut_and_route_validation_required": true
+    },
+    {
+      "id": "H0267",
+      "support_index": 267,
+      "paths": {
+        "retained": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_retained.npz",
+          "sha256": "e9af7e66e706008bfc2f440eef1ed637c2fd5ce353a4c5152d636b94f2e5781c"
+        },
+        "removable": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_removable.npz",
+          "sha256": "3417fa0cf770af510b515345ede84fbaf970d006e044f29dcb7ecb21c83ca7fe"
+        },
+        "kerf": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_kerf.npz",
+          "sha256": "8c11ef16c9bf45ebd0a515d40bf937dba9015a407b4df54e288c77c312d565a9"
+        },
+        "cutters": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_cutters_00.npz",
+            "sha256": "6ad5fd85cdb43de0eeefdc4cf6a6415f7575825fec3dad61369d91c0a49df4a6"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_cutters_01.npz",
+            "sha256": "f0d0955cc5c97f5460cf66dbf115b72bc380744cb1da17311051c5a919689948"
+          }
+        ],
+        "fragments": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_fragments_00.npz",
+            "sha256": "3417fa0cf770af510b515345ede84fbaf970d006e044f29dcb7ecb21c83ca7fe"
+          }
+        ],
+        "proxies": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_proxies_00.npz",
+            "sha256": "cfa4fc5bf57ce8eaa50369f4083a1a2029607ea44e8bff081c2e8c5500080296"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_proxies_01.npz",
+            "sha256": "ec33a7c31c7e97bdbad88e4bea260eca94b251963c9ea8bae169e7fee8030fe5"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_proxies_02.npz",
+            "sha256": "4a2a2eb1096df012f178d28acc0b86c6a7a1cdf3c34e1a00d16c173efb48ac03"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_proxies_03.npz",
+            "sha256": "0323241f0787ec83c52fd64c116e4777bfa7be029072109064d6cafc58f2f872"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_proxies_04.npz",
+            "sha256": "7a32bc57ef61d0d33f55f757d0e54b5546dfddd9aa01aab005ce7a6d61c563b6"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_proxies_05.npz",
+            "sha256": "152c2b1268f1e3aa1481e167380147236fd344789864a3ccebb37f64b71b61d4"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0267_proxies_06.npz",
+            "sha256": "3ad25b3bf4985397ff17416ff3135227833a70eb21879b7f712e89a756cd657f"
+          }
+        ]
+      },
+      "cuts": [
+        {
+          "endpoint_index": 0,
+          "center_mm": [
+            -43.03734785357537,
+            -12.266976367030125,
+            48.217644059758776
+          ],
+          "axis_toward_free_body": [
+            0.4038751102299173,
+            -0.5238176164818937,
+            0.75
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            -43.04542535577997,
+            -12.256500014700487,
+            48.202644059758775
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.15,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": 25.187177758470476,
+          "free_side_plane_offset_mm": 25.227177758470475
+        },
+        {
+          "endpoint_index": 1,
+          "center_mm": [
+            -43.12163045487668,
+            -13.555307410808654,
+            50.327646266521334
+          ],
+          "axis_toward_free_body": [
+            -0.09190489742487332,
+            0.06987053592853106,
+            -0.9933134440036455
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            -43.11979235692819,
+            -13.556704821527225,
+            50.34751253540141
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.15,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": -46.995155211315975,
+          "free_side_plane_offset_mm": -46.955155211315976
+        }
+      ],
+      "checks": {
+        "old_retained_outside_unchanged_full_mm3": 8.890457814381136e-18,
+        "new_retained_outside_unchanged_full_mm3": 0.0,
+        "new_removable_outside_unchanged_full_mm3": 8.673617379884035e-19,
+        "actual_kerf_outside_unchanged_full_mm3": 1.3118846287074604e-17,
+        "new_retained_outside_existing_maximum_mm3": 0.0,
+        "actual_kerf_outside_original_waists_mm3": 1.1384122811097797e-17,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 2.667137344314341e-17,
+        "removable_kerf_interior_overlap_mm3": 0.0,
+        "partition_uncovered_printed_mm3": 7.599177262115637e-17,
+        "partition_outside_printed_mm3": 2.871949910960431e-17,
+        "signed_partition_volume_error_mm3": 1.1102230246251565e-16,
+        "serialized_fragments_uncovered_removable_mm3": 0.0,
+        "serialized_fragments_outside_removable_mm3": 0.0,
+        "serialized_proxy_uncovered_removable_mm3": 7.261444050221666e-16,
+        "serialized_actual_kerf_outside_cutters_mm3": 3.8895964696154285e-17,
+        "serialized_cutter_stock_uncovered_by_kerf_mm3": 0.0
+      },
+      "construction_checks": {
+        "old_retained_outside_unchanged_full_mm3": 8.890457814381136e-18,
+        "new_retained_outside_unchanged_full_mm3": 0.0,
+        "new_removable_outside_unchanged_full_mm3": 8.673617379884035e-19,
+        "actual_kerf_outside_unchanged_full_mm3": 1.3118846287074604e-17,
+        "new_retained_outside_existing_maximum_mm3": 0.0,
+        "actual_kerf_outside_original_waists_mm3": 1.1384122811097797e-17,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 2.667137344314341e-17,
+        "removable_kerf_interior_overlap_mm3": 3.7947076036992655e-19,
+        "partition_uncovered_printed_mm3": 7.599177262115637e-17,
+        "partition_outside_printed_mm3": 2.871949910960431e-17,
+        "signed_partition_volume_error_mm3": 1.1102230246251565e-16,
+        "endpoint_0_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "endpoint_1_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "cutter_0_new_retained_overlap_mm3": 2.884231888695618e-17,
+        "cutter_0_new_removable_overlap_mm3": 3.3406979439709605e-17,
+        "cutter_1_new_retained_overlap_mm3": 2.8189256484623115e-17,
+        "cutter_1_new_removable_overlap_mm3": 3.469446951953614e-17,
+        "tight_proxy_uncovered_actual_removable_mm3": 7.261444050221666e-16
+      },
+      "passed": true,
+      "component_records": [
+        {
+          "component_index": 0,
+          "signed_volume_mm3": 0.42469154175160795,
+          "assignment": "removable",
+          "endpoint_candidates": [],
+          "outside_existing_retained_maximum_mm3": 0.42331388139509374
+        },
+        {
+          "component_index": 1,
+          "signed_volume_mm3": 0.04643225646029778,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            1
+          ],
+          "outside_existing_retained_maximum_mm3": 0.0
+        },
+        {
+          "component_index": 2,
+          "signed_volume_mm3": 0.04643224713526674,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            0
+          ],
+          "outside_existing_retained_maximum_mm3": 0.0
+        }
+      ],
+      "minimum_retained_body_gap_mm": 0.03999999999999165,
+      "serialized_oriented_triangles_identical": true,
+      "all_oriented_components_preserved": true,
+      "source_full_mesh_file": "cache/custom_holder_supports/holder_support_0267_full.npz",
+      "source_full_sha256": "aceccf1a37c42fb0c54ee223dc0831f6c4009781e71b77c37623e28e99b52e12",
+      "source_removable_mesh_file": "cache/custom_holder_supports/holder_support_0267_removable.npz",
+      "source_removable_sha256": "e475b136aca10dc288fb76570615b45990106d9dea4aeda684a64116345ce05d",
+      "source_maximum_mesh_file": "cache/custom_holder_supports/holder_support_0267_retained.npz",
+      "source_maximum_sha256": "db82173e076850351847e3348755a08329adc3189e32c6bdac2e2807c829f927",
+      "full_scene_cut_and_route_validation_required": true
+    },
+    {
+      "id": "H0277",
+      "support_index": 277,
+      "paths": {
+        "retained": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_retained.npz",
+          "sha256": "9acfe23f9143ffaa4c7460891440ebbeeb8f631767dbd877726ad9b6d0948c32"
+        },
+        "removable": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_removable.npz",
+          "sha256": "5fcff7fb104236c815f1ec7c1b34f8ad24498da4394ec583fa429fa6f23e28b7"
+        },
+        "kerf": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_kerf.npz",
+          "sha256": "dd6689a2119ae558bb9b1308674dceaf0979e246b72fc0404383a6ff7e1d5365"
+        },
+        "cutters": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_cutters_00.npz",
+            "sha256": "db35a3bf15f6398e12f362e043ec32c7b894d55dbbdccae60be622c18852f82d"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_cutters_01.npz",
+            "sha256": "e469664ea4e0fb1eeeaafde93f1d8be64d91e7e010ad4d3ec2eb76a710235542"
+          }
+        ],
+        "fragments": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_fragments_00.npz",
+            "sha256": "5fcff7fb104236c815f1ec7c1b34f8ad24498da4394ec583fa429fa6f23e28b7"
+          }
+        ],
+        "proxies": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_proxies_00.npz",
+            "sha256": "e6ca702b476aecb2c1cdf6db20d636f34f94280cc321b442c16250b9e1076c60"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_proxies_01.npz",
+            "sha256": "aa495a4a9cf2bdf9d89eb70a681e535778e55deff9ec1b7274774278fc6ba13f"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_proxies_02.npz",
+            "sha256": "50e075908da12f406a5c33fc7b90edf41a098df4679d7c807c4fd53c5683fbf8"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_proxies_03.npz",
+            "sha256": "136c728f8a808d956d633090ee16077d5030c1044193b776df50b2b32262e33d"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_proxies_04.npz",
+            "sha256": "13f450d9a16f367b30e0e39ddf42bb934d5febafadc01e93e70a883298fcce76"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_proxies_05.npz",
+            "sha256": "d4fd8606281268107e3812d35b674786c705f370ca9fd174ffd0a9878a065c8e"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0277_proxies_06.npz",
+            "sha256": "0725adeeebc28c89c4970e56128e5497df3d51e7f6f86f34695467350136871b"
+          }
+        ]
+      },
+      "cuts": [
+        {
+          "endpoint_index": 0,
+          "center_mm": [
+            40.04190649240527,
+            21.295276609048898,
+            50.13971909104225
+          ],
+          "axis_toward_free_body": [
+            0.5061101474781373,
+            -0.42585504414020753,
+            0.75
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            40.03178428945571,
+            21.303793709931703,
+            50.12471909104225
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.15,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": 48.781703558134254,
+          "free_side_plane_offset_mm": 48.82170355813425
+        },
+        {
+          "endpoint_index": 1,
+          "center_mm": [
+            39.954416427930845,
+            21.370150995587945,
+            51.737845927509206
+          ],
+          "axis_toward_free_body": [
+            -0.00853729060668334,
+            0.014582523736544527,
+            -0.9998572221425268
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            39.95458717374298,
+            21.369859345113216,
+            51.75784307195206
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.15,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": -51.77993063863639,
+          "free_side_plane_offset_mm": -51.73993063863639
+        }
+      ],
+      "checks": {
+        "old_retained_outside_unchanged_full_mm3": 4.6349642873755315e-18,
+        "new_retained_outside_unchanged_full_mm3": 0.0,
+        "new_removable_outside_unchanged_full_mm3": 6.938893903907228e-18,
+        "actual_kerf_outside_unchanged_full_mm3": 2.7376104855258987e-18,
+        "new_retained_outside_existing_maximum_mm3": 5.204170427930421e-18,
+        "actual_kerf_outside_original_waists_mm3": 1.0028870095490916e-18,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 1.3877787807814457e-17,
+        "removable_kerf_interior_overlap_mm3": 1.3758525568841051e-16,
+        "partition_uncovered_printed_mm3": 3.098717571599352e-16,
+        "partition_outside_printed_mm3": 5.757367645782205e-17,
+        "signed_partition_volume_error_mm3": 5.551115123125783e-17,
+        "serialized_fragments_uncovered_removable_mm3": 0.0,
+        "serialized_fragments_outside_removable_mm3": 0.0,
+        "serialized_proxy_uncovered_removable_mm3": 0.0,
+        "serialized_actual_kerf_outside_cutters_mm3": 0.0,
+        "serialized_cutter_stock_uncovered_by_kerf_mm3": 0.0
+      },
+      "construction_checks": {
+        "old_retained_outside_unchanged_full_mm3": 4.6349642873755315e-18,
+        "new_retained_outside_unchanged_full_mm3": 0.0,
+        "new_removable_outside_unchanged_full_mm3": 6.938893903907228e-18,
+        "actual_kerf_outside_unchanged_full_mm3": 2.7376104855258987e-18,
+        "new_retained_outside_existing_maximum_mm3": 5.204170427930421e-18,
+        "actual_kerf_outside_original_waists_mm3": 1.0028870095490916e-18,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 1.3877787807814457e-17,
+        "removable_kerf_interior_overlap_mm3": 1.5699247457590104e-16,
+        "partition_uncovered_printed_mm3": 3.098717571599352e-16,
+        "partition_outside_printed_mm3": 5.757367645782205e-17,
+        "signed_partition_volume_error_mm3": 5.551115123125783e-17,
+        "endpoint_0_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "endpoint_1_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "cutter_0_new_retained_overlap_mm3": 0.0,
+        "cutter_0_new_removable_overlap_mm3": 1.4609624274242172e-17,
+        "cutter_1_new_retained_overlap_mm3": 0.0,
+        "cutter_1_new_removable_overlap_mm3": 0.0,
+        "tight_proxy_uncovered_actual_removable_mm3": 0.0
+      },
+      "passed": true,
+      "component_records": [
+        {
+          "component_index": 0,
+          "signed_volume_mm3": 0.04643225086997172,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            0
+          ],
+          "outside_existing_retained_maximum_mm3": 2.6020852139652106e-18
+        },
+        {
+          "component_index": 1,
+          "signed_volume_mm3": 0.26451042375725237,
+          "assignment": "removable",
+          "endpoint_candidates": [],
+          "outside_existing_retained_maximum_mm3": 0.26313401487719534
+        },
+        {
+          "component_index": 2,
+          "signed_volume_mm3": 0.04643225646029766,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            1
+          ],
+          "outside_existing_retained_maximum_mm3": 0.0
+        }
+      ],
+      "minimum_retained_body_gap_mm": 0.03999999999999115,
+      "serialized_oriented_triangles_identical": true,
+      "all_oriented_components_preserved": true,
+      "source_full_mesh_file": "cache/custom_holder_supports/holder_support_0277_full.npz",
+      "source_full_sha256": "f174b41fc1bdaa8228d90b7238e0da49080c829e68657b7cb7069129cc2a7709",
+      "source_removable_mesh_file": "cache/custom_holder_supports/holder_support_0277_removable.npz",
+      "source_removable_sha256": "e86b07d5cd4ca9b526b4e59f931f0dde0122dcc512adf5f5d86396e1b603b407",
+      "source_maximum_mesh_file": "cache/custom_holder_supports/holder_support_0277_retained.npz",
+      "source_maximum_sha256": "21f083e4c34ccc5d89ded0fff90ca1ab605eed87c1b1536e5e492c461d2fe228",
+      "full_scene_cut_and_route_validation_required": true
+    },
+    {
+      "id": "H0384",
+      "support_index": 384,
+      "paths": {
+        "retained": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_retained.npz",
+          "sha256": "4c281b78954fc6e1856ce848fce2fdc614c7886b1b22eab442456e7462c429a8"
+        },
+        "removable": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_removable.npz",
+          "sha256": "3da71d3140543404d8bdecc9aaeee4c5920a73a8a8ef1103f279c5a574e9b264"
+        },
+        "kerf": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_kerf.npz",
+          "sha256": "d95f1df4354bd43adfd3f7ce4e206aea47c816b81caa58f19b1e42d251d16690"
+        },
+        "cutters": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_cutters_00.npz",
+            "sha256": "7d4da1e732f6afcaea86d5a5b108342c4b05a9b5cdf98ba5a5e1258bcbe5d49e"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_cutters_01.npz",
+            "sha256": "1eeb82165efe65aaa3abdd83ab8b74e3a03e452c9dbdf421ecd5f57721007700"
+          }
+        ],
+        "fragments": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_fragments_00.npz",
+            "sha256": "3da71d3140543404d8bdecc9aaeee4c5920a73a8a8ef1103f279c5a574e9b264"
+          }
+        ],
+        "proxies": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_proxies_00.npz",
+            "sha256": "b4e8984db4f272857cd34df66bdea4b8d96d69e61f140b08ce13addc09912216"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_proxies_01.npz",
+            "sha256": "5b6b0457589268c0da9056842f93266b9729b584c617d5dac8dbb59fa5a0819f"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_proxies_02.npz",
+            "sha256": "306a8e23ed13608e442fa81b59dbccd8ef972fe66bb97a9e5bcc9f64333760ef"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_proxies_03.npz",
+            "sha256": "4af9995e3dcf39691e66b7d1b0a3838e917e50d68f7fb1d56bb9952f5705e905"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_proxies_04.npz",
+            "sha256": "05fb21592af99234bee884e2172dbda41262ee4bf288f6aee4827118d2cfd1a9"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_proxies_05.npz",
+            "sha256": "91fc602482efb6059d205066373ab88e9dc63662126e25c597ff681cb45743c3"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0384_proxies_06.npz",
+            "sha256": "422d9f727c8bf1c6b49d7e891808f09f58890de3c77eab9b3c1dc64584de0940"
+          }
+        ]
+      },
+      "cuts": [
+        {
+          "endpoint_index": 0,
+          "center_mm": [
+            23.167004434818413,
+            40.06692113745511,
+            97.38954759493437
+          ],
+          "axis_toward_free_body": [
+            -0.32908248537868207,
+            -0.573763642815567,
+            0.75
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            23.173586084525986,
+            40.07839641031142,
+            97.37454759493437
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.175,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": 42.4093626697815,
+          "free_side_plane_offset_mm": 42.4493626697815
+        },
+        {
+          "endpoint_index": 1,
+          "center_mm": [
+            21.169514259893823,
+            37.38852459490436,
+            99.08748571472368
+          ],
+          "axis_toward_free_body": [
+            -0.1451908303293091,
+            0.09647574495671074,
+            -0.9846888104489324
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            21.17241807650041,
+            37.38659508000523,
+            99.10717949093267
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.175,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": -97.05687202874327,
+          "free_side_plane_offset_mm": -97.01687202874326
+        }
+      ],
+      "checks": {
+        "old_retained_outside_unchanged_full_mm3": 8.673617379884035e-18,
+        "new_retained_outside_unchanged_full_mm3": 0.0,
+        "new_removable_outside_unchanged_full_mm3": 1.0408340855860843e-17,
+        "actual_kerf_outside_unchanged_full_mm3": 6.505213034913027e-19,
+        "new_retained_outside_existing_maximum_mm3": 1.0625181290357943e-17,
+        "actual_kerf_outside_original_waists_mm3": 6.505213034913027e-19,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 1.7737547541862853e-16,
+        "removable_kerf_interior_overlap_mm3": 2.1738253558334364e-16,
+        "partition_uncovered_printed_mm3": 7.620586019857489e-17,
+        "partition_outside_printed_mm3": 1.6953364439294821e-16,
+        "signed_partition_volume_error_mm3": 6.661338147750939e-16,
+        "serialized_fragments_uncovered_removable_mm3": 0.0,
+        "serialized_fragments_outside_removable_mm3": 0.0,
+        "serialized_proxy_uncovered_removable_mm3": 3.379783432289063e-15,
+        "serialized_actual_kerf_outside_cutters_mm3": 6.495175694488063e-17,
+        "serialized_cutter_stock_uncovered_by_kerf_mm3": 0.0
+      },
+      "construction_checks": {
+        "old_retained_outside_unchanged_full_mm3": 8.673617379884035e-18,
+        "new_retained_outside_unchanged_full_mm3": 0.0,
+        "new_removable_outside_unchanged_full_mm3": 1.0408340855860843e-17,
+        "actual_kerf_outside_unchanged_full_mm3": 6.505213034913027e-19,
+        "new_retained_outside_existing_maximum_mm3": 1.0625181290357943e-17,
+        "actual_kerf_outside_original_waists_mm3": 6.505213034913027e-19,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 2.5587171270657905e-17,
+        "removable_kerf_interior_overlap_mm3": 1.330316065639714e-16,
+        "partition_uncovered_printed_mm3": 7.620586019857489e-17,
+        "partition_outside_printed_mm3": 1.6953364439294821e-16,
+        "signed_partition_volume_error_mm3": 6.661338147750939e-16,
+        "endpoint_0_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "endpoint_1_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "cutter_0_new_retained_overlap_mm3": 0.0,
+        "cutter_0_new_removable_overlap_mm3": 0.0,
+        "cutter_1_new_retained_overlap_mm3": 0.0,
+        "cutter_1_new_removable_overlap_mm3": 4.163336342344337e-17,
+        "tight_proxy_uncovered_actual_removable_mm3": 3.379783432289063e-15
+      },
+      "passed": true,
+      "component_records": [
+        {
+          "component_index": 0,
+          "signed_volume_mm3": 0.7503410442482606,
+          "assignment": "removable",
+          "endpoint_candidates": [],
+          "outside_existing_retained_maximum_mm3": 0.748465895429672
+        },
+        {
+          "component_index": 1,
+          "signed_volume_mm3": 0.06626482534261802,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            1
+          ],
+          "outside_existing_retained_maximum_mm3": 3.469446951953614e-18
+        },
+        {
+          "component_index": 2,
+          "signed_volume_mm3": 0.06622061496412679,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            0
+          ],
+          "outside_existing_retained_maximum_mm3": 3.469446951953614e-18
+        }
+      ],
+      "minimum_retained_body_gap_mm": 0.03999999999998637,
+      "serialized_oriented_triangles_identical": true,
+      "all_oriented_components_preserved": true,
+      "source_full_mesh_file": "cache/custom_holder_supports/holder_support_0384_full.npz",
+      "source_full_sha256": "11d012eb0434630815c1890ce5c6295da00708fde383b86d752ab3b9b716f7f3",
+      "source_removable_mesh_file": "cache/custom_holder_supports/holder_support_0384_removable.npz",
+      "source_removable_sha256": "e0971d79ac300f0e68221f029792be06e6ea14fd181ae790be6cb4232e914e16",
+      "source_maximum_mesh_file": "cache/custom_holder_supports/holder_support_0384_retained.npz",
+      "source_maximum_sha256": "dff7d3916a29252c61cfac34d9bafb3219d5758f87f98d6f328b57b261b7468c",
+      "full_scene_cut_and_route_validation_required": true
+    },
+    {
+      "id": "H0492",
+      "support_index": 492,
+      "paths": {
+        "retained": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_retained.npz",
+          "sha256": "1ad56f4b822fcdb3c451ab79ecf7584c1ce36a6e0ca5cd89c5e02dee93e41357"
+        },
+        "removable": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_removable.npz",
+          "sha256": "b9a9384ec48161c904f767d68a9dcbf5e9613adb1d649e442ea28c91ce4a8d4d"
+        },
+        "kerf": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_kerf.npz",
+          "sha256": "6b054abbf293dcaf4d4ad2a0e418d5cebe55db7c4d3bc80bdcc7010c6815fc95"
+        },
+        "cutters": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_cutters_00.npz",
+            "sha256": "f854ca345516432be121303dd938e15bad884300ebddecb4bff2fb6893958d59"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_cutters_01.npz",
+            "sha256": "bc16e22c7a49798feb5b47332496c0a2af5221049cf12351177c98d1b1bbb78a"
+          }
+        ],
+        "fragments": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_fragments_00.npz",
+            "sha256": "b9a9384ec48161c904f767d68a9dcbf5e9613adb1d649e442ea28c91ce4a8d4d"
+          }
+        ],
+        "proxies": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_proxies_00.npz",
+            "sha256": "3c23103fb999c838efe641f52d1251c03f2a538701d35a2156337145d9496b94"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_proxies_01.npz",
+            "sha256": "15797431c354020293ac365323382b038328b3215461c19ddcfb33a18cf88a04"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_proxies_02.npz",
+            "sha256": "f402035347719fc225e657e591522e282a8d3a50bb3b00deaf591d005b924797"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_proxies_03.npz",
+            "sha256": "695d7e04f7ce68130267072db084ad9043f8c074bd010902e278f05b7eb45e6b"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_proxies_04.npz",
+            "sha256": "d0c49566bb192e2f858c6517fb8b4ac4282cfd7aff4a175688cff818f0db289b"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_proxies_05.npz",
+            "sha256": "fa018a8c95ce06fd4e85815e8919cee0dcc2e177e819eca396add0640df04487"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0492_proxies_06.npz",
+            "sha256": "5a2f1305ab71dfac7596846123f5236495f591bcc3b91bb3fe0ba2b35a8bd25b"
+          }
+        ]
+      },
+      "cuts": [
+        {
+          "endpoint_index": 0,
+          "center_mm": [
+            25.46539604478531,
+            38.21243604832754,
+            95.34496184530772
+          ],
+          "axis_toward_free_body": [
+            -0.5077411255735279,
+            0.1267993728437372,
+            0.8521272607115453
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            25.475550867296782,
+            38.209900060870666,
+            95.3279193000935
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.175,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": 73.14152523469328,
+          "free_side_plane_offset_mm": 73.18152523469328
+        },
+        {
+          "endpoint_index": 1,
+          "center_mm": [
+            25.579783976692653,
+            30.68564701323404,
+            99.35350751348237
+          ],
+          "axis_toward_free_body": [
+            0.1651290621167048,
+            -0.1417889171550003,
+            -0.9760267905218944
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            25.57648139545032,
+            30.68848279157714,
+            99.37302804929281
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.175,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": -97.11860399046498,
+          "free_side_plane_offset_mm": -97.07860399046497
+        }
+      ],
+      "checks": {
+        "old_retained_outside_unchanged_full_mm3": 2.3418766925686896e-17,
+        "new_retained_outside_unchanged_full_mm3": 2.42861286636753e-17,
+        "new_removable_outside_unchanged_full_mm3": 0.0,
+        "actual_kerf_outside_unchanged_full_mm3": 2.927345865710862e-18,
+        "new_retained_outside_existing_maximum_mm3": 0.0,
+        "actual_kerf_outside_original_waists_mm3": 2.927345865710862e-18,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 2.647621705209602e-16,
+        "removable_kerf_interior_overlap_mm3": 1.826880660638075e-16,
+        "partition_uncovered_printed_mm3": 2.892244820376644e-16,
+        "partition_outside_printed_mm3": 1.0426636767521535e-16,
+        "signed_partition_volume_error_mm3": 1.3322676295501878e-15,
+        "serialized_fragments_uncovered_removable_mm3": 0.0,
+        "serialized_fragments_outside_removable_mm3": 0.0,
+        "serialized_proxy_uncovered_removable_mm3": 5.80265002714242e-16,
+        "serialized_actual_kerf_outside_cutters_mm3": 7.759965291328184e-17,
+        "serialized_cutter_stock_uncovered_by_kerf_mm3": 0.0
+      },
+      "construction_checks": {
+        "old_retained_outside_unchanged_full_mm3": 2.3418766925686896e-17,
+        "new_retained_outside_unchanged_full_mm3": 2.42861286636753e-17,
+        "new_removable_outside_unchanged_full_mm3": 0.0,
+        "actual_kerf_outside_unchanged_full_mm3": 2.927345865710862e-18,
+        "new_retained_outside_existing_maximum_mm3": 0.0,
+        "actual_kerf_outside_original_waists_mm3": 2.927345865710862e-18,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 0.0,
+        "removable_kerf_interior_overlap_mm3": 1.367178939504221e-16,
+        "partition_uncovered_printed_mm3": 2.892244820376644e-16,
+        "partition_outside_printed_mm3": 1.0426636767521535e-16,
+        "signed_partition_volume_error_mm3": 1.3322676295501878e-15,
+        "endpoint_0_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "endpoint_1_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "cutter_0_new_retained_overlap_mm3": 5.551115123125783e-17,
+        "cutter_0_new_removable_overlap_mm3": 0.0,
+        "cutter_1_new_retained_overlap_mm3": 0.0,
+        "cutter_1_new_removable_overlap_mm3": 0.0,
+        "tight_proxy_uncovered_actual_removable_mm3": 5.80265002714242e-16
+      },
+      "passed": true,
+      "component_records": [
+        {
+          "component_index": 0,
+          "signed_volume_mm3": 0.06626482534261725,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            1
+          ],
+          "outside_existing_retained_maximum_mm3": 0.0
+        },
+        {
+          "component_index": 1,
+          "signed_volume_mm3": 0.9003196720148758,
+          "assignment": "removable",
+          "endpoint_candidates": [],
+          "outside_existing_retained_maximum_mm3": 0.8984445231962911
+        },
+        {
+          "component_index": 2,
+          "signed_volume_mm3": 0.06625765087346634,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            0
+          ],
+          "outside_existing_retained_maximum_mm3": 0.0
+        }
+      ],
+      "minimum_retained_body_gap_mm": 0.03999999999998166,
+      "serialized_oriented_triangles_identical": true,
+      "all_oriented_components_preserved": true,
+      "source_full_mesh_file": "cache/custom_holder_supports/holder_support_0492_full.npz",
+      "source_full_sha256": "3982723c52f61a032e8e75beed15de9a13d3f61bcd67a38efe4abf75d35eb92b",
+      "source_removable_mesh_file": "cache/custom_holder_supports/holder_support_0492_removable.npz",
+      "source_removable_sha256": "e5e08f0704222c667184e32fe71563efb92f3e8015466d38dd434432ed6015d2",
+      "source_maximum_mesh_file": "cache/custom_holder_supports/holder_support_0492_retained.npz",
+      "source_maximum_sha256": "6347a1c276254fe4c9ccdf477ad0f6699b31b7a060ce4c9190b45eb00dc9df2b",
+      "full_scene_cut_and_route_validation_required": true
+    },
+    {
+      "id": "H0550",
+      "support_index": 550,
+      "paths": {
+        "retained": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_retained.npz",
+          "sha256": "c9532f9d81308f1e2ea14cdacffde0eefece7c773f415c5c78758d00f1d06e44"
+        },
+        "removable": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_removable.npz",
+          "sha256": "b59226d7a74e097524fdcc22efaa04d732cae47d79e93a8fc706412a39abc8e8"
+        },
+        "kerf": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_kerf.npz",
+          "sha256": "399ad46a5fdf61814a589ae1b57fef70d991282fd17b15523c4b484880a0cba8"
+        },
+        "cutters": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_cutters_00.npz",
+            "sha256": "744c63acbf84d0a5972f85d28683e06aa82f01662ed22491dd2721c975510b36"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_cutters_01.npz",
+            "sha256": "38fe53484d637826afa35f56425c9255cdf56b91be4affcaf82867023aad4d80"
+          }
+        ],
+        "fragments": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_fragments_00.npz",
+            "sha256": "b59226d7a74e097524fdcc22efaa04d732cae47d79e93a8fc706412a39abc8e8"
+          }
+        ],
+        "proxies": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_proxies_00.npz",
+            "sha256": "c711b48724659e40dd3eb7a252c46fcd62ba05bce3a235b71c78438a7a7ec9a3"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_proxies_01.npz",
+            "sha256": "024da959f959a7b4bde1f4ab162d7fab196670fb2e2a6b274f05325faeaffbc5"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_proxies_02.npz",
+            "sha256": "6ac7fbc0ad1a888c41f40888a1f76f798ece294e4b8a8e8f1ee89e2a00d53ae8"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_proxies_03.npz",
+            "sha256": "cdd08e24389dab262018880603bb4ed12f33353aeb51557a5156a7c32bea7785"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_proxies_04.npz",
+            "sha256": "a8e0ada5e25d5ec260d9537b55ef78c579396ff35ca433cf0faeabab3533a5e1"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_proxies_05.npz",
+            "sha256": "aa3daa2b5a27b48c7370430f32eaeb05e50172ad35e39d8b6a4e5d6c9e089013"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0550_proxies_06.npz",
+            "sha256": "bc78683e140f7712142a6c25f0bb2dc86cb9d6b4773103751739744758421fa1"
+          }
+        ]
+      },
+      "cuts": [
+        {
+          "endpoint_index": 0,
+          "center_mm": [
+            -18.88616138357623,
+            32.17299922647386,
+            3.493965139786355
+          ],
+          "axis_toward_free_body": [
+            0.4298940585049527,
+            -0.42989534694764636,
+            0.7939654206166054
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            -18.894759264746327,
+            32.181597133412815,
+            3.478085831374023
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.175,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": -19.19598372974621,
+          "free_side_plane_offset_mm": -19.15598372974621
+        },
+        {
+          "endpoint_index": 1,
+          "center_mm": [
+            -18.933389604857524,
+            32.28992221552729,
+            9.40464587598931
+          ],
+          "axis_toward_free_body": [
+            0.15208099214438997,
+            0.25788694160192666,
+            -0.9541308595677968
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            -18.936431224700414,
+            32.28476447669525,
+            9.423728493180667
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.175,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": -3.545522244624987,
+          "free_side_plane_offset_mm": -3.505522244624987
+        }
+      ],
+      "checks": {
+        "old_retained_outside_unchanged_full_mm3": 5.068645156369733e-18,
+        "new_retained_outside_unchanged_full_mm3": 0.0,
+        "new_removable_outside_unchanged_full_mm3": 3.9979955110402976e-19,
+        "actual_kerf_outside_unchanged_full_mm3": 0.0,
+        "new_retained_outside_existing_maximum_mm3": 0.0,
+        "actual_kerf_outside_original_waists_mm3": 0.0,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 3.6253010142484055e-19,
+        "removable_kerf_interior_overlap_mm3": 3.0140820395097023e-17,
+        "partition_uncovered_printed_mm3": 2.1586634660775844e-16,
+        "partition_outside_printed_mm3": 8.117519074187906e-17,
+        "signed_partition_volume_error_mm3": 4.440892098500626e-16,
+        "serialized_fragments_uncovered_removable_mm3": 0.0,
+        "serialized_fragments_outside_removable_mm3": 0.0,
+        "serialized_proxy_uncovered_removable_mm3": 3.2236583194511503e-15,
+        "serialized_actual_kerf_outside_cutters_mm3": 3.359888534182191e-17,
+        "serialized_cutter_stock_uncovered_by_kerf_mm3": 0.0
+      },
+      "construction_checks": {
+        "old_retained_outside_unchanged_full_mm3": 5.068645156369733e-18,
+        "new_retained_outside_unchanged_full_mm3": 0.0,
+        "new_removable_outside_unchanged_full_mm3": 3.9979955110402976e-19,
+        "actual_kerf_outside_unchanged_full_mm3": 0.0,
+        "new_retained_outside_existing_maximum_mm3": 0.0,
+        "actual_kerf_outside_original_waists_mm3": 0.0,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 3.6253010142484055e-19,
+        "removable_kerf_interior_overlap_mm3": 3.122502256758253e-17,
+        "partition_uncovered_printed_mm3": 2.1586634660775844e-16,
+        "partition_outside_printed_mm3": 8.117519074187906e-17,
+        "signed_partition_volume_error_mm3": 4.440892098500626e-16,
+        "endpoint_0_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "endpoint_1_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "cutter_0_new_retained_overlap_mm3": 5.7801528320633455e-18,
+        "cutter_0_new_removable_overlap_mm3": 4.2825985813177425e-18,
+        "cutter_1_new_retained_overlap_mm3": 0.0,
+        "cutter_1_new_removable_overlap_mm3": 1.1400639953569255e-17,
+        "tight_proxy_uncovered_actual_removable_mm3": 3.2236583194511503e-15
+      },
+      "passed": true,
+      "component_records": [
+        {
+          "component_index": 0,
+          "signed_volume_mm3": 0.06626481666353075,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            0
+          ],
+          "outside_existing_retained_maximum_mm3": 0.0
+        },
+        {
+          "component_index": 1,
+          "signed_volume_mm3": 1.4500516692972563,
+          "assignment": "removable",
+          "endpoint_candidates": [],
+          "outside_existing_retained_maximum_mm3": 1.4481765204786692
+        },
+        {
+          "component_index": 2,
+          "signed_volume_mm3": 0.06626482534261825,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            1
+          ],
+          "outside_existing_retained_maximum_mm3": 0.0
+        }
+      ],
+      "minimum_retained_body_gap_mm": 0.03999999999999516,
+      "serialized_oriented_triangles_identical": true,
+      "all_oriented_components_preserved": true,
+      "source_full_mesh_file": "cache/custom_holder_supports/holder_support_0550_full.npz",
+      "source_full_sha256": "abfa20571cd76c69c8f209782d238059f5ddf657a177824ee3a61ad1da3a4ab6",
+      "source_removable_mesh_file": "cache/custom_holder_supports/holder_support_0550_removable.npz",
+      "source_removable_sha256": "fcb74af5a4a3f87f47453209fe6286b52e9d8719ef1c37fb58b477bc2d181ce6",
+      "source_maximum_mesh_file": "cache/custom_holder_supports/holder_support_0550_retained.npz",
+      "source_maximum_sha256": "7d048de4e54ea3ca6974cf1b0a5f91b0bad1b39167323e7c72be7eeb2e17e9e8",
+      "full_scene_cut_and_route_validation_required": true
+    },
+    {
+      "id": "H0613",
+      "support_index": 613,
+      "paths": {
+        "retained": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_retained.npz",
+          "sha256": "165bbabb1be02b7aaa18978762a16725c94a9c6eafcf103cc004a1c6ed5b8b56"
+        },
+        "removable": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_removable.npz",
+          "sha256": "6ff209d7dad19f7d42cbf24c28ad9fb3af26cff71eb717e5ec60201f482fc391"
+        },
+        "kerf": {
+          "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_kerf.npz",
+          "sha256": "97a695c282cea446d6c41fe24588bc6039ce9c928a1d562553a68d87ad6bcdc6"
+        },
+        "cutters": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_cutters_00.npz",
+            "sha256": "d77fa816cb52b19ee01d204f4f92f1e7181ada954553578963642a1ffee682d4"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_cutters_01.npz",
+            "sha256": "b99b55a7aa5d3fa01a2f231dbf326930445e4cac8e35b385de044f5641c46f42"
+          }
+        ],
+        "fragments": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_fragments_00.npz",
+            "sha256": "6ff209d7dad19f7d42cbf24c28ad9fb3af26cff71eb717e5ec60201f482fc391"
+          }
+        ],
+        "proxies": [
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_proxies_00.npz",
+            "sha256": "a046722f021ff0a7305e9f072273b56602b56a5b04277bbead9d9b11bc7f16ab"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_proxies_01.npz",
+            "sha256": "0d96a092f857e36f82537dedfa455c762e5122db6560f51522cc4765ff1b720e"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_proxies_02.npz",
+            "sha256": "e00a107e91bd6164a63dbf0d0fe00a401976eacc61c78278ba81e69961795885"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_proxies_03.npz",
+            "sha256": "8eec64920da4ec5e2ce2f454ee3c9ada6dfaffdfa14bf5daabd56e4dc94c3820"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_proxies_04.npz",
+            "sha256": "105c6111033a84fc736527f1465cdc301569bd33e976d8135730462181607885"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_proxies_05.npz",
+            "sha256": "36e0774d913ef23fdd6da2bba53e06fbe8f3ec8843d75f8202aee5cefdde5c8d"
+          },
+          {
+            "path": "cache/holder_finite_endpoint_partition_v6/320a6b681272c1d1/H0613_proxies_06.npz",
+            "sha256": "d2fd929be36bfb35dde090d99a458ec0509d19869c6628b798c4bb584e5a9044"
+          }
+        ]
+      },
+      "cuts": [
+        {
+          "endpoint_index": 0,
+          "center_mm": [
+            -44.022030637633456,
+            -16.022228890530968,
+            8.625512441836484
+          ],
+          "axis_toward_free_body": [
+            -0.287340937710574,
+            -0.10172160158382614,
+            0.9524116238721729
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            -44.016283818879245,
+            -16.020194458499294,
+            8.606464209359041
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.15,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": 22.474176658487792,
+          "free_side_plane_offset_mm": 22.51417665848779
+        },
+        {
+          "endpoint_index": 1,
+          "center_mm": [
+            -43.97756307058258,
+            -16.074999192069676,
+            10.252407187653763
+          ],
+          "axis_toward_free_body": [
+            -0.0257670138819306,
+            -0.4121351400467975,
+            -0.9107583034670697
+          ],
+          "kerf_width_mm": 0.04,
+          "original_nominal_cut_center_mm": [
+            -43.977047730304946,
+            -16.066756489268737,
+            10.270622353723104
+          ],
+          "original_nominal_offset_along_axis_mm": 0.15,
+          "actual_band_offsets_along_axis_mm": [
+            0.15,
+            0.19
+          ],
+          "waist_length_mm": 0.14,
+          "waist_radius_mm": 0.15,
+          "cutter_radial_allowance_mm": 0.003,
+          "width_basis": "axial distance along the existing pitched endpoint axis",
+          "minimum_axial_margin_to_waist_end_mm": 0.030000000000000006,
+          "fixed_side_plane_offset_mm": -1.5992224552721594,
+          "free_side_plane_offset_mm": -1.5592224552721594
+        }
+      ],
+      "checks": {
+        "old_retained_outside_unchanged_full_mm3": 1.7211709488207383e-17,
+        "new_retained_outside_unchanged_full_mm3": 0.0,
+        "new_removable_outside_unchanged_full_mm3": 6.166399856011306e-19,
+        "actual_kerf_outside_unchanged_full_mm3": 3.1509625637859973e-18,
+        "new_retained_outside_existing_maximum_mm3": 0.0,
+        "actual_kerf_outside_original_waists_mm3": 4.899238566918873e-18,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 2.3405214398530827e-17,
+        "removable_kerf_interior_overlap_mm3": 4.429643500961089e-17,
+        "partition_uncovered_printed_mm3": 1.843838260242106e-16,
+        "partition_outside_printed_mm3": 1.058113557710072e-16,
+        "signed_partition_volume_error_mm3": 0.0,
+        "serialized_fragments_uncovered_removable_mm3": 0.0,
+        "serialized_fragments_outside_removable_mm3": 0.0,
+        "serialized_proxy_uncovered_removable_mm3": 7.989485809045682e-16,
+        "serialized_actual_kerf_outside_cutters_mm3": 4.3288333453480265e-17,
+        "serialized_cutter_stock_uncovered_by_kerf_mm3": 0.0
+      },
+      "construction_checks": {
+        "old_retained_outside_unchanged_full_mm3": 1.7211709488207383e-17,
+        "new_retained_outside_unchanged_full_mm3": 0.0,
+        "new_removable_outside_unchanged_full_mm3": 6.166399856011306e-19,
+        "actual_kerf_outside_unchanged_full_mm3": 3.1509625637859973e-18,
+        "new_retained_outside_existing_maximum_mm3": 0.0,
+        "actual_kerf_outside_original_waists_mm3": 4.899238566918873e-18,
+        "retained_removable_interior_overlap_mm3": 0.0,
+        "retained_kerf_interior_overlap_mm3": 2.3405214398530827e-17,
+        "removable_kerf_interior_overlap_mm3": 4.429643500961089e-17,
+        "partition_uncovered_printed_mm3": 1.843838260242106e-16,
+        "partition_outside_printed_mm3": 1.058113557710072e-16,
+        "signed_partition_volume_error_mm3": 0.0,
+        "endpoint_0_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "endpoint_1_interior_attachment_probe_outside_cap_mm3": 0.0,
+        "cutter_0_new_retained_overlap_mm3": 0.0,
+        "cutter_0_new_removable_overlap_mm3": 8.890457814381136e-18,
+        "cutter_1_new_retained_overlap_mm3": 0.0,
+        "cutter_1_new_removable_overlap_mm3": 9.275010772434589e-18,
+        "tight_proxy_uncovered_actual_removable_mm3": 7.989485809045682e-16
+      },
+      "passed": true,
+      "component_records": [
+        {
+          "component_index": 0,
+          "signed_volume_mm3": 0.2792578362173238,
+          "assignment": "removable",
+          "endpoint_candidates": [],
+          "outside_existing_retained_maximum_mm3": 0.27788017586080926
+        },
+        {
+          "component_index": 1,
+          "signed_volume_mm3": 0.04643223682354081,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            0
+          ],
+          "outside_existing_retained_maximum_mm3": 2.6020852139652106e-18
+        },
+        {
+          "component_index": 2,
+          "signed_volume_mm3": 0.04643225646029739,
+          "assignment": "retained",
+          "endpoint_candidates": [
+            1
+          ],
+          "outside_existing_retained_maximum_mm3": 0.0
+        }
+      ],
+      "minimum_retained_body_gap_mm": 0.03999999999999575,
+      "serialized_oriented_triangles_identical": true,
+      "all_oriented_components_preserved": true,
+      "source_full_mesh_file": "cache/custom_holder_supports/holder_support_0613_full.npz",
+      "source_full_sha256": "e45720006960d6e69f5bf748ec9777b7d0e2a1854531083e63f6f17f431e3233",
+      "source_removable_mesh_file": "cache/custom_holder_supports/holder_support_0613_removable.npz",
+      "source_removable_sha256": "f6e0725648e419f77f30397e1da3c3a2bd3d90e6d10d775cb4025f5ac6cefeeb",
+      "source_maximum_mesh_file": "cache/custom_holder_supports/holder_support_0613_retained.npz",
+      "source_maximum_sha256": "27bbd31cf19e02bf0a3490b09a2842dbef57f79ff1362163a81e4e008ddd8107",
+      "full_scene_cut_and_route_validation_required": true
+    }
+  ],
+  "failures": [],
+  "printed_geometry_modified": false,
+  "prior_state_requirement": "When first introducing these definitions, every affected ID must still be active in the reused certified prefix; its complete source F stays occupied until the explicit endpoint cut. A later continuation may reuse an already accepted affected operation only if the prior complete proof explicitly binds this same manifest, the same derived mesh hashes and its passed endpoint-cut validation. It must not retroactively replace the cut definition of an operation proved under older inputs.",
+  "physical_band_definition": "Two .040 mm axial bands toward the temporary body from existing nominal planes, wholly within the original .140 mm waists; bounded radius has .003 mm allowance.",
+  "no_tool_access_strength_or_hand_accuracy_certification": true
+}

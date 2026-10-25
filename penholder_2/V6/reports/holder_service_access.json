@@ -1,0 +1,204 @@
+{
+  "audit": "Whole holder service access",
+  "units": "mm",
+  "wall_sha256": "85762cb621708a352596a2a72330038e4dd2d300d0334506bb6886621496a8da",
+  "placements": [
+    {
+      "kind": "large",
+      "layers": 5,
+      "azimuth_degrees": 0,
+      "tool_corridors": 24,
+      "removable_supports": 12,
+      "module_metadata_sha256": "8aefb95f2b9e0832273252d4ba382837d79bdc5c8cf44039e286c87439d8a9c9",
+      "checks": {
+        "tools": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        },
+        "extraction_hulls": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "kind": "large",
+      "layers": 5,
+      "azimuth_degrees": 120,
+      "tool_corridors": 24,
+      "removable_supports": 12,
+      "module_metadata_sha256": "8aefb95f2b9e0832273252d4ba382837d79bdc5c8cf44039e286c87439d8a9c9",
+      "checks": {
+        "tools": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        },
+        "extraction_hulls": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "kind": "large",
+      "layers": 5,
+      "azimuth_degrees": 240,
+      "tool_corridors": 24,
+      "removable_supports": 12,
+      "module_metadata_sha256": "8aefb95f2b9e0832273252d4ba382837d79bdc5c8cf44039e286c87439d8a9c9",
+      "checks": {
+        "tools": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        },
+        "extraction_hulls": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "kind": "medium",
+      "layers": 4,
+      "azimuth_degrees": 40,
+      "tool_corridors": 18,
+      "removable_supports": 9,
+      "module_metadata_sha256": "c02bab3a51a567dec0563b2e277365d90545a083ca2e57caa0cf8d5e0d804d99",
+      "checks": {
+        "tools": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        },
+        "extraction_hulls": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "kind": "medium",
+      "layers": 4,
+      "azimuth_degrees": 160,
+      "tool_corridors": 18,
+      "removable_supports": 9,
+      "module_metadata_sha256": "c02bab3a51a567dec0563b2e277365d90545a083ca2e57caa0cf8d5e0d804d99",
+      "checks": {
+        "tools": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        },
+        "extraction_hulls": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "kind": "medium",
+      "layers": 4,
+      "azimuth_degrees": 280,
+      "tool_corridors": 18,
+      "removable_supports": 9,
+      "module_metadata_sha256": "c02bab3a51a567dec0563b2e277365d90545a083ca2e57caa0cf8d5e0d804d99",
+      "checks": {
+        "tools": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        },
+        "extraction_hulls": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "kind": "small",
+      "layers": 3,
+      "azimuth_degrees": 80,
+      "tool_corridors": 12,
+      "removable_supports": 6,
+      "module_metadata_sha256": "f7bdcdc9530344f993dcbef0dd2d281098448436b55a6cfcce84b9859da6646a",
+      "checks": {
+        "tools": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        },
+        "extraction_hulls": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "kind": "small",
+      "layers": 3,
+      "azimuth_degrees": 200,
+      "tool_corridors": 12,
+      "removable_supports": 6,
+      "module_metadata_sha256": "f7bdcdc9530344f993dcbef0dd2d281098448436b55a6cfcce84b9859da6646a",
+      "checks": {
+        "tools": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        },
+        "extraction_hulls": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "kind": "small",
+      "layers": 3,
+      "azimuth_degrees": 320,
+      "tool_corridors": 12,
+      "removable_supports": 6,
+      "module_metadata_sha256": "f7bdcdc9530344f993dcbef0dd2d281098448436b55a6cfcce84b9859da6646a",
+      "checks": {
+        "tools": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        },
+        "extraction_hulls": {
+          "intersection_volume_mm3": 0.0,
+          "clearance_mm_capped_at_0_15": 0.15,
+          "passed": true
+        }
+      },
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": [
+    "Tool corridors use the precise exported module tool volumes.",
+    "Each extraction query is the convex hull of all wire vertices before and after a straight outward translation; it conservatively contains every intermediate position.",
+    "This test addresses obstruction by the holder wall; aligned shell, bearing and remaining-wire checks are in motion_validation.json.",
+    "No physical cutting-force or human hand-access validation is implied."
+  ],
+  "elapsed_seconds": 3.618987529000151
+}

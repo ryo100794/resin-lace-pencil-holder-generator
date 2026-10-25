@@ -1,0 +1,82 @@
+{
+  "mesh": "/workspace/scratch/82b34969b609/penholder_v5_20261025/project/cache/print_ready_v5.npz",
+  "unit": "mm",
+  "vertices": 1588304,
+  "triangles": 3227960,
+  "sha256": "de722a37883d54ad0d9cb8383aff327d08f2885eceab08ae9d96981c37ece348",
+  "checked_without_modification": true,
+  "finite_coordinates": true,
+  "valid_indices": true,
+  "bounds_mm": [
+    [
+      -53.30244064331055,
+      -55.0745849609375,
+      0.0
+    ],
+    [
+      57.671138763427734,
+      53.15932846069336,
+      111.40023803710938
+    ]
+  ],
+  "dimensions_mm": [
+    110.97357940673828,
+    108.23391342163086,
+    111.40023803710938
+  ],
+  "component_count": 1,
+  "expected_components": 1,
+  "largest_components": [
+    {
+      "index": 0,
+      "vertices": 1588304,
+      "triangles": 3227960,
+      "signed_volume_mm3": 55556.230282869656,
+      "bounds_mm": [
+        [
+          -53.30244064331055,
+          -55.0745849609375,
+          0.0
+        ],
+        [
+          57.671138763427734,
+          53.15932846069336,
+          111.40023803710938
+        ]
+      ]
+    }
+  ],
+  "all_component_volumes_positive": true,
+  "positive_volume_surface_components": 1,
+  "negative_volume_surface_components": 0,
+  "total_negative_surface_volume_mm3": 0.0,
+  "total_signed_volume_mm3": 55556.230282869656,
+  "repeated_index_triangles": 0,
+  "zero_area_triangles": 0,
+  "triangles_at_or_below_area_tolerance": 0,
+  "area_tolerance_mm2": 1e-14,
+  "smallest_triangle_area_mm2": 9.094947017729282e-13,
+  "clearance_start_z_mm": 4.0,
+  "minimum_radial_distance_mm": 32.117483516704254,
+  "guaranteed_axis_centered_clear_diameter_mm": 64.23496703340851,
+  "nearest_axis_position_mm": [
+    -28.788257499667786,
+    -14.239697243220826,
+    54.28664015125937
+  ],
+  "unique_edges": 4841940,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "inconsistent_winding_edges": 0,
+  "watertight_topology": true,
+  "consistent_winding": true,
+  "passed": true,
+  "scope_limits": [
+    "Topological connectivity is evaluated by shared vertex indices in the supplied mesh.",
+    "Negative-volume closed surface components may be cavity boundaries, not disconnected material.",
+    "Radial clearance is exact for the supplied triangles, clipped at clearance_start_z_mm.",
+    "The audit does not perform a complete triangle self-intersection test.",
+    "No strength, resin shrinkage, support, or exposure validation is implied."
+  ],
+  "elapsed_seconds": 3.6012442111968994
+}

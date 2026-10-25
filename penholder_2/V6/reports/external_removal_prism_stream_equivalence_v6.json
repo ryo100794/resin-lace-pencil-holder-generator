@@ -1,0 +1,146 @@
+{
+  "schema": "streaming_prism_batch_equivalence_v1",
+  "passed": true,
+  "scope": "Three small geometry-only cases; no scene collision or route acceptance checks.",
+  "source_bindings": [
+    {
+      "path": "source/external_removal_prism_stream_v6.py",
+      "sha256": "a84181f8985aebfa89deb7f775d747731c7caa768467d9d47bba1ba4fc12f37c"
+    },
+    {
+      "path": "source/external_removal_prisms_v6_b3.py",
+      "sha256": "80382dd83c97a8802756c47cf332ffb8cbefb049f1bc9d08945dd5dc7358f6c3"
+    },
+    {
+      "path": "source/external_removal_plate_stock_v6.py",
+      "sha256": "bdcc40203f31000d8918066de93de0a525e9cc493f7c4ceb29c13f631b11b019"
+    }
+  ],
+  "validation_source": {
+    "path": "source/validate_prism_stream_small_v6.py",
+    "sha256": "ed1d2a56aa11b8a4087fc1d4dc24bd3759d0bac463f57521cdce132a77e2f2f0"
+  },
+  "input_mesh": {
+    "path": "cache/sphere_removal_partition_v6/S4_051_P3_removable.npz",
+    "sha256": "b929d2c669234dd7ff58b0504fb720be490f0a46b2149015bbd5773ec2b9f18d"
+  },
+  "input_fixture_sha256": "e98a5cd372fe97dbb709679e4047a20e36ea346bca6d74f0fc3337477c0e46bb",
+  "input_partition_sha256": "5d2ee48b01b29bd6a71653ace3f281ad381bbdadfbad1fbbdf6bbe4de2a968dd",
+  "records": [
+    {
+      "name": "actual_S4_A040_051",
+      "passed": true,
+      "component_count": 413,
+      "identical_oriented_triangle_component_count": 413,
+      "identical_raw_vertex_face_array_component_count": 413,
+      "ordered_component_geometry_digest": "a8635a50fb00f2d424d44d7bf6045567a0be3177ae90a7a5cefa0ce850665814",
+      "exact_batch_summary_equality": true,
+      "batch_summary_sha256": "e341091a677fb80c55078d7b573af3d7a29456fe671b1c83eeb029fa9813c56d",
+      "prism_derivation_records_sha256": "1c3faea9178eed39e91768135ca18eb7d0bf9e5afaf54786c36b66f54d827f41",
+      "exactly_zero_face_count": 0,
+      "initial_signed_solid_object_preserved": true,
+      "initial_oriented_component_signed_volumes_mm3": [
+        0.1568051683214996
+      ],
+      "initial_only_status": {
+        "exhausted": false,
+        "failed": false,
+        "failure": null,
+        "yielded_component_count": 1,
+        "constructed_prism_count": 0,
+        "processed_boundary_face_count": 0,
+        "total_boundary_face_count": 412,
+        "exactly_zero_volume_face_count": 0,
+        "full_coverage_proof_available": false
+      },
+      "first_prism_only_status": {
+        "exhausted": false,
+        "failed": false,
+        "failure": null,
+        "yielded_component_count": 2,
+        "constructed_prism_count": 1,
+        "processed_boundary_face_count": 1,
+        "total_boundary_face_count": 412,
+        "exactly_zero_volume_face_count": 0,
+        "full_coverage_proof_available": false
+      },
+      "incomplete_proof_rejected": true,
+      "seconds": 4.542929704999551
+    },
+    {
+      "name": "signed_cavity_with_parallel_faces",
+      "passed": true,
+      "component_count": 9,
+      "identical_oriented_triangle_component_count": 9,
+      "identical_raw_vertex_face_array_component_count": 9,
+      "ordered_component_geometry_digest": "1272e107f2b4d727831043b904d215616409d708cc2e4e43e6e83e40c060378e",
+      "exact_batch_summary_equality": true,
+      "batch_summary_sha256": "683a1f9d8fc5fce36f13447eb8d1985e87b77831cc75bd2bc4a6aae571be756d",
+      "prism_derivation_records_sha256": "47bb616d9f22487562e149c478cfd0bb9ac93143b085579d87ed8c412167822d",
+      "exactly_zero_face_count": 16,
+      "initial_signed_solid_object_preserved": true,
+      "initial_oriented_component_signed_volumes_mm3": [
+        1.0,
+        -0.06399999999999997
+      ],
+      "initial_only_status": {
+        "exhausted": false,
+        "failed": false,
+        "failure": null,
+        "yielded_component_count": 1,
+        "constructed_prism_count": 0,
+        "processed_boundary_face_count": 0,
+        "total_boundary_face_count": 24,
+        "exactly_zero_volume_face_count": 0,
+        "full_coverage_proof_available": false
+      },
+      "first_prism_only_status": {
+        "exhausted": false,
+        "failed": false,
+        "failure": null,
+        "yielded_component_count": 2,
+        "constructed_prism_count": 1,
+        "processed_boundary_face_count": 3,
+        "total_boundary_face_count": 24,
+        "exactly_zero_volume_face_count": 2,
+        "full_coverage_proof_available": false
+      },
+      "incomplete_proof_rejected": true,
+      "seconds": 0.055193992011481896
+    },
+    {
+      "name": "zero_translation_signed_cavity",
+      "passed": true,
+      "component_count": 1,
+      "identical_oriented_triangle_component_count": 1,
+      "identical_raw_vertex_face_array_component_count": 1,
+      "ordered_component_geometry_digest": "67fa43fa97a1db9b60d7a58115d1536cffd7f305ec462e57e2b6cbf422317011",
+      "exact_batch_summary_equality": true,
+      "batch_summary_sha256": "db19625b9c92f2aa534701afdd8c82a6048d5e954ae59d5c6541d0c8b02c1c75",
+      "prism_derivation_records_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "exactly_zero_face_count": 24,
+      "initial_signed_solid_object_preserved": true,
+      "initial_oriented_component_signed_volumes_mm3": [
+        1.0,
+        -0.06399999999999997
+      ],
+      "initial_only_status": {
+        "exhausted": false,
+        "failed": false,
+        "failure": null,
+        "yielded_component_count": 1,
+        "constructed_prism_count": 0,
+        "processed_boundary_face_count": 0,
+        "total_boundary_face_count": 24,
+        "exactly_zero_volume_face_count": 0,
+        "full_coverage_proof_available": false
+      },
+      "first_prism_only_status": null,
+      "incomplete_proof_rejected": true,
+      "seconds": 0.009330505010439083
+    }
+  ],
+  "frozen_B_and_B3_modified": false,
+  "active_sources_modified": false,
+  "original_or_full_scene_loaded": false
+}

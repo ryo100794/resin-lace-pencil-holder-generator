@@ -1,0 +1,605 @@
+{
+  "mathematical_transfer_passed": true,
+  "release_certificate": true,
+  "condition": "Complete documented source-to-final error chain and strict final topology/build-order gates verified and hash-bound.",
+  "per_surface_error_upper_bound_mm": 1.924441082054015e-05,
+  "source_pair_allowance_mm": 3e-05,
+  "effective_pair_allowance_mm": 4e-05,
+  "pair_budget_headroom_mm": 1.5111783589197013e-06,
+  "source_input_hashes_verified": true,
+  "source_input_sha256": {
+    "source/audit_rotation_envelope.py": "a398ca79a3ce89d723d30917b0564efc4caa212b660519bf0ee8fc6b7f9b5e33",
+    "cache/spheres/sphere_3layers.json": "f7bdcdc9530344f993dcbef0dd2d281098448436b55a6cfcce84b9859da6646a",
+    "reports/motion_validation.json": "e6109da5ccbe9fece4b8083fa2fa09743c584b6733e2fa0c05c5a146cc160edb",
+    "source/audit_motion.py": "faa2bdcb8956b3b9762ecd2e96f7f62a05e8a79a793b4ca25f38f4cca1422dfa",
+    "cache/spheres/sphere_R9_L3_stump_layers_01.npz": "5ece6009ef5e17e20da67fd8a00628f6ecf20099f7f59c554629f6c989c08384",
+    "cache/spheres/sphere_R9_L3_stump_layers_02.npz": "436280b462ee40ec76fd66ef8c9b0f6e38f3c5030a503b907651c45bb2c1da8c",
+    "cache/spheres/sphere_R9_L3_stump_layers_03.npz": "fd83fbaecd23b81f00bee93c405423e1e0402671a323b2d1e7279204b1de4a68",
+    "cache/spheres/sphere_4layers.json": "c02bab3a51a567dec0563b2e277365d90545a083ca2e57caa0cf8d5e0d804d99",
+    "cache/spheres/sphere_R11_L4_stump_layers_01.npz": "ffba94af8bfc2f0ced62428b62240be88367348bf37c1ca485bbd82d036d6790",
+    "cache/spheres/sphere_R11_L4_stump_layers_02.npz": "0530d6ddaeda30a33b5688b98b380886907cad13a1cb4160e63a66a12649a9d1",
+    "cache/spheres/sphere_R11_L4_stump_layers_03.npz": "a98e0e5437afd452cf2d1b7ac91df225f22bb061ff08789ef0ef1f135a2ae5d0",
+    "cache/spheres/sphere_R11_L4_stump_layers_04.npz": "0cf12fc9292c1eed51b280c8bf6d942239d6529a30d89012068eba81792f5e1c",
+    "cache/spheres/sphere_5layers.json": "8aefb95f2b9e0832273252d4ba382837d79bdc5c8cf44039e286c87439d8a9c9",
+    "cache/spheres/sphere_R13_L5_stump_layers_01.npz": "83f8b0e1d459d6f23caf09aeba76fad9328c8be2dfd174b045c072779f9288d6",
+    "cache/spheres/sphere_R13_L5_stump_layers_02.npz": "4b26f9a07e50b313f5766bdb13b05d29e50081c650e62a583cbbc6f3e72a170d",
+    "cache/spheres/sphere_R13_L5_stump_layers_03.npz": "806c99b722a6f87bd3dc2d480d2b54881d995a1c495538085710a1a960618d33",
+    "cache/spheres/sphere_R13_L5_stump_layers_04.npz": "476ac006cea96919059e623c3a55a487db38077e8057d9754848f360a9da59ad",
+    "cache/spheres/sphere_R13_L5_stump_layers_05.npz": "b371d6811c20347a05a7a8e4c936dce06bf3eb7903ca0344da58d9dd21bb81c3",
+    "reports/rotation_envelope_certificate.json": "49ff48ab128b202442fcc221eef5846629d0dd2a4ef33acd0b97eda82ee45a8b"
+  },
+  "modules": [
+    {
+      "layer_count": 3,
+      "interfaces": [
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "radial_center_bound_mm": 0.40076273023604986,
+          "axial_center_bound_mm": 0.36389780735683325,
+          "joint_tilt_radians": 0.05886794689401823,
+          "center_displacement_bound_mm": 0.5413246531845411
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "radial_center_bound_mm": 0.40076273023604986,
+          "axial_center_bound_mm": 0.37445731537746507,
+          "joint_tilt_radians": 0.09513257387987957,
+          "center_displacement_bound_mm": 0.5484788482575707
+        }
+      ],
+      "moving_layers": [
+        {
+          "layer_index": 1,
+          "cumulative_tilt_radians": 0.05886794689401823,
+          "cumulative_center_play_mm": 0.5413246531845411,
+          "added_axis_cone_radians": 1.5518755254323446e-06,
+          "added_center_play_mm": 1.462838459587168e-05,
+          "required_old_envelope_minkowski_radius_mm": 3.707825703395777e-05
+        },
+        {
+          "layer_index": 2,
+          "cumulative_tilt_radians": 0.1540005207738978,
+          "cumulative_center_play_mm": 1.0898035014421117,
+          "added_axis_cone_radians": 4.136505802693202e-06,
+          "added_center_play_mm": 2.9698371675213053e-05,
+          "required_old_envelope_minkowski_radius_mm": 6.217296357692939e-05
+        }
+      ],
+      "old_envelope_required_uniform_outer_padding_mm": 6.217296357692939e-05,
+      "bearings": [
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "side": -1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.78690597595913,
+          "passed": true
+        },
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "side": 1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.78690597595913,
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "side": -1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.7440932649580578,
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "side": 1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.7440932649580578,
+          "passed": true
+        }
+      ],
+      "adjacent_rotation": [
+        {
+          "pair": "sphere_3layers layers0/1",
+          "source_gap_mm": 0.07885356210041308,
+          "transferred_continuous_rotation_gap_mm": 0.07884356210041309,
+          "passed": true
+        },
+        {
+          "pair": "sphere_3layers layers1/2",
+          "source_gap_mm": 0.07937469913299175,
+          "transferred_continuous_rotation_gap_mm": 0.07936469913299175,
+          "passed": true
+        }
+      ],
+      "nonadjacent_shells": [
+        {
+          "outer_layer": 0,
+          "inner_layer": 2,
+          "relative_center_displacement_bound_mm": 1.0898035014421117,
+          "transferred_all_angle_separation_lower_bound_mm": 0.3498863760866134,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "layer_count": 4,
+      "interfaces": [
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "radial_center_bound_mm": 0.40076273023604986,
+          "axial_center_bound_mm": 0.35993965275830503,
+          "joint_tilt_radians": 0.04449999317646903,
+          "center_displacement_bound_mm": 0.5386718106361442
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "radial_center_bound_mm": 0.40076273023604986,
+          "axial_center_bound_mm": 0.36401265604496097,
+          "joint_tilt_radians": 0.06064752789713456,
+          "center_displacement_bound_mm": 0.541401865260141
+        },
+        {
+          "host_index": 2,
+          "moving_index": 3,
+          "radial_center_bound_mm": 0.40076273023604986,
+          "axial_center_bound_mm": 0.3735529770622872,
+          "joint_tilt_radians": 0.09513257387987957,
+          "center_displacement_bound_mm": 0.5478618371618437
+        }
+      ],
+      "moving_layers": [
+        {
+          "layer_index": 1,
+          "cumulative_tilt_radians": 0.04449999317646903,
+          "cumulative_center_play_mm": 0.5386718106361442,
+          "added_axis_cone_radians": 1.1582953945502017e-06,
+          "added_center_play_mm": 1.4472729009451513e-05,
+          "required_old_envelope_minkowski_radius_mm": 3.607651354137014e-05
+        },
+        {
+          "layer_index": 2,
+          "cumulative_tilt_radians": 0.10514752107360359,
+          "cumulative_center_play_mm": 1.0800736758962852,
+          "added_axis_cone_radians": 2.759553297232431e-06,
+          "added_center_play_mm": 2.9106847810655978e-05,
+          "required_old_envelope_minkowski_radius_mm": 6.014470918826474e-05
+        },
+        {
+          "layer_index": 3,
+          "cumulative_tilt_radians": 0.20028009495348315,
+          "cumulative_center_play_mm": 1.6279355130581288,
+          "added_axis_cone_radians": 5.344183574451655e-06,
+          "added_center_play_mm": 4.414155790422036e-05,
+          "required_old_envelope_minkowski_radius_mm": 8.211569180183775e-05
+        }
+      ],
+      "old_envelope_required_uniform_outer_padding_mm": 8.211569180183775e-05,
+      "bearings": [
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "side": -1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.6034317171711271,
+          "passed": true
+        },
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "side": 1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.6034317171711271,
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "side": -1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.5856104062386428,
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "side": 1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.5856104062386428,
+          "passed": true
+        },
+        {
+          "host_index": 2,
+          "moving_index": 3,
+          "side": -1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.5459019415884133,
+          "passed": true
+        },
+        {
+          "host_index": 2,
+          "moving_index": 3,
+          "side": 1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.5459019415884133,
+          "passed": true
+        }
+      ],
+      "adjacent_rotation": [
+        {
+          "pair": "sphere_4layers layers0/1",
+          "source_gap_mm": 0.07758243566256853,
+          "transferred_continuous_rotation_gap_mm": 0.07757243566256854,
+          "passed": true
+        },
+        {
+          "pair": "sphere_4layers layers1/2",
+          "source_gap_mm": 0.07999467037574118,
+          "transferred_continuous_rotation_gap_mm": 0.07998467037574118,
+          "passed": true
+        },
+        {
+          "pair": "sphere_4layers layers2/3",
+          "source_gap_mm": 0.07937469913299175,
+          "transferred_continuous_rotation_gap_mm": 0.07936469913299175,
+          "passed": true
+        }
+      ],
+      "nonadjacent_shells": [
+        {
+          "outer_layer": 0,
+          "inner_layer": 2,
+          "relative_center_displacement_bound_mm": 1.0800736758962852,
+          "transferred_all_angle_separation_lower_bound_mm": 0.35149110075141216,
+          "passed": true
+        },
+        {
+          "outer_layer": 0,
+          "inner_layer": 3,
+          "relative_center_displacement_bound_mm": 1.6279355130581288,
+          "transferred_all_angle_separation_lower_bound_mm": 2.192775753286975,
+          "passed": true
+        },
+        {
+          "outer_layer": 1,
+          "inner_layer": 3,
+          "relative_center_displacement_bound_mm": 1.0892637024219847,
+          "transferred_all_angle_separation_lower_bound_mm": 0.3513427326704815,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "layer_count": 5,
+      "interfaces": [
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "radial_center_bound_mm": 0.40076273023604997,
+          "axial_center_bound_mm": 0.35785376201569485,
+          "joint_tilt_radians": 0.036089204516790936,
+          "center_displacement_bound_mm": 0.5372802629308455
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "radial_center_bound_mm": 0.40076273023604986,
+          "axial_center_bound_mm": 0.36008342581040303,
+          "joint_tilt_radians": 0.04550998084074405,
+          "center_displacement_bound_mm": 0.5387678901805572
+        },
+        {
+          "host_index": 2,
+          "moving_index": 3,
+          "radial_center_bound_mm": 0.40076273023604986,
+          "axial_center_bound_mm": 0.3640655947353745,
+          "joint_tilt_radians": 0.06157823344049362,
+          "center_displacement_bound_mm": 0.5414374601154549
+        },
+        {
+          "host_index": 3,
+          "moving_index": 4,
+          "radial_center_bound_mm": 0.40076273023604986,
+          "axial_center_bound_mm": 0.37310080790469824,
+          "joint_tilt_radians": 0.09513257387987957,
+          "center_displacement_bound_mm": 0.5475536309854875
+        }
+      ],
+      "moving_layers": [
+        {
+          "layer_index": 1,
+          "cumulative_tilt_radians": 0.036089204516790936,
+          "cumulative_center_play_mm": 0.5372802629308455,
+          "added_axis_cone_radians": 9.322151738946904e-07,
+          "added_center_play_mm": 1.43927350532147e-05,
+          "required_old_envelope_minkowski_radius_mm": 3.5593291638949504e-05
+        },
+        {
+          "layer_index": 2,
+          "cumulative_tilt_radians": 0.08159918535753499,
+          "cumulative_center_play_mm": 1.0760481531114028,
+          "added_axis_cone_radians": 2.117875460727614e-06,
+          "added_center_play_mm": 2.8871311510636488e-05,
+          "required_old_envelope_minkowski_radius_mm": 5.9453966740769605e-05
+        },
+        {
+          "layer_index": 3,
+          "cumulative_tilt_radians": 0.14317741879802862,
+          "cumulative_center_play_mm": 1.6174856132268576,
+          "added_axis_cone_radians": 3.7450148233364455e-06,
+          "added_center_play_mm": 4.35081770560064e-05,
+          "required_old_envelope_minkowski_radius_mm": 8.131223247619243e-05
+        },
+        {
+          "layer_index": 4,
+          "cumulative_tilt_radians": 0.2383099926779082,
+          "cumulative_center_play_mm": 2.165039244212345,
+          "added_axis_cone_radians": 6.329645100611181e-06,
+          "added_center_play_mm": 5.852527145444597e-05,
+          "required_old_envelope_minkowski_radius_mm": 0.00010102909300236331
+        }
+      ],
+      "old_envelope_required_uniform_outer_padding_mm": 0.00010102909300236331,
+      "bearings": [
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "side": -1,
+          "running_radial_clearance_lower_bound_mm": 0.3987569673835311,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.5126460083429496,
+          "passed": true
+        },
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "side": 1,
+          "running_radial_clearance_lower_bound_mm": 0.3987569673835311,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.5126460083429496,
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "side": -1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.5025387745633204,
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "side": 1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.5025387745633204,
+          "passed": true
+        },
+        {
+          "host_index": 2,
+          "moving_index": 3,
+          "side": -1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.4849471325048743,
+          "passed": true
+        },
+        {
+          "host_index": 2,
+          "moving_index": 3,
+          "side": 1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.4849471325048743,
+          "passed": true
+        },
+        {
+          "host_index": 3,
+          "moving_index": 4,
+          "side": -1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.44680627990359156,
+          "passed": true
+        },
+        {
+          "host_index": 3,
+          "moving_index": 4,
+          "side": 1,
+          "running_radial_clearance_lower_bound_mm": 0.398756967383531,
+          "axial_endplay_lower_bound_mm": 0.34996151117835855,
+          "retained_engagement_lower_bound_mm": 0.44680627990359156,
+          "passed": true
+        }
+      ],
+      "adjacent_rotation": [
+        {
+          "pair": "sphere_5layers layers0/1",
+          "source_gap_mm": 0.077123978511522,
+          "transferred_continuous_rotation_gap_mm": 0.077113978511522,
+          "passed": true
+        },
+        {
+          "pair": "sphere_5layers layers1/2",
+          "source_gap_mm": 0.07841505869167983,
+          "transferred_continuous_rotation_gap_mm": 0.07840505869167984,
+          "passed": true
+        },
+        {
+          "pair": "sphere_5layers layers2/3",
+          "source_gap_mm": 0.08058819143823229,
+          "transferred_continuous_rotation_gap_mm": 0.08057819143823229,
+          "passed": true
+        },
+        {
+          "pair": "sphere_5layers layers3/4",
+          "source_gap_mm": 0.07937469913299175,
+          "transferred_continuous_rotation_gap_mm": 0.07936469913299175,
+          "passed": true
+        }
+      ],
+      "nonadjacent_shells": [
+        {
+          "outer_layer": 0,
+          "inner_layer": 2,
+          "relative_center_displacement_bound_mm": 1.0760481531114028,
+          "transferred_all_angle_separation_lower_bound_mm": 0.35021886202408786,
+          "passed": true
+        },
+        {
+          "outer_layer": 0,
+          "inner_layer": 3,
+          "relative_center_displacement_bound_mm": 1.6174856132268576,
+          "transferred_all_angle_separation_lower_bound_mm": 2.103035909447863,
+          "passed": true
+        },
+        {
+          "outer_layer": 0,
+          "inner_layer": 4,
+          "relative_center_displacement_bound_mm": 2.165039244212345,
+          "transferred_all_angle_separation_lower_bound_mm": 3.844593925183503,
+          "passed": true
+        },
+        {
+          "outer_layer": 1,
+          "inner_layer": 3,
+          "relative_center_displacement_bound_mm": 1.080205350296012,
+          "transferred_all_angle_separation_lower_bound_mm": 0.35197017879422293,
+          "passed": true
+        },
+        {
+          "outer_layer": 1,
+          "inner_layer": 4,
+          "relative_center_displacement_bound_mm": 1.6277589812814997,
+          "transferred_all_angle_separation_lower_bound_mm": 2.093528194529863,
+          "passed": true
+        },
+        {
+          "outer_layer": 2,
+          "inner_layer": 4,
+          "relative_center_displacement_bound_mm": 1.0889910911009424,
+          "transferred_all_angle_separation_lower_bound_mm": 0.35208624552143136,
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "added_material_gap_transfers": [
+    {
+      "layers": 5,
+      "azimuth_deg": 0,
+      "old_envelope_outer_padding_mm": 0.00010102909300236331,
+      "transferred_continuous_motion_gap_lower_bound_mm": 0.049051057709193546,
+      "source_distance_was_capped": false,
+      "required_gap_mm": 0.025,
+      "passed": true
+    },
+    {
+      "layers": 5,
+      "azimuth_deg": 120,
+      "old_envelope_outer_padding_mm": 0.00010102909300236331,
+      "transferred_continuous_motion_gap_lower_bound_mm": 0.04905105770918886,
+      "source_distance_was_capped": false,
+      "required_gap_mm": 0.025,
+      "passed": true
+    },
+    {
+      "layers": 5,
+      "azimuth_deg": 240,
+      "old_envelope_outer_padding_mm": 0.00010102909300236331,
+      "transferred_continuous_motion_gap_lower_bound_mm": 0.04905105770919253,
+      "source_distance_was_capped": false,
+      "required_gap_mm": 0.025,
+      "passed": true
+    },
+    {
+      "layers": 4,
+      "azimuth_deg": 40,
+      "old_envelope_outer_padding_mm": 8.211569180183775e-05,
+      "transferred_continuous_motion_gap_lower_bound_mm": 0.10603451112608248,
+      "source_distance_was_capped": false,
+      "required_gap_mm": 0.025,
+      "passed": true
+    },
+    {
+      "layers": 4,
+      "azimuth_deg": 160,
+      "old_envelope_outer_padding_mm": 8.211569180183775e-05,
+      "transferred_continuous_motion_gap_lower_bound_mm": 0.10603451112608533,
+      "source_distance_was_capped": false,
+      "required_gap_mm": 0.025,
+      "passed": true
+    },
+    {
+      "layers": 4,
+      "azimuth_deg": 280,
+      "old_envelope_outer_padding_mm": 8.211569180183775e-05,
+      "transferred_continuous_motion_gap_lower_bound_mm": 0.1060345111260832,
+      "source_distance_was_capped": false,
+      "required_gap_mm": 0.025,
+      "passed": true
+    },
+    {
+      "layers": 3,
+      "azimuth_deg": 80,
+      "old_envelope_outer_padding_mm": 6.217296357692939e-05,
+      "transferred_continuous_motion_gap_lower_bound_mm": 0.06885683396321836,
+      "source_distance_was_capped": false,
+      "required_gap_mm": 0.025,
+      "passed": true
+    },
+    {
+      "layers": 3,
+      "azimuth_deg": 200,
+      "old_envelope_outer_padding_mm": 6.217296357692939e-05,
+      "transferred_continuous_motion_gap_lower_bound_mm": 0.06885683396321167,
+      "source_distance_was_capped": false,
+      "required_gap_mm": 0.025,
+      "passed": true
+    },
+    {
+      "layers": 3,
+      "azimuth_deg": 320,
+      "old_envelope_outer_padding_mm": 6.217296357692939e-05,
+      "transferred_continuous_motion_gap_lower_bound_mm": 0.06885683396321848,
+      "source_distance_was_capped": false,
+      "required_gap_mm": 0.025,
+      "passed": true
+    }
+  ],
+  "proof": "For each layer, |cos(u)-cos(v)|<=|u-v| gives h_new(phi)-h_old(phi)<=R*delta_tilt+delta_play+delta_allowance for every support direction. Thus the old certified envelope plus a ball of the reported radius contains the complete perturbed motion. A fixed-pose rotation is an isometry, so each old all-angle surface gap loses at most the complete two-surface error; its already subtracted source allowance is replaced, not counted twice.",
+  "limitations": [
+    "This helper does not establish the caller-supplied error bound or validate the final mesh.",
+    "No claim of exactly unchanged exported mechanism geometry is made; immutable source meshes and a bounded representation change are distinct.",
+    "Nominal external removal sweeps with zero geometric clearance do not acquire a perturbation-clearance certificate from this motion calculation.",
+    "No resin, cure, load or physical removal-force simulation is included."
+  ],
+  "passed": true,
+  "exported_mesh_sha256": "b148134446da6fb2cc028c378fd6c1ebbae48bd461663843fe14f4a2153aef54",
+  "assembly_report_sha256": "6a4d6b049faaae77bea4be95f8fce38b3586e53435140e91fd77de48fe077c62",
+  "precision_preparation_report_sha256": "641a87c27a38a1a54662de4f189684ae13eb51580a0269c36d74eb42f36125d9",
+  "whole_height_report_sha256": "62bcfa2b2475059adebb156f31f2beb0c545bce6dff9f43d5533a7169345cca0",
+  "transfer_source_sha256": "26f55a176f912c02c8dc6a0b18357b63d1e238199c35ddcb0ccaa95e8f6878e5",
+  "release_binding_source_sha256": "ffa273a933eb10359d09f9750e27ef74361ad83018bebb7662925a11ab2e3151"
+}

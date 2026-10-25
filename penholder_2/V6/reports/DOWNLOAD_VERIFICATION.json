@@ -1,0 +1,414 @@
+{
+  "schema": "v6_postupload_download_verification_v1",
+  "passed": true,
+  "version": 6,
+  "generated_at_utc": "2026-10-25T20:37:46.183857+00:00",
+  "scope": "Postupload delivery integrity. Metadata-only checks and actual raw-byte readbacks are distinguished per file; this script performs no geometry or removal-route tests.",
+  "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+  "publish_file_count": 13,
+  "raw_verified_count": 13,
+  "metadata_only_count": 0,
+  "required_raw_file_names": [
+    "ivory_penholder_v6_custom_supported.3mf",
+    "ivory_v6_base_support_detail.jpg",
+    "ivory_v6_project.zip",
+    "ivory_v6_repair_history.zip",
+    "ivory_v6_sphere_support_detail.jpg",
+    "ivory_v6_stl.zip",
+    "ivory_v6_support_assets.zip",
+    "ivory_v6_support_overview.jpg",
+    "ivory_v6_wall_support_detail.jpg"
+  ],
+  "all_required_raw_readbacks_verified": true,
+  "all_publish_files_match_local_package_and_drive_metadata": true,
+  "files": [
+    {
+      "name": "ivory_penholder_v6_custom_supported.3mf",
+      "bytes": 70531562,
+      "sha256": "d7d72127579dd9ab1cc64e3216ffd86eff1ddd82a86e3ba1e94c241949c91efe",
+      "drive_id": "1eanVDmxAfp77GjXAtpRCAsn9ATcvXP52",
+      "drive_url": "https://drive.google.com/file/d/1eanVDmxAfp77GjXAtpRCAsn9ATcvXP52/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "model/3mf",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_main3mf_readback.json",
+          "report_sha256": "e27d57f2df1ca797222c0b7f7b91122eef6b183904fb97b6ba1bfc850a620cc9",
+          "checked_at_utc": "2026-10-25T18:29:06.312466+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 70531562,
+          "actual_download_sha256": "d7d72127579dd9ab1cc64e3216ffd86eff1ddd82a86e3ba1e94c241949c91efe",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 70531562,
+          "disk_readback_sha256": "d7d72127579dd9ab1cc64e3216ffd86eff1ddd82a86e3ba1e94c241949c91efe"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    },
+    {
+      "name": "ivory_v6_stl.zip",
+      "bytes": 82080795,
+      "sha256": "63167ef3cbc6c2420cd8847ed2d9e484fafb204b352f096f048da22318a54d96",
+      "drive_id": "1TcpRv2xaz4NKMHNp2dAIKl010vd2sFL2",
+      "drive_url": "https://drive.google.com/file/d/1TcpRv2xaz4NKMHNp2dAIKl010vd2sFL2/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "application/zip",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_archive_readback.json",
+          "report_sha256": "b3a3786090cad528083116cda55d69343ae5a8e488e094ccfbf51517beb2aad8",
+          "checked_at_utc": "2026-10-25T20:37:24.995017+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 82080795,
+          "actual_download_sha256": "63167ef3cbc6c2420cd8847ed2d9e484fafb204b352f096f048da22318a54d96",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 82080795,
+          "disk_readback_sha256": "63167ef3cbc6c2420cd8847ed2d9e484fafb204b352f096f048da22318a54d96"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    },
+    {
+      "name": "ivory_v6_project.zip",
+      "bytes": 75443087,
+      "sha256": "932e622d88c7aaa2cf811efdef336f00cafc6150f5458689e3b97853778ddcb2",
+      "drive_id": "1B9wPSOyXABybn_-sic8wmq0TlkjboenK",
+      "drive_url": "https://drive.google.com/file/d/1B9wPSOyXABybn_-sic8wmq0TlkjboenK/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "application/zip",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_archive_readback.json",
+          "report_sha256": "b3a3786090cad528083116cda55d69343ae5a8e488e094ccfbf51517beb2aad8",
+          "checked_at_utc": "2026-10-25T20:37:24.995017+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 75443087,
+          "actual_download_sha256": "932e622d88c7aaa2cf811efdef336f00cafc6150f5458689e3b97853778ddcb2",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 75443087,
+          "disk_readback_sha256": "932e622d88c7aaa2cf811efdef336f00cafc6150f5458689e3b97853778ddcb2"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    },
+    {
+      "name": "ivory_v6_support_assets.zip",
+      "bytes": 73949882,
+      "sha256": "626d63d79064c7b07265898adc9ee17af5d7c1f7cdaed6e759826fd4820d12ee",
+      "drive_id": "1JlNeU97fB8klJuXgZnPe5uiNlXuP4qJM",
+      "drive_url": "https://drive.google.com/file/d/1JlNeU97fB8klJuXgZnPe5uiNlXuP4qJM/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "application/zip",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_archive_readback.json",
+          "report_sha256": "b3a3786090cad528083116cda55d69343ae5a8e488e094ccfbf51517beb2aad8",
+          "checked_at_utc": "2026-10-25T20:37:24.995017+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 73949882,
+          "actual_download_sha256": "626d63d79064c7b07265898adc9ee17af5d7c1f7cdaed6e759826fd4820d12ee",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 73949882,
+          "disk_readback_sha256": "626d63d79064c7b07265898adc9ee17af5d7c1f7cdaed6e759826fd4820d12ee"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    },
+    {
+      "name": "ivory_v6_repair_history.zip",
+      "bytes": 44244657,
+      "sha256": "8cfa518792f1e42bcddcaa0fa66922562bd046d2595dc00caedae2e515417b70",
+      "drive_id": "1AMQuTo-1_DmSuoBs-wYBVg1I3gVeUJWN",
+      "drive_url": "https://drive.google.com/file/d/1AMQuTo-1_DmSuoBs-wYBVg1I3gVeUJWN/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "application/zip",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_archive_readback.json",
+          "report_sha256": "b3a3786090cad528083116cda55d69343ae5a8e488e094ccfbf51517beb2aad8",
+          "checked_at_utc": "2026-10-25T20:37:24.995017+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 44244657,
+          "actual_download_sha256": "8cfa518792f1e42bcddcaa0fa66922562bd046d2595dc00caedae2e515417b70",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 44244657,
+          "disk_readback_sha256": "8cfa518792f1e42bcddcaa0fa66922562bd046d2595dc00caedae2e515417b70"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    },
+    {
+      "name": "README_V6_JA.txt",
+      "bytes": 14607,
+      "sha256": "2198ab5b458b1ca56a046c2817145854b4132fd4457742964f52f091a8de320a",
+      "drive_id": "1jSYRYjiQTGT4f8MGgtG4Oq_HOJRzcj3a",
+      "drive_url": "https://drive.google.com/file/d/1jSYRYjiQTGT4f8MGgtG4Oq_HOJRzcj3a/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "text/plain",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_archive_readback.json",
+          "report_sha256": "b3a3786090cad528083116cda55d69343ae5a8e488e094ccfbf51517beb2aad8",
+          "checked_at_utc": "2026-10-25T20:37:24.995017+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 14607,
+          "actual_download_sha256": "2198ab5b458b1ca56a046c2817145854b4132fd4457742964f52f091a8de320a",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 14607,
+          "disk_readback_sha256": "2198ab5b458b1ca56a046c2817145854b4132fd4457742964f52f091a8de320a"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    },
+    {
+      "name": "REMOVE_ORDER_JA.txt",
+      "bytes": 1054929,
+      "sha256": "dec40ee47e0e57b86096ae2eecefd564617b2660f827f5166a3d6e2aa17672dd",
+      "drive_id": "1vp2g32mhcEc7uKXz3zTHou8ThPjaEyS8",
+      "drive_url": "https://drive.google.com/file/d/1vp2g32mhcEc7uKXz3zTHou8ThPjaEyS8/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "text/plain",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_archive_readback.json",
+          "report_sha256": "b3a3786090cad528083116cda55d69343ae5a8e488e094ccfbf51517beb2aad8",
+          "checked_at_utc": "2026-10-25T20:37:24.995017+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 1054929,
+          "actual_download_sha256": "dec40ee47e0e57b86096ae2eecefd564617b2660f827f5166a3d6e2aa17672dd",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 1054929,
+          "disk_readback_sha256": "dec40ee47e0e57b86096ae2eecefd564617b2660f827f5166a3d6e2aa17672dd"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    },
+    {
+      "name": "support_removal_index.json",
+      "bytes": 11552860,
+      "sha256": "d45466432819326c8b9a142773d6f242f7a85728980d951d6643897e6dc9f543",
+      "drive_id": "1F8lfjHphs3cwciL_gxGBa_1fVbz9fd7u",
+      "drive_url": "https://drive.google.com/file/d/1F8lfjHphs3cwciL_gxGBa_1fVbz9fd7u/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "application/json",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_archive_readback.json",
+          "report_sha256": "b3a3786090cad528083116cda55d69343ae5a8e488e094ccfbf51517beb2aad8",
+          "checked_at_utc": "2026-10-25T20:37:24.995017+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 11552860,
+          "actual_download_sha256": "d45466432819326c8b9a142773d6f242f7a85728980d951d6643897e6dc9f543",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 11552860,
+          "disk_readback_sha256": "d45466432819326c8b9a142773d6f242f7a85728980d951d6643897e6dc9f543"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    },
+    {
+      "name": "ivory_v6_support_overview.jpg",
+      "bytes": 939367,
+      "sha256": "27d3f70a6e882c150923f0afd47609253e718449589b601275b33a86a5fcceab",
+      "drive_id": "1FF9peEx6z7ESwXpUo5SGr8PSfHcygrmf",
+      "drive_url": "https://drive.google.com/file/d/1FF9peEx6z7ESwXpUo5SGr8PSfHcygrmf/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "image/jpeg",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_preview_readback.json",
+          "report_sha256": "00ef80fa8b137ded7ece5b02a7906868cb300d0a7769b7d95d7918d5f1a19af9",
+          "checked_at_utc": "2026-10-25T17:46:13.398136+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 939367,
+          "actual_download_sha256": "27d3f70a6e882c150923f0afd47609253e718449589b601275b33a86a5fcceab",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 939367,
+          "disk_readback_sha256": "27d3f70a6e882c150923f0afd47609253e718449589b601275b33a86a5fcceab"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    },
+    {
+      "name": "ivory_v6_sphere_support_detail.jpg",
+      "bytes": 884553,
+      "sha256": "3134378b9fe0983e1d083701c8c8b10b4195dc874cdbd35b54ad0ef7fac77f15",
+      "drive_id": "1qaSvrWWT-vJ0_Osxb2kjQZe384kZ3by1",
+      "drive_url": "https://drive.google.com/file/d/1qaSvrWWT-vJ0_Osxb2kjQZe384kZ3by1/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "image/jpeg",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_preview_readback.json",
+          "report_sha256": "00ef80fa8b137ded7ece5b02a7906868cb300d0a7769b7d95d7918d5f1a19af9",
+          "checked_at_utc": "2026-10-25T17:46:13.398136+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 884553,
+          "actual_download_sha256": "3134378b9fe0983e1d083701c8c8b10b4195dc874cdbd35b54ad0ef7fac77f15",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 884553,
+          "disk_readback_sha256": "3134378b9fe0983e1d083701c8c8b10b4195dc874cdbd35b54ad0ef7fac77f15"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    },
+    {
+      "name": "ivory_v6_wall_support_detail.jpg",
+      "bytes": 850193,
+      "sha256": "8ba993d9b2eb260edca6133ba22858f49942692b4504149c38f55d998ca16622",
+      "drive_id": "1_uOKQH_THvUlnl8aLPfrZBRbyNdYDYem",
+      "drive_url": "https://drive.google.com/file/d/1_uOKQH_THvUlnl8aLPfrZBRbyNdYDYem/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "image/jpeg",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_preview_readback.json",
+          "report_sha256": "00ef80fa8b137ded7ece5b02a7906868cb300d0a7769b7d95d7918d5f1a19af9",
+          "checked_at_utc": "2026-10-25T17:46:13.398136+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 850193,
+          "actual_download_sha256": "8ba993d9b2eb260edca6133ba22858f49942692b4504149c38f55d998ca16622",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 850193,
+          "disk_readback_sha256": "8ba993d9b2eb260edca6133ba22858f49942692b4504149c38f55d998ca16622"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    },
+    {
+      "name": "ivory_v6_base_support_detail.jpg",
+      "bytes": 948176,
+      "sha256": "734ac2a9d67a0609658c84a2c69a924d121293f058df50a4f2febcebafd57654",
+      "drive_id": "1lwSCj3wdEslpO-WRWNKBSgJ_kztdoQ08",
+      "drive_url": "https://drive.google.com/file/d/1lwSCj3wdEslpO-WRWNKBSgJ_kztdoQ08/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "image/jpeg",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_preview_readback.json",
+          "report_sha256": "00ef80fa8b137ded7ece5b02a7906868cb300d0a7769b7d95d7918d5f1a19af9",
+          "checked_at_utc": "2026-10-25T17:46:13.398136+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 948176,
+          "actual_download_sha256": "734ac2a9d67a0609658c84a2c69a924d121293f058df50a4f2febcebafd57654",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 948176,
+          "disk_readback_sha256": "734ac2a9d67a0609658c84a2c69a924d121293f058df50a4f2febcebafd57654"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 1121,
+      "sha256": "5aaf3ee818296b107d56cd944db81a444ded206f3b26e7c3459f732e70c447de",
+      "drive_id": "17tQT63Lq2HmgVsbwy8VntvHY8Tuo-ErB",
+      "drive_url": "https://drive.google.com/file/d/17tQT63Lq2HmgVsbwy8VntvHY8Tuo-ErB/view?usp=drivesdk",
+      "parent_folder_id": "1rCi9XRJ2uz8qs0p4e8NGLYBGWCPK55T1",
+      "mime_type": "text/plain",
+      "package_and_local_bytes_verified": true,
+      "drive_metadata_identity_parent_and_size_verified": true,
+      "verification_scope": "raw_verified",
+      "actual_raw_download_verified": true,
+      "raw_download_evidence": [
+        {
+          "report": "reports/drive_v6_archive_readback.json",
+          "report_sha256": "b3a3786090cad528083116cda55d69343ae5a8e488e094ccfbf51517beb2aad8",
+          "checked_at_utc": "2026-10-25T20:37:24.995017+00:00",
+          "http_status": 200,
+          "actual_download_bytes": 1121,
+          "actual_download_sha256": "5aaf3ee818296b107d56cd944db81a444ded206f3b26e7c3459f732e70c447de",
+          "downloaded_file_reopened_and_hashed": true,
+          "disk_readback_bytes": 1121,
+          "disk_readback_sha256": "5aaf3ee818296b107d56cd944db81a444ded206f3b26e7c3459f732e70c447de"
+        }
+      ],
+      "verification_note": "Actual authenticated raw download and reopened downloaded-file bytes match this SHA256 and size."
+    }
+  ],
+  "provenance_reports": [
+    {
+      "path": "reports/drive_v6_archive_readback.json",
+      "bytes": 13151,
+      "sha256": "b3a3786090cad528083116cda55d69343ae5a8e488e094ccfbf51517beb2aad8"
+    },
+    {
+      "path": "reports/drive_v6_final_uploads.json",
+      "bytes": 16163,
+      "sha256": "b78ab60487523b43ff8c16098c0c9805ab88fe354a948e8d1d1bde3ab6a2af81"
+    },
+    {
+      "path": "reports/drive_v6_main3mf_readback.json",
+      "bytes": 1637,
+      "sha256": "e27d57f2df1ca797222c0b7f7b91122eef6b183904fb97b6ba1bfc850a620cc9"
+    },
+    {
+      "path": "reports/drive_v6_preview_readback.json",
+      "bytes": 4523,
+      "sha256": "00ef80fa8b137ded7ece5b02a7906868cb300d0a7769b7d95d7918d5f1a19af9"
+    },
+    {
+      "path": "reports/v6_package_validation.json",
+      "bytes": 3350,
+      "sha256": "d3fd6d5828f4620633dd3fee9ca01f0eeee93dd857e437b63341a22e7c4b228b"
+    }
+  ],
+  "writer_source": {
+    "path": "source/write_v6_download_verification.py",
+    "bytes": 18072,
+    "sha256": "a89888e76bd4bb8f17e2d42960a073e61063feb6cf7c1bba5b55310819e2c78b"
+  },
+  "network_downloads_performed_by_this_consolidation": false,
+  "raw_download_claim_basis": "The byte-bound readback reports listed for each file, matched again to the final canonical upload receipt and freshly hashed local file.",
+  "geometry_or_support_removal_validation_performed": false,
+  "private_download_references_or_scratch_paths_included": false,
+  "standalone_report_policy": "Generated after uploads. Intentionally excluded from the package publish manifest and its own checksum inventory to avoid a self-reference cycle."
+}

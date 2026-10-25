@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "input_sha256": "b148134446da6fb2cc028c378fd6c1ebbae48bd461663843fe14f4a2153aef54",
+  "triangle_count": 3779434,
+  "vertex_count": 1861569,
+  "canonical_triangle_sha256": "d7735dd29d43a9608ce4fb3e13c57105f82743476c3b63722fb6547ef3cd9c35",
+  "dimensions_mm": [
+    110.97357940673828,
+    108.23391342163086,
+    111.40023803710938
+  ],
+  "files": [
+    {
+      "name": "ivory_penholder_v6_custom_supported.3mf",
+      "bytes": 70531562,
+      "sha256": "d7d72127579dd9ab1cc64e3216ffd86eff1ddd82a86e3ba1e94c241949c91efe",
+      "roundtrip_validation": {
+        "vertex_count": 1861569,
+        "triangle_count": 3779434,
+        "all_vertex_coordinates_exact_as_float64": true,
+        "triangle_indices_order_and_winding_preserved": true,
+        "canonical_triangle_sha256": "d7735dd29d43a9608ce4fb3e13c57105f82743476c3b63722fb6547ef3cd9c35",
+        "units": "millimeter",
+        "core_only": true,
+        "xml_validation": "streamed every vertex and triangle"
+      }
+    },
+    {
+      "name": "ivory_penholder_v6_custom_supported.stl",
+      "bytes": 188971784,
+      "sha256": "0f3d307cbf89a6a7a9ed89a86976fc0d795b9c757c0b1464e724b47d1cdda02a",
+      "roundtrip_validation": {
+        "triangle_count": 3779434,
+        "all_triangle_coordinates_exact": true,
+        "triangle_order_and_winding_preserved": true,
+        "canonical_triangle_sha256": "d7735dd29d43a9608ce4fb3e13c57105f82743476c3b63722fb6547ef3cd9c35",
+        "units": "mm"
+      }
+    }
+  ]
+}

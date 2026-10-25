@@ -1,0 +1,10 @@
+# Reconstructed original binaries are generated from the tracked byte parts.
+/archives/ivory_v6_project.zip
+/archives/ivory_v6_support_assets.zip
+/history/ivory_v6_repair_history.zip
+/models/ivory_penholder_v6_custom_supported.3mf
+/models/ivory_v6_stl.zip
+
+# Temporary outputs from the restoration utility.
+**/.*.restore-*
+__pycache__/

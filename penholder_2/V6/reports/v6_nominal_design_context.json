@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "context_type": "frozen_nominal_support_design",
+  "scope": "Immutable accepted nominal support parts and aggregates for independent cut/removal planning; not a print topology/build certificate.",
+  "inputs": [
+    {
+      "path": "cache/original_v5.npz",
+      "sha256": "de722a37883d54ad0d9cb8383aff327d08f2885eceab08ae9d96981c37ece348"
+    },
+    {
+      "path": "cache/custom_holder_supports/holder_supports.json",
+      "sha256": "d77097a5efc1bc6c0ba28042a9e528b26e2bfd17743711278764b83d0c58c967"
+    },
+    {
+      "path": "cache/custom_holder_supports/holder_supports.npz",
+      "sha256": "8e8c546ca0e2d086bc298fbe7f8cf5bf866fbf4cbc687e17922789c317b6d1eb"
+    },
+    {
+      "path": "cache/custom_holder_supports/holder_retained_stumps.npz",
+      "sha256": "36d6cbf84053f64c84dc4d006c61b4167e7afe279831ca10c136143366725364"
+    },
+    {
+      "path": "cache/custom_sphere_supports/sphere_3layers_supports.json",
+      "sha256": "3a8776176b7150af5b6156877282fd223bc8ca8871cfbae75bc13a5180bf9531"
+    },
+    {
+      "path": "cache/custom_sphere_supports/sphere_3layers_supports.npz",
+      "sha256": "549d792b89a8b92df4656c60db37bf896e540489d53364bec7760b7e9862983d"
+    },
+    {
+      "path": "cache/custom_sphere_supports/sphere_3layers_retained_stumps.npz",
+      "sha256": "76ddf1435f4a763537c01f0d707b66fe68bf00ffbe3a0b7a952b052b6b3a8e8e"
+    },
+    {
+      "path": "cache/custom_sphere_supports/sphere_4layers_supports.json",
+      "sha256": "cae4a291d2323754c24f646273cafc8299f309cb4686ff773d385fe361e42672"
+    },
+    {
+      "path": "cache/custom_sphere_supports/sphere_4layers_supports.npz",
+      "sha256": "e05d7d150322003ff81eb7c1dd8c0c10be54318e1976af11d8a44d4e568123ba"
+    },
+    {
+      "path": "cache/custom_sphere_supports/sphere_4layers_retained_stumps.npz",
+      "sha256": "767ee85974633e12db50675e79c93174afb7e06303aca1185c34562908744840"
+    },
+    {
+      "path": "cache/custom_sphere_supports/sphere_5layers_supports.json",
+      "sha256": "abc285a6c108426e98760efd3b9236b9453cae93b8ba3d2414286468975595b2"
+    },
+    {
+      "path": "cache/custom_sphere_supports/sphere_5layers_supports.npz",
+      "sha256": "b61a8049333ed236f9dce965aede47b88815087329e61f10073fbced34357a37"
+    },
+    {
+      "path": "cache/custom_sphere_supports/sphere_5layers_retained_stumps.npz",
+      "sha256": "299cea5a5b6236cddd15e49f451da3654f0e03a925b2f13ae020dd6de9c8fec9"
+    }
+  ],
+  "added_support_mesh_sha256": "dfb9159c5df9828737ffe48466f66c786a0533c70901fd2883143ffa6dd1b894",
+  "retained_geometry_sha256": "cdf2afa42669099b9afd3bf0c446bb8e7d220e750a9b7c2f364c7eacf74d4317"
+}

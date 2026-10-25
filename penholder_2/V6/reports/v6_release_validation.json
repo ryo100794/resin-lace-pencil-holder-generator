@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "version": 6,
+  "final_mesh_sha256": "b148134446da6fb2cc028c378fd6c1ebbae48bd461663843fe14f4a2153aef54",
+  "reports": [
+    {
+      "path": "reports/custom_support_assembly.json",
+      "sha256": "6a4d6b049faaae77bea4be95f8fce38b3586e53435140e91fd77de48fe077c62"
+    },
+    {
+      "path": "reports/custom_supports_validation.json",
+      "sha256": "62bcfa2b2475059adebb156f31f2beb0c545bce6dff9f43d5533a7169345cca0"
+    },
+    {
+      "path": "reports/v6_precision_preparation.json",
+      "sha256": "641a87c27a38a1a54662de4f189684ae13eb51580a0269c36d74eb42f36125d9"
+    },
+    {
+      "path": "reports/v6_precision_motion_validation.json",
+      "sha256": "487fda721d1ea89917df69bf69904930265deb2975aaf992e04f5ca501ed3834"
+    },
+    {
+      "path": "reports/rotation_envelope_certificate.json",
+      "sha256": "49ff48ab128b202442fcc221eef5846629d0dd2a4ef33acd0b97eda82ee45a8b"
+    },
+    {
+      "path": "reports/v6_external_removal_validation.json",
+      "sha256": "872734251d9a45354c90650ad8a10fbd00c693063914b66c082e02a72707e5be"
+    },
+    {
+      "path": "reports/v6_internal_service_validation.json",
+      "sha256": "1feb78f3b2e5e7ccbac9e1a14d75797f4576e07fe3b14311b72c3f532613d7f0"
+    },
+    {
+      "path": "reports/v6_export_validation.json",
+      "sha256": "4d7d448e2bc253c7c068897520a4e8d4be54162f13079556cdf0fbb744085bfa"
+    },
+    {
+      "path": "reports/v5_mechanism_unchanged.json",
+      "sha256": "b2c49144db92e1db606d08c9e2d891005721e8b7441e019c915e754c0f316a14"
+    },
+    {
+      "path": "reports/holder_finite_endpoint_partition_v6.json",
+      "sha256": "4c9fe72cf36d03e00016cf5ea314c6bbb56858b320126d951788c370d5601b6c"
+    }
+  ],
+  "release_auditor_sha256": "ffa273a933eb10359d09f9750e27ef74361ad83018bebb7662925a11ab2e3151",
+  "positive_non_plate_material_birth_count": 0,
+  "strict_closed_connected_surface": true,
+  "external_removal_geometry_scope": "Nominal cut planes, declared kerfs and explicitly partitioned actual added underside finishing stock; continuous swept bounds with complete remaining obstacle state. A finishing-stock partition does not certify a physical cutter along its irregular contact surface.",
+  "internal_service_geometry_scope": "Maximum retained new stumps and all new permanent additions checked against original internal tool/extraction paths.",
+  "exported_representation_scope": "A documented bounded simplification and float32 rounding; motion clearance transferred across the complete error chain.",
+  "physical_print_tested": false,
+  "limitations": [
+    "No printer, resin, cure, peeling-load or physical break-force test.",
+    "External cut/removal paths use nominal source geometry. Zero-clearance cut boundaries are not certified against arbitrary manufacturing or numerical perturbations.",
+    "Full cutter bodies, handles and finger access are not simulated."
+  ]
+}

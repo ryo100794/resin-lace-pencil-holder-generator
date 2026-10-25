@@ -1,0 +1,4100 @@
+{
+  "audit": "Independent V5 mechanism audit",
+  "units": "mm",
+  "modules": [
+    {
+      "metadata_file": "sphere_3layers.json",
+      "metadata_sha256": "f7bdcdc9530344f993dcbef0dd2d281098448436b55a6cfcce84b9859da6646a",
+      "layer_count": 3,
+      "source_cache": "/workspace/scratch/82b34969b609/penholder_v5_20261025/project/cache/spheres",
+      "certificate_mesh_scope": "Actual source-module meshes named and hashed below. Whole-holder exported topology is audited separately; these geometry certificates transfer through rigid assembly when mechanism surfaces are preserved apart from bounded coordinate rounding.",
+      "axis_unit_vector": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "actual_with_stumps_layer_topology": [
+        {
+          "file": "sphere_R9_L3_stump_layers_01.npz",
+          "sha256": "5ece6009ef5e17e20da67fd8a00628f6ecf20099f7f59c554629f6c989c08384",
+          "vertices": 36738,
+          "triangles": 73648,
+          "components": 1,
+          "expected_components": 1,
+          "component_volumes_mm3": [
+            688.8618252901264
+          ],
+          "zero_area_triangles": 0,
+          "watertight": true,
+          "winding_consistent": true,
+          "passed": true
+        },
+        {
+          "file": "sphere_R9_L3_stump_layers_02.npz",
+          "sha256": "436280b462ee40ec76fd66ef8c9b0f6e38f3c5030a503b907651c45bb2c1da8c",
+          "vertices": 7427,
+          "triangles": 14910,
+          "components": 1,
+          "expected_components": 1,
+          "component_volumes_mm3": [
+            297.1382092224488
+          ],
+          "zero_area_triangles": 0,
+          "watertight": true,
+          "winding_consistent": true,
+          "passed": true
+        },
+        {
+          "file": "sphere_R9_L3_stump_layers_03.npz",
+          "sha256": "fd83fbaecd23b81f00bee93c405423e1e0402671a323b2d1e7279204b1de4a68",
+          "vertices": 5227,
+          "triangles": 10494,
+          "components": 1,
+          "expected_components": 1,
+          "component_volumes_mm3": [
+            120.20508695998731
+          ],
+          "zero_area_triangles": 0,
+          "watertight": true,
+          "winding_consistent": true,
+          "passed": true
+        }
+      ],
+      "supported_topology": {
+        "file": "sphere_3layers.npz",
+        "sha256": "8d1a6846a59ae02f95f77c91fb13fb9981c572df8fd3553507a704798baa88b2",
+        "vertices": 50931,
+        "triangles": 102154,
+        "components": 1,
+        "expected_components": 1,
+        "component_volumes_mm3": [
+          1109.5126616843943
+        ],
+        "zero_area_triangles": 0,
+        "watertight": true,
+        "winding_consistent": true,
+        "passed": true
+      },
+      "actual_released_components": 3,
+      "expected_released_components": 3,
+      "layer_envelopes": [
+        {
+          "minimum_surface_radius_mm": 6.872960960411175,
+          "maximum_radius_mm": 9.800800990444884,
+          "maximum_distance_to_axis_mm": 9.747229772937839,
+          "axial_bounds_mm": [
+            -9.78999999910593,
+            9.78999999910593
+          ]
+        },
+        {
+          "minimum_surface_radius_mm": 4.31712779094343,
+          "maximum_radius_mm": 8.022468448052633,
+          "maximum_distance_to_axis_mm": 6.6454871910036495,
+          "axial_bounds_mm": [
+            -8.0,
+            8.0
+          ]
+        },
+        {
+          "minimum_surface_radius_mm": 2.3549999456154675,
+          "maximum_radius_mm": 5.43323108288245,
+          "maximum_distance_to_axis_mm": 4.0490122259377745,
+          "axial_bounds_mm": [
+            -5.4,
+            5.4
+          ]
+        }
+      ],
+      "supported_minus_released_volume_mm3": 3.307540211831864,
+      "released_material_absent_from_supported_mm3": 0.0,
+      "measured_bearings": [
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "side": -1,
+          "actual_mouth_axial_mm": 6.800000000000001,
+          "actual_blind_stop_axial_mm": 8.35,
+          "actual_pin_tip_axial_mm": 8.0,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 1.1999999999999993,
+          "retained_engagement_after_opposite_endplay_mm": 0.8499999999999996,
+          "conservative_tilt_bound_degrees": 3.3727811440784845,
+          "retained_engagement_with_conservative_tilt_mm": 0.7869869419326216,
+          "conservative_center_displacement_per_interface_mm": 0.5412897413270362,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "side": 1,
+          "actual_mouth_axial_mm": 6.800000000000001,
+          "actual_blind_stop_axial_mm": 8.35,
+          "actual_pin_tip_axial_mm": 8.0,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 1.1999999999999993,
+          "retained_engagement_after_opposite_endplay_mm": 0.8499999999999996,
+          "conservative_tilt_bound_degrees": 3.3727811440784845,
+          "retained_engagement_with_conservative_tilt_mm": 0.7869869419326216,
+          "conservative_center_displacement_per_interface_mm": 0.5412897413270362,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "side": -1,
+          "actual_mouth_axial_mm": 4.2,
+          "actual_blind_stop_axial_mm": 5.75,
+          "actual_pin_tip_axial_mm": 5.4,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 1.2000000000000002,
+          "retained_engagement_after_opposite_endplay_mm": 0.8500000000000005,
+          "conservative_tilt_bound_degrees": 5.450508191107287,
+          "retained_engagement_with_conservative_tilt_mm": 0.7441775361844527,
+          "conservative_center_displacement_per_interface_mm": 0.5484429680681241,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "side": 1,
+          "actual_mouth_axial_mm": 4.2,
+          "actual_blind_stop_axial_mm": 5.75,
+          "actual_pin_tip_axial_mm": 5.4,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 1.2000000000000002,
+          "retained_engagement_after_opposite_endplay_mm": 0.8500000000000005,
+          "conservative_tilt_bound_degrees": 5.450508191107287,
+          "retained_engagement_with_conservative_tilt_mm": 0.7441775361844527,
+          "conservative_center_displacement_per_interface_mm": 0.5484429680681241,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        }
+      ],
+      "continuous_rotation": [
+        {
+          "pair": "sphere_3layers layers0/1",
+          "initial_overlap_mm3": 0.0,
+          "sample_count": 77,
+          "angular_step_degrees": 4.675324675324675,
+          "smallest_sample_gap_mm": 0.34999999999999964,
+          "greatest_sample_gap_mm": 0.35000000000000053,
+          "worst_sample_angle_degrees": 0.0,
+          "moving_maximum_distance_to_axis_mm": 6.6454871910036495,
+          "maximum_motion_to_nearest_sample_mm": 0.27111643789958656,
+          "numerical_allowance_mm": 3e-05,
+          "certified_continuous_rotation_gap_mm": 0.07885356210041308,
+          "elapsed_seconds": 2.4924361209996277,
+          "proof": "Each unsampled angle is within half one angular step of a sample; every moving point travels at most2*rho_max*sin(step/4).",
+          "passed": true
+        },
+        {
+          "pair": "sphere_3layers layers1/2",
+          "initial_overlap_mm3": 0.0,
+          "sample_count": 47,
+          "angular_step_degrees": 7.659574468085107,
+          "smallest_sample_gap_mm": 0.34999999999999964,
+          "greatest_sample_gap_mm": 0.35000000000000053,
+          "worst_sample_angle_degrees": 0.0,
+          "moving_maximum_distance_to_axis_mm": 4.0490122259377745,
+          "maximum_motion_to_nearest_sample_mm": 0.2705953008670079,
+          "numerical_allowance_mm": 3e-05,
+          "certified_continuous_rotation_gap_mm": 0.07937469913299175,
+          "elapsed_seconds": 1.2164461899956223,
+          "proof": "Each unsampled angle is within half one angular step of a sample; every moving point travels at most2*rho_max*sin(step/4).",
+          "passed": true
+        }
+      ],
+      "initial_print_connectivity": {
+        "build_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "moving_layers": [
+          {
+            "moving_layer": 1,
+            "first_moving_build_coordinate_mm": -6.44,
+            "early_prefix_checks": [
+              {
+                "height_above_first_moving_material_mm": 0.01,
+                "absolute_build_coordinate_mm": -6.430000000000001,
+                "moving_prefix_volume_mm3": 0.010684050181832964,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.04,
+                "absolute_build_coordinate_mm": -6.4,
+                "moving_prefix_volume_mm3": 0.042736200727330385,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.1,
+                "absolute_build_coordinate_mm": -6.340000000000001,
+                "moving_prefix_volume_mm3": 0.12465013810048789,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              }
+            ],
+            "passed": true
+          },
+          {
+            "moving_layer": 2,
+            "first_moving_build_coordinate_mm": -3.84,
+            "early_prefix_checks": [
+              {
+                "height_above_first_moving_material_mm": 0.01,
+                "absolute_build_coordinate_mm": -3.83,
+                "moving_prefix_volume_mm3": 0.010684050181831974,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.04,
+                "absolute_build_coordinate_mm": -3.8,
+                "moving_prefix_volume_mm3": 0.04273620072732935,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.1,
+                "absolute_build_coordinate_mm": -3.7399999999999998,
+                "moving_prefix_volume_mm3": 0.11712349309347826,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              }
+            ],
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "scope": "Checks captive moving-part startup at0.01,0.04,0.10mm above its first material; this is not a full support or slicer certification."
+      },
+      "nonadjacent_shell_clearance": [
+        {
+          "outer_layer": 0,
+          "inner_layer": 2,
+          "initial_overlap_mm3": 0.0,
+          "centered_all_angle_spherical_separation_bound_mm": 1.439729877528725,
+          "relative_center_displacement_bound_mm": 1.0897738030704365,
+          "surface_export_rounding_allowance_mm": 3e-05,
+          "all_angle_spherical_separation_bound_mm": 0.3499260744582886,
+          "passed": true
+        }
+      ],
+      "release_access_and_extraction": {
+        "declared_sequence": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "wires": [
+          {
+            "wire_index": 0,
+            "host_index": 1,
+            "moving_index": 2,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -0.9437758765517752,
+                  -1.747291604925161,
+                  4.841286930372645
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 7.608713069627355,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.4000002360215217,
+                  "actual_neck_width_mm": 0.393884614109993,
+                  "actual_neck_thickness_mm": 0.39388439804315567,
+                  "actual_neck_cross_section_area_mm2": 0.12245867540473551,
+                  "area_equivalent_circular_diameter_mm": 0.3948660888468349,
+                  "actual_maximum_axial_residue_mm": 0.19999999999999948,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -0.333297074892413,
+                  -0.6170608884742744,
+                  2.540462343705078
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 9.909537656294923,
+                "taper_length_mm": 0.4200000000000004,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.40000008432235845,
+                  "actual_neck_width_mm": 0.3938763812184334,
+                  "actual_neck_thickness_mm": 0.3938763812184334,
+                  "actual_neck_cross_section_area_mm2": 0.12245869242691268,
+                  "area_equivalent_circular_diameter_mm": 0.39486611629070634,
+                  "actual_maximum_axial_residue_mm": 0.2000000000000004,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R9_L3_wire_00_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 22.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.016520581314766213,
+              "adaptive_sweep_groups_checked": 3,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 1,
+            "host_index": 1,
+            "moving_index": 2,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -0.56,
+                  -4.97,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 10.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -0.56,
+                  -3.9899999999999998,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 10.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R9_L3_wire_01_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 22.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 1.2793585635328952e-17,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 2,
+            "host_index": 1,
+            "moving_index": 2,
+            "neck_access": [
+              {
+                "neck_center": [
+                  0.56,
+                  -4.97,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 10.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  0.56,
+                  -3.9899999999999998,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 10.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R9_L3_wire_02_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 22.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 3.2526065174565133e-19,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 3,
+            "host_index": 0,
+            "moving_index": 1,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -2.2591856631202405,
+                  -0.38771355711992267,
+                  7.482584859492054
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 4.967415140507946,
+                "taper_length_mm": 0.4200000000000008,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.4000002841767271,
+                  "actual_neck_width_mm": 0.3940219283103943,
+                  "actual_neck_thickness_mm": 0.39402206987142563,
+                  "actual_neck_cross_section_area_mm2": 0.12245869103371146,
+                  "area_equivalent_circular_diameter_mm": 0.3948661140445287,
+                  "actual_maximum_axial_residue_mm": 0.19999999999999846,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -1.6411264116227868,
+                  -0.25609279674637814,
+                  4.955058124081827
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 7.494941875918173,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.4000002755252292,
+                  "actual_neck_width_mm": 0.39290325343608856,
+                  "actual_neck_thickness_mm": 0.39290305227041245,
+                  "actual_neck_cross_section_area_mm2": 0.12245871112874182,
+                  "area_equivalent_circular_diameter_mm": 0.3948661464425813,
+                  "actual_maximum_axial_residue_mm": 0.1999999999999991,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R9_L3_wire_03_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 22.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 2.9027819102404873e-18,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.00036201518970352457,
+              "adaptive_sweep_groups_checked": 3,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 4,
+            "host_index": 0,
+            "moving_index": 1,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -0.56,
+                  -7.569999999999999,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 10.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -0.56,
+                  -6.590000000000001,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 10.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R9_L3_wire_04_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 22.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 2.168404344971009e-18,
+              "coarse_convex_hull_obstruction_volume_mm3": 6.7220534694101275e-18,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 5,
+            "host_index": 0,
+            "moving_index": 1,
+            "neck_access": [
+              {
+                "neck_center": [
+                  0.56,
+                  -7.569999999999999,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 10.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  0.56,
+                  -6.590000000000001,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 10.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R9_L3_wire_05_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 22.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          }
+        ],
+        "passed": true
+      },
+      "support_projection_separation": {
+        "metadata_file": "sphere_3layers.json",
+        "metadata_sha256": "f7bdcdc9530344f993dcbef0dd2d281098448436b55a6cfcce84b9859da6646a",
+        "wire_count": 6,
+        "pair_count": 15,
+        "closest_pair": {
+          "wires": [
+            1,
+            2
+          ],
+          "projected_gap_lower_bound_mm": 0.29999999701976776
+        },
+        "smallest_projected_gap_after_export_allowance_mm": 0.2999699970197678,
+        "minimum_required_projected_gap_mm": 0.2,
+        "gap_search_limit_mm": 0.3,
+        "passed": true,
+        "proof": "Positive-fill XY projections of complete actual wire meshes are extruded to a common slab. Their separation is unchanged by any relative translation along Z and therefore bounds wire-to-wire extraction clearance continuously."
+      },
+      "moving_centered_radius_bound_mm": 8.022468448052633,
+      "moving_radius_including_conservative_play_mm": 8.563778472852578,
+      "measured_play_bounds_by_interface": [
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "source_measured_center_displacement_bound_mm": 0.5412897413270362,
+          "float32_padded_center_displacement_bound_mm": 0.5413100247999453,
+          "opposed_bearing_sides": [
+            -1,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "source_measured_center_displacement_bound_mm": 0.5484429680681241,
+          "float32_padded_center_displacement_bound_mm": 0.5484637782704912,
+          "opposed_bearing_sides": [
+            -1,
+            1
+          ],
+          "passed": true
+        }
+      ],
+      "cumulative_play_allowance_by_layer_mm": [
+        0.0,
+        0.5413100247999453,
+        1.0897738030704365
+      ],
+      "play_bounds_valid": true,
+      "play_allowance_per_nested_interface_mm": 0.5484637782704912,
+      "play_allowance_method": "Maximum of opposed measured journal bounds per interface, including export rounding; accumulated along each nested parent-child chain.",
+      "float32_export_allowance_mm": 3e-05,
+      "elapsed_seconds": 7.080390843999339,
+      "passed": true,
+      "scope": [
+        "The motion certificate includes the actual maximum retained breakaway stumps supplied in each layer mesh.",
+        "Centered continuous360degree relative rotation is certified for adjacent layers; independent rotations compose because they share one axis.",
+        "Bearing retention uses measured tip/stop/mouth coordinates with conservative opposite-endplay and tilt allowances.",
+        "Wall envelopes and nonadjacent spherical separation include the cumulative measured relative centre displacement along the intervening bearing chain.",
+        "Tool access and extraction apply to the declared aligned print orientation and declared release order.",
+        "Manufacturing tolerances, cured-resin friction and actual fracture behaviour still depend on the selected resin and printer."
+      ]
+    },
+    {
+      "metadata_file": "sphere_4layers.json",
+      "metadata_sha256": "c02bab3a51a567dec0563b2e277365d90545a083ca2e57caa0cf8d5e0d804d99",
+      "layer_count": 4,
+      "source_cache": "/workspace/scratch/82b34969b609/penholder_v5_20261025/project/cache/spheres",
+      "certificate_mesh_scope": "Actual source-module meshes named and hashed below. Whole-holder exported topology is audited separately; these geometry certificates transfer through rigid assembly when mechanism surfaces are preserved apart from bounded coordinate rounding.",
+      "axis_unit_vector": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "actual_with_stumps_layer_topology": [
+        {
+          "file": "sphere_R11_L4_stump_layers_01.npz",
+          "sha256": "ffba94af8bfc2f0ced62428b62240be88367348bf37c1ca485bbd82d036d6790",
+          "vertices": 37061,
+          "triangles": 74294,
+          "components": 1,
+          "expected_components": 1,
+          "component_volumes_mm3": [
+            925.1059026985846
+          ],
+          "zero_area_triangles": 0,
+          "watertight": true,
+          "winding_consistent": true,
+          "passed": true
+        },
+        {
+          "file": "sphere_R11_L4_stump_layers_02.npz",
+          "sha256": "0530d6ddaeda30a33b5688b98b380886907cad13a1cb4160e63a66a12649a9d1",
+          "vertices": 7579,
+          "triangles": 15214,
+          "components": 1,
+          "expected_components": 1,
+          "component_volumes_mm3": [
+            470.2317451934465
+          ],
+          "zero_area_triangles": 0,
+          "watertight": true,
+          "winding_consistent": true,
+          "passed": true
+        },
+        {
+          "file": "sphere_R11_L4_stump_layers_03.npz",
+          "sha256": "a98e0e5437afd452cf2d1b7ac91df225f22bb061ff08789ef0ef1f135a2ae5d0",
+          "vertices": 7418,
+          "triangles": 14900,
+          "components": 1,
+          "expected_components": 1,
+          "component_volumes_mm3": [
+            275.73381408726306
+          ],
+          "zero_area_triangles": 0,
+          "watertight": true,
+          "winding_consistent": true,
+          "passed": true
+        },
+        {
+          "file": "sphere_R11_L4_stump_layers_04.npz",
+          "sha256": "0cf12fc9292c1eed51b280c8bf6d942239d6529a30d89012068eba81792f5e1c",
+          "vertices": 5141,
+          "triangles": 10322,
+          "components": 1,
+          "expected_components": 1,
+          "component_volumes_mm3": [
+            119.80540474776404
+          ],
+          "zero_area_triangles": 0,
+          "watertight": true,
+          "winding_consistent": true,
+          "passed": true
+        }
+      ],
+      "supported_topology": {
+        "file": "sphere_4layers.npz",
+        "sha256": "c2ae19748d5bdb2ba227c7f985ef67b8f3f8ebf8241f4105addb7c0f19f7fc34",
+        "vertices": 59456,
+        "triangles": 119280,
+        "components": 1,
+        "expected_components": 1,
+        "component_volumes_mm3": [
+          1795.0676903052
+        ],
+        "zero_area_triangles": 0,
+        "watertight": true,
+        "winding_consistent": true,
+        "passed": true
+      },
+      "actual_released_components": 4,
+      "expected_released_components": 4,
+      "layer_envelopes": [
+        {
+          "minimum_surface_radius_mm": 9.055252197666064,
+          "maximum_radius_mm": 11.798970295714797,
+          "maximum_distance_to_axis_mm": 11.734432810703874,
+          "axial_bounds_mm": [
+            -11.78999999910593,
+            11.78999999910593
+          ]
+        },
+        {
+          "minimum_surface_radius_mm": 6.675147366413427,
+          "maximum_radius_mm": 10.017983829094556,
+          "maximum_distance_to_axis_mm": 8.844122342312636,
+          "axial_bounds_mm": [
+            -10.0,
+            10.0
+          ]
+        },
+        {
+          "minimum_surface_radius_mm": 4.31712779094343,
+          "maximum_radius_mm": 7.623647421018367,
+          "maximum_distance_to_axis_mm": 6.445657453339696,
+          "axial_bounds_mm": [
+            -7.6,
+            7.6
+          ]
+        },
+        {
+          "minimum_surface_radius_mm": 2.3549999571475553,
+          "maximum_radius_mm": 5.2345009313209605,
+          "maximum_distance_to_axis_mm": 4.0490122259377745,
+          "axial_bounds_mm": [
+            -5.2,
+            5.2
+          ]
+        }
+      ],
+      "supported_minus_released_volume_mm3": 4.190823578142094,
+      "released_material_absent_from_supported_mm3": 2.5756908630962445e-13,
+      "measured_bearings": [
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "side": -1,
+          "actual_mouth_axial_mm": 9.0,
+          "actual_blind_stop_axial_mm": 10.35,
+          "actual_pin_tip_axial_mm": 10.0,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 1.0,
+          "retained_engagement_after_opposite_endplay_mm": 0.6500000000000004,
+          "conservative_tilt_bound_degrees": 2.549586944498211,
+          "retained_engagement_with_conservative_tilt_mm": 0.6035115344128672,
+          "conservative_center_displacement_per_interface_mm": 0.5386372285924255,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "side": 1,
+          "actual_mouth_axial_mm": 9.0,
+          "actual_blind_stop_axial_mm": 10.35,
+          "actual_pin_tip_axial_mm": 10.0,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 1.0,
+          "retained_engagement_after_opposite_endplay_mm": 0.6500000000000004,
+          "conservative_tilt_bound_degrees": 2.549586944498211,
+          "retained_engagement_with_conservative_tilt_mm": 0.6035115344128672,
+          "conservative_center_displacement_per_interface_mm": 0.5386372285924255,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "side": -1,
+          "actual_mouth_axial_mm": 6.6000000000000005,
+          "actual_blind_stop_axial_mm": 7.949999999999999,
+          "actual_pin_tip_axial_mm": 7.6,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 0.9999999999999991,
+          "retained_engagement_after_opposite_endplay_mm": 0.6499999999999995,
+          "conservative_tilt_bound_degrees": 3.4747398854424096,
+          "retained_engagement_with_conservative_tilt_mm": 0.5856914732481716,
+          "conservative_center_displacement_per_interface_mm": 0.5413669388458213,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "side": 1,
+          "actual_mouth_axial_mm": 6.6000000000000005,
+          "actual_blind_stop_axial_mm": 7.949999999999999,
+          "actual_pin_tip_axial_mm": 7.6,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 0.9999999999999991,
+          "retained_engagement_after_opposite_endplay_mm": 0.6499999999999995,
+          "conservative_tilt_bound_degrees": 3.4747398854424096,
+          "retained_engagement_with_conservative_tilt_mm": 0.5856914732481716,
+          "conservative_center_displacement_per_interface_mm": 0.5413669388458213,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 2,
+          "moving_index": 3,
+          "side": -1,
+          "actual_mouth_axial_mm": 4.2,
+          "actual_blind_stop_axial_mm": 5.55,
+          "actual_pin_tip_axial_mm": 5.2,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 1.0,
+          "retained_engagement_after_opposite_endplay_mm": 0.6500000000000004,
+          "conservative_tilt_bound_degrees": 5.450508191107287,
+          "retained_engagement_with_conservative_tilt_mm": 0.5459860889496315,
+          "conservative_center_displacement_per_interface_mm": 0.547826027876941,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 2,
+          "moving_index": 3,
+          "side": 1,
+          "actual_mouth_axial_mm": 4.2,
+          "actual_blind_stop_axial_mm": 5.55,
+          "actual_pin_tip_axial_mm": 5.2,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 1.0,
+          "retained_engagement_after_opposite_endplay_mm": 0.6500000000000004,
+          "conservative_tilt_bound_degrees": 5.450508191107287,
+          "retained_engagement_with_conservative_tilt_mm": 0.5459860889496315,
+          "conservative_center_displacement_per_interface_mm": 0.547826027876941,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        }
+      ],
+      "continuous_rotation": [
+        {
+          "pair": "sphere_4layers layers0/1",
+          "initial_overlap_mm3": 0.0,
+          "sample_count": 102,
+          "angular_step_degrees": 3.5294117647058822,
+          "smallest_sample_gap_mm": 0.34999999999999964,
+          "greatest_sample_gap_mm": 0.3500000000000014,
+          "worst_sample_angle_degrees": 0.0,
+          "moving_maximum_distance_to_axis_mm": 8.844122342312636,
+          "maximum_motion_to_nearest_sample_mm": 0.2723875643374311,
+          "numerical_allowance_mm": 3e-05,
+          "certified_continuous_rotation_gap_mm": 0.07758243566256853,
+          "elapsed_seconds": 3.7485859349981183,
+          "proof": "Each unsampled angle is within half one angular step of a sample; every moving point travels at most2*rho_max*sin(step/4).",
+          "passed": true
+        },
+        {
+          "pair": "sphere_4layers layers1/2",
+          "initial_overlap_mm3": 0.0,
+          "sample_count": 75,
+          "angular_step_degrees": 4.8,
+          "smallest_sample_gap_mm": 0.34999999999999964,
+          "greatest_sample_gap_mm": 0.35000000000000053,
+          "worst_sample_angle_degrees": 0.0,
+          "moving_maximum_distance_to_axis_mm": 6.445657453339696,
+          "maximum_motion_to_nearest_sample_mm": 0.26997532962425846,
+          "numerical_allowance_mm": 3e-05,
+          "certified_continuous_rotation_gap_mm": 0.07999467037574118,
+          "elapsed_seconds": 2.099623189002159,
+          "proof": "Each unsampled angle is within half one angular step of a sample; every moving point travels at most2*rho_max*sin(step/4).",
+          "passed": true
+        },
+        {
+          "pair": "sphere_4layers layers2/3",
+          "initial_overlap_mm3": 0.0,
+          "sample_count": 47,
+          "angular_step_degrees": 7.659574468085107,
+          "smallest_sample_gap_mm": 0.34999999999999964,
+          "greatest_sample_gap_mm": 0.35000000000000053,
+          "worst_sample_angle_degrees": 0.0,
+          "moving_maximum_distance_to_axis_mm": 4.0490122259377745,
+          "maximum_motion_to_nearest_sample_mm": 0.2705953008670079,
+          "numerical_allowance_mm": 3e-05,
+          "certified_continuous_rotation_gap_mm": 0.07937469913299175,
+          "elapsed_seconds": 1.3556545020037447,
+          "proof": "Each unsampled angle is within half one angular step of a sample; every moving point travels at most2*rho_max*sin(step/4).",
+          "passed": true
+        }
+      ],
+      "initial_print_connectivity": {
+        "build_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "moving_layers": [
+          {
+            "moving_layer": 1,
+            "first_moving_build_coordinate_mm": -8.639999999999999,
+            "early_prefix_checks": [
+              {
+                "height_above_first_moving_material_mm": 0.01,
+                "absolute_build_coordinate_mm": -8.629999999999999,
+                "moving_prefix_volume_mm3": 0.01068405018182823,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.04,
+                "absolute_build_coordinate_mm": -8.6,
+                "moving_prefix_volume_mm3": 0.042736200727325806,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.1,
+                "absolute_build_coordinate_mm": -8.54,
+                "moving_prefix_volume_mm3": 0.12716214609908447,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              }
+            ],
+            "passed": true
+          },
+          {
+            "moving_layer": 2,
+            "first_moving_build_coordinate_mm": -6.24,
+            "early_prefix_checks": [
+              {
+                "height_above_first_moving_material_mm": 0.01,
+                "absolute_build_coordinate_mm": -6.23,
+                "moving_prefix_volume_mm3": 0.010684050181831965,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.04,
+                "absolute_build_coordinate_mm": -6.2,
+                "moving_prefix_volume_mm3": 0.04273620072732939,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.1,
+                "absolute_build_coordinate_mm": -6.140000000000001,
+                "moving_prefix_volume_mm3": 0.12272373813709643,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              }
+            ],
+            "passed": true
+          },
+          {
+            "moving_layer": 3,
+            "first_moving_build_coordinate_mm": -3.84,
+            "early_prefix_checks": [
+              {
+                "height_above_first_moving_material_mm": 0.01,
+                "absolute_build_coordinate_mm": -3.83,
+                "moving_prefix_volume_mm3": 0.010684050181831939,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.04,
+                "absolute_build_coordinate_mm": -3.8,
+                "moving_prefix_volume_mm3": 0.04273620072732933,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.1,
+                "absolute_build_coordinate_mm": -3.7399999999999998,
+                "moving_prefix_volume_mm3": 0.11712280091347993,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              }
+            ],
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "scope": "Checks captive moving-part startup at0.01,0.04,0.10mm above its first material; this is not a full support or slicer certification."
+      },
+      "nonadjacent_shell_clearance": [
+        {
+          "outer_layer": 0,
+          "inner_layer": 2,
+          "initial_overlap_mm3": 0.0,
+          "centered_all_angle_spherical_separation_bound_mm": 1.4316047766476974,
+          "relative_center_displacement_bound_mm": 1.0800445690484746,
+          "surface_export_rounding_allowance_mm": 3e-05,
+          "all_angle_spherical_separation_bound_mm": 0.3515302075992228,
+          "passed": true
+        },
+        {
+          "outer_layer": 0,
+          "inner_layer": 3,
+          "initial_overlap_mm3": 0.0,
+          "centered_all_angle_spherical_separation_bound_mm": 3.8207512663451038,
+          "relative_center_displacement_bound_mm": 1.6278913715002243,
+          "surface_export_rounding_allowance_mm": 3e-05,
+          "all_angle_spherical_separation_bound_mm": 2.1928298948448792,
+          "passed": true
+        },
+        {
+          "outer_layer": 1,
+          "inner_layer": 3,
+          "initial_overlap_mm3": 0.0,
+          "centered_all_angle_spherical_separation_bound_mm": 1.4406464350924661,
+          "relative_center_displacement_bound_mm": 1.0892340335930897,
+          "surface_export_rounding_allowance_mm": 3e-05,
+          "all_angle_spherical_separation_bound_mm": 0.3513824014993765,
+          "passed": true
+        }
+      ],
+      "release_access_and_extraction": {
+        "declared_sequence": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "wires": [
+          {
+            "wire_index": 0,
+            "host_index": 2,
+            "moving_index": 3,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -0.8569987145246515,
+                  -1.7002397174047874,
+                  4.6588129503836475
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 9.791187049616353,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.4000001105992818,
+                  "actual_neck_width_mm": 0.39286086708307266,
+                  "actual_neck_thickness_mm": 0.39286085218191147,
+                  "actual_neck_cross_section_area_mm2": 0.12245867443493011,
+                  "area_equivalent_circular_diameter_mm": 0.3948660872832737,
+                  "actual_maximum_axial_residue_mm": 0.19999999999999937,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -0.31566562580264906,
+                  -0.6262637566577856,
+                  2.540462343705078
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 11.909537656294923,
+                "taper_length_mm": 0.4200000000000004,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.4000000909231003,
+                  "actual_neck_width_mm": 0.3946515917778015,
+                  "actual_neck_thickness_mm": 0.3946515843272209,
+                  "actual_neck_cross_section_area_mm2": 0.12245869594257366,
+                  "area_equivalent_circular_diameter_mm": 0.3948661219588029,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000065,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R11_L4_wire_00_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 26.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 1.9608812728937053e-18,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.017384446382616218,
+              "adaptive_sweep_groups_checked": 3,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 1,
+            "host_index": 2,
+            "moving_index": 3,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -0.56,
+                  -4.77,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 12.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.1999999999999993,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -0.56,
+                  -3.9899999999999998,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 12.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R11_L4_wire_01_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 26.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 6.505213034913027e-19,
+              "coarse_convex_hull_obstruction_volume_mm3": 4.336808689942018e-19,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 2,
+            "host_index": 2,
+            "moving_index": 3,
+            "neck_access": [
+              {
+                "neck_center": [
+                  0.56,
+                  -4.77,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 12.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.1999999999999993,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  0.56,
+                  -3.9899999999999998,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 12.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R11_L4_wire_02_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 26.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 3,
+            "host_index": 1,
+            "moving_index": 2,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -2.4941413590817474,
+                  -0.5143883256308253,
+                  6.97377205536003
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 7.47622794463997,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.4000001622459098,
+                  "actual_neck_width_mm": 0.3924243748188019,
+                  "actual_neck_thickness_mm": 0.392424501478672,
+                  "actual_neck_cross_section_area_mm2": 0.12245871540958692,
+                  "area_equivalent_circular_diameter_mm": 0.39486615334433933,
+                  "actual_maximum_axial_residue_mm": 0.19999999999999954,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -1.5634655436110896,
+                  -0.28897734008317527,
+                  4.767356076005294
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 9.682643923994707,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.40000015589992777,
+                  "actual_neck_width_mm": 0.39283573627471924,
+                  "actual_neck_thickness_mm": 0.39283569157123566,
+                  "actual_neck_cross_section_area_mm2": 0.12245871491455637,
+                  "area_equivalent_circular_diameter_mm": 0.3948661525462303,
+                  "actual_maximum_axial_residue_mm": 0.19999999999999962,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R11_L4_wire_03_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 26.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 3.7269449679189215e-20,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0019774408169358905,
+              "adaptive_sweep_groups_checked": 3,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 4,
+            "host_index": 1,
+            "moving_index": 2,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -0.56,
+                  -7.169999999999999,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 12.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -0.56,
+                  -6.390000000000001,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 12.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R11_L4_wire_04_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 26.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 8.673617379884035e-19,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 5,
+            "host_index": 1,
+            "moving_index": 2,
+            "neck_access": [
+              {
+                "neck_center": [
+                  0.56,
+                  -7.169999999999999,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 12.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  0.56,
+                  -6.390000000000001,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 12.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R11_L4_wire_05_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 26.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 6,
+            "host_index": 0,
+            "moving_index": 1,
+            "neck_access": [
+              {
+                "neck_center": [
+                  3.131003818201302,
+                  -0.5728181532663656,
+                  9.295024859466476
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 5.154975140533523,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.400000272100772,
+                  "actual_neck_width_mm": 0.3930870294570923,
+                  "actual_neck_thickness_mm": 0.3930870071053505,
+                  "actual_neck_cross_section_area_mm2": 0.12245866584922824,
+                  "area_equivalent_circular_diameter_mm": 0.3948660734410425,
+                  "actual_maximum_axial_residue_mm": 0.1999999999999998,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  2.486429309042468,
+                  -0.43564673128800296,
+                  6.982687512265209
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 7.467312487734791,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.40000031832867516,
+                  "actual_neck_width_mm": 0.39239002019166946,
+                  "actual_neck_thickness_mm": 0.39239031076431274,
+                  "actual_neck_cross_section_area_mm2": 0.12245870595589001,
+                  "area_equivalent_circular_diameter_mm": 0.39486613810269244,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000048,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R11_L4_wire_06_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 26.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.00021713887632055453,
+              "adaptive_sweep_groups_checked": 3,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 7,
+            "host_index": 0,
+            "moving_index": 1,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -0.56,
+                  -9.57,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 12.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000107,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -0.56,
+                  -8.79,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 12.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.1999999999999993,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R11_L4_wire_07_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 26.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 8,
+            "host_index": 0,
+            "moving_index": 1,
+            "neck_access": [
+              {
+                "neck_center": [
+                  0.56,
+                  -9.57,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 12.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000107,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  0.56,
+                  -8.79,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 12.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.1999999999999993,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R11_L4_wire_08_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 26.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 5.204170427930421e-18,
+              "coarse_convex_hull_obstruction_volume_mm3": 1.3010426069826053e-18,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          }
+        ],
+        "passed": true
+      },
+      "support_projection_separation": {
+        "metadata_file": "sphere_4layers.json",
+        "metadata_sha256": "c02bab3a51a567dec0563b2e277365d90545a083ca2e57caa0cf8d5e0d804d99",
+        "wire_count": 9,
+        "pair_count": 36,
+        "closest_pair": {
+          "wires": [
+            1,
+            2
+          ],
+          "projected_gap_lower_bound_mm": 0.29999999701976776
+        },
+        "smallest_projected_gap_after_export_allowance_mm": 0.2999699970197678,
+        "minimum_required_projected_gap_mm": 0.2,
+        "gap_search_limit_mm": 0.3,
+        "passed": true,
+        "proof": "Positive-fill XY projections of complete actual wire meshes are extruded to a common slab. Their separation is unchanged by any relative translation along Z and therefore bounds wire-to-wire extraction clearance continuously."
+      },
+      "moving_centered_radius_bound_mm": 10.017983829094556,
+      "moving_radius_including_conservative_play_mm": 10.55664116700169,
+      "measured_play_bounds_by_interface": [
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "source_measured_center_displacement_bound_mm": 0.5386372285924255,
+          "float32_padded_center_displacement_bound_mm": 0.5386573379071348,
+          "opposed_bearing_sides": [
+            -1,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "source_measured_center_displacement_bound_mm": 0.5413669388458213,
+          "float32_padded_center_displacement_bound_mm": 0.5413872311413397,
+          "opposed_bearing_sides": [
+            -1,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "host_index": 2,
+          "moving_index": 3,
+          "source_measured_center_displacement_bound_mm": 0.547826027876941,
+          "float32_padded_center_displacement_bound_mm": 0.54784680245175,
+          "opposed_bearing_sides": [
+            -1,
+            1
+          ],
+          "passed": true
+        }
+      ],
+      "cumulative_play_allowance_by_layer_mm": [
+        0.0,
+        0.5386573379071348,
+        1.0800445690484746,
+        1.6278913715002246
+      ],
+      "play_bounds_valid": true,
+      "play_allowance_per_nested_interface_mm": 0.54784680245175,
+      "play_allowance_method": "Maximum of opposed measured journal bounds per interface, including export rounding; accumulated along each nested parent-child chain.",
+      "float32_export_allowance_mm": 3e-05,
+      "elapsed_seconds": 12.92802151399519,
+      "passed": true,
+      "scope": [
+        "The motion certificate includes the actual maximum retained breakaway stumps supplied in each layer mesh.",
+        "Centered continuous360degree relative rotation is certified for adjacent layers; independent rotations compose because they share one axis.",
+        "Bearing retention uses measured tip/stop/mouth coordinates with conservative opposite-endplay and tilt allowances.",
+        "Wall envelopes and nonadjacent spherical separation include the cumulative measured relative centre displacement along the intervening bearing chain.",
+        "Tool access and extraction apply to the declared aligned print orientation and declared release order.",
+        "Manufacturing tolerances, cured-resin friction and actual fracture behaviour still depend on the selected resin and printer."
+      ]
+    },
+    {
+      "metadata_file": "sphere_5layers.json",
+      "metadata_sha256": "8aefb95f2b9e0832273252d4ba382837d79bdc5c8cf44039e286c87439d8a9c9",
+      "layer_count": 5,
+      "source_cache": "/workspace/scratch/82b34969b609/penholder_v5_20261025/project/cache/spheres",
+      "certificate_mesh_scope": "Actual source-module meshes named and hashed below. Whole-holder exported topology is audited separately; these geometry certificates transfer through rigid assembly when mechanism surfaces are preserved apart from bounded coordinate rounding.",
+      "axis_unit_vector": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "actual_with_stumps_layer_topology": [
+        {
+          "file": "sphere_R13_L5_stump_layers_01.npz",
+          "sha256": "83f8b0e1d459d6f23caf09aeba76fad9328c8be2dfd174b045c072779f9288d6",
+          "vertices": 37411,
+          "triangles": 74954,
+          "components": 1,
+          "expected_components": 1,
+          "component_volumes_mm3": [
+            1255.5536640085602
+          ],
+          "zero_area_triangles": 0,
+          "watertight": true,
+          "winding_consistent": true,
+          "passed": true
+        },
+        {
+          "file": "sphere_R13_L5_stump_layers_02.npz",
+          "sha256": "4b26f9a07e50b313f5766bdb13b05d29e50081c650e62a583cbbc6f3e72a170d",
+          "vertices": 8566,
+          "triangles": 17192,
+          "components": 1,
+          "expected_components": 1,
+          "component_volumes_mm3": [
+            735.6185717787525
+          ],
+          "zero_area_triangles": 0,
+          "watertight": true,
+          "winding_consistent": true,
+          "passed": true
+        },
+        {
+          "file": "sphere_R13_L5_stump_layers_03.npz",
+          "sha256": "806c99b722a6f87bd3dc2d480d2b54881d995a1c495538085710a1a960618d33",
+          "vertices": 7618,
+          "triangles": 15292,
+          "components": 1,
+          "expected_components": 1,
+          "component_volumes_mm3": [
+            447.7720813052429
+          ],
+          "zero_area_triangles": 0,
+          "watertight": true,
+          "winding_consistent": true,
+          "passed": true
+        },
+        {
+          "file": "sphere_R13_L5_stump_layers_04.npz",
+          "sha256": "476ac006cea96919059e623c3a55a487db38077e8057d9754848f360a9da59ad",
+          "vertices": 7438,
+          "triangles": 14936,
+          "components": 1,
+          "expected_components": 1,
+          "component_volumes_mm3": [
+            264.9745305765017
+          ],
+          "zero_area_triangles": 0,
+          "watertight": true,
+          "winding_consistent": true,
+          "passed": true
+        },
+        {
+          "file": "sphere_R13_L5_stump_layers_05.npz",
+          "sha256": "b371d6811c20347a05a7a8e4c936dce06bf3eb7903ca0344da58d9dd21bb81c3",
+          "vertices": 5156,
+          "triangles": 10352,
+          "components": 1,
+          "expected_components": 1,
+          "component_volumes_mm3": [
+            119.65429398855947
+          ],
+          "zero_area_triangles": 0,
+          "watertight": true,
+          "winding_consistent": true,
+          "passed": true
+        }
+      ],
+      "supported_topology": {
+        "file": "sphere_5layers.npz",
+        "sha256": "c313b0ab8bb215a860fe5a06af40b47d4281e32fd03d0c397812352a09933b83",
+        "vertices": 69300,
+        "triangles": 138996,
+        "components": 1,
+        "expected_components": 1,
+        "component_volumes_mm3": [
+          2828.6350784011433
+        ],
+        "zero_area_triangles": 0,
+        "watertight": true,
+        "winding_consistent": true,
+        "passed": true
+      },
+      "actual_released_components": 5,
+      "expected_released_components": 5,
+      "layer_envelopes": [
+        {
+          "minimum_surface_radius_mm": 11.144845999982955,
+          "maximum_radius_mm": 13.797670094541884,
+          "maximum_distance_to_axis_mm": 13.722169256715143,
+          "axial_bounds_mm": [
+            -13.78999999910593,
+            13.78999999910593
+          ]
+        },
+        {
+          "minimum_surface_radius_mm": 8.85650000639847,
+          "maximum_radius_mm": 12.014990636700473,
+          "maximum_distance_to_axis_mm": 10.943331302934839,
+          "axial_bounds_mm": [
+            -12.0,
+            12.0
+          ]
+        },
+        {
+          "minimum_surface_radius_mm": 6.576290167209481,
+          "maximum_radius_mm": 9.718538984847465,
+          "maximum_distance_to_axis_mm": 8.644217720869458,
+          "axial_bounds_mm": [
+            -9.7,
+            9.7
+          ]
+        },
+        {
+          "minimum_surface_radius_mm": 4.31712779094343,
+          "maximum_radius_mm": 7.424284477308235,
+          "maximum_distance_to_axis_mm": 6.345746607436637,
+          "axial_bounds_mm": [
+            -7.4,
+            7.4
+          ]
+        },
+        {
+          "minimum_surface_radius_mm": 2.3553939495698337,
+          "maximum_radius_mm": 5.135172830587107,
+          "maximum_distance_to_axis_mm": 4.0490122259377745,
+          "axial_bounds_mm": [
+            -5.1000000000000005,
+            5.1000000000000005
+          ]
+        }
+      ],
+      "supported_minus_released_volume_mm3": 5.061936743526633,
+      "released_material_absent_from_supported_mm3": 5.862597372262765e-17,
+      "measured_bearings": [
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "side": -1,
+          "actual_mouth_axial_mm": 11.1,
+          "actual_blind_stop_axial_mm": 12.35,
+          "actual_pin_tip_axial_mm": 12.0,
+          "actual_minimum_bore_radius_mm": 0.9987954562051723,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231032,
+          "conservative_maximum_radial_play_mm": 0.40075273023604996,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051722,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 0.9000000000000004,
+          "retained_engagement_after_opposite_endplay_mm": 0.5500000000000007,
+          "conservative_tilt_bound_degrees": 2.0677001092585576,
+          "retained_engagement_with_conservative_tilt_mm": 0.5127252144401966,
+          "conservative_center_displacement_per_interface_mm": 0.5372458481953779,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "side": 1,
+          "actual_mouth_axial_mm": 11.1,
+          "actual_blind_stop_axial_mm": 12.35,
+          "actual_pin_tip_axial_mm": 12.0,
+          "actual_minimum_bore_radius_mm": 0.9987954562051723,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051722,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 0.9000000000000004,
+          "retained_engagement_after_opposite_endplay_mm": 0.5500000000000007,
+          "conservative_tilt_bound_degrees": 2.067700109258557,
+          "retained_engagement_with_conservative_tilt_mm": 0.5127252144401966,
+          "conservative_center_displacement_per_interface_mm": 0.5372458481953778,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "side": -1,
+          "actual_mouth_axial_mm": 8.8,
+          "actual_blind_stop_axial_mm": 10.049999999999999,
+          "actual_pin_tip_axial_mm": 9.7,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 0.8999999999999986,
+          "retained_engagement_after_opposite_endplay_mm": 0.5499999999999989,
+          "conservative_tilt_bound_degrees": 2.6074530177588624,
+          "retained_engagement_with_conservative_tilt_mm": 0.5026186542617322,
+          "conservative_center_displacement_per_interface_mm": 0.5387332952814617,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "side": 1,
+          "actual_mouth_axial_mm": 8.8,
+          "actual_blind_stop_axial_mm": 10.049999999999999,
+          "actual_pin_tip_axial_mm": 9.7,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 0.8999999999999986,
+          "retained_engagement_after_opposite_endplay_mm": 0.5499999999999989,
+          "conservative_tilt_bound_degrees": 2.6074530177588624,
+          "retained_engagement_with_conservative_tilt_mm": 0.5026186542617322,
+          "conservative_center_displacement_per_interface_mm": 0.5387332952814617,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 2,
+          "moving_index": 3,
+          "side": -1,
+          "actual_mouth_axial_mm": 6.500000000000001,
+          "actual_blind_stop_axial_mm": 7.75,
+          "actual_pin_tip_axial_mm": 7.4,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 0.8999999999999995,
+          "retained_engagement_after_opposite_endplay_mm": 0.5499999999999998,
+          "conservative_tilt_bound_degrees": 3.528063415478474,
+          "retained_engagement_with_conservative_tilt_mm": 0.48502825171814024,
+          "conservative_center_displacement_per_interface_mm": 0.5414025265604445,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 2,
+          "moving_index": 3,
+          "side": 1,
+          "actual_mouth_axial_mm": 6.500000000000001,
+          "actual_blind_stop_axial_mm": 7.75,
+          "actual_pin_tip_axial_mm": 7.4,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 0.8999999999999995,
+          "retained_engagement_after_opposite_endplay_mm": 0.5499999999999998,
+          "conservative_tilt_bound_degrees": 3.528063415478474,
+          "retained_engagement_with_conservative_tilt_mm": 0.48502825171814024,
+          "conservative_center_displacement_per_interface_mm": 0.5414025265604445,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 3,
+          "moving_index": 4,
+          "side": -1,
+          "actual_mouth_axial_mm": 4.2,
+          "actual_blind_stop_axial_mm": 5.45,
+          "actual_pin_tip_axial_mm": 5.1000000000000005,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 0.9000000000000004,
+          "retained_engagement_after_opposite_endplay_mm": 0.5500000000000007,
+          "conservative_tilt_bound_degrees": 5.450508191107287,
+          "retained_engagement_with_conservative_tilt_mm": 0.4468903653322215,
+          "conservative_center_displacement_per_interface_mm": 0.5475178571556235,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        },
+        {
+          "host_index": 3,
+          "moving_index": 4,
+          "side": 1,
+          "actual_mouth_axial_mm": 4.2,
+          "actual_blind_stop_axial_mm": 5.45,
+          "actual_pin_tip_axial_mm": 5.1000000000000005,
+          "actual_minimum_bore_radius_mm": 0.9987954562051722,
+          "actual_maximum_pin_radius_mm": 0.6000000000000001,
+          "actual_maximum_bore_mouth_radius_mm": 1.0000000039591532,
+          "actual_minimum_pin_radius_mm": 0.5992772737231034,
+          "conservative_maximum_radial_play_mm": 0.40075273023604985,
+          "all_angle_radial_clearance_bound_mm": 0.3987954562051721,
+          "axial_endplay_mm": 0.34999999999999964,
+          "engagement_mm": 0.9000000000000004,
+          "retained_engagement_after_opposite_endplay_mm": 0.5500000000000007,
+          "conservative_tilt_bound_degrees": 5.450508191107287,
+          "retained_engagement_with_conservative_tilt_mm": 0.4468903653322215,
+          "conservative_center_displacement_per_interface_mm": 0.5475178571556235,
+          "declared_geometry_maximum_error_mm": 0.0,
+          "passed": true
+        }
+      ],
+      "continuous_rotation": [
+        {
+          "pair": "sphere_5layers layers0/1",
+          "initial_overlap_mm3": 0.0,
+          "sample_count": 126,
+          "angular_step_degrees": 2.857142857142857,
+          "smallest_sample_gap_mm": 0.34999999999999964,
+          "greatest_sample_gap_mm": 0.3500000000000014,
+          "worst_sample_angle_degrees": 0.0,
+          "moving_maximum_distance_to_axis_mm": 10.943331302934839,
+          "maximum_motion_to_nearest_sample_mm": 0.27284602148847764,
+          "numerical_allowance_mm": 3e-05,
+          "certified_continuous_rotation_gap_mm": 0.077123978511522,
+          "elapsed_seconds": 4.5745449169990025,
+          "proof": "Each unsampled angle is within half one angular step of a sample; every moving point travels at most2*rho_max*sin(step/4).",
+          "passed": true
+        },
+        {
+          "pair": "sphere_5layers layers1/2",
+          "initial_overlap_mm3": 0.0,
+          "sample_count": 100,
+          "angular_step_degrees": 3.6,
+          "smallest_sample_gap_mm": 0.34999999999999964,
+          "greatest_sample_gap_mm": 0.3500000000000014,
+          "worst_sample_angle_degrees": 0.0,
+          "moving_maximum_distance_to_axis_mm": 8.644217720869458,
+          "maximum_motion_to_nearest_sample_mm": 0.2715549413083198,
+          "numerical_allowance_mm": 3e-05,
+          "certified_continuous_rotation_gap_mm": 0.07841505869167983,
+          "elapsed_seconds": 2.8601804099962465,
+          "proof": "Each unsampled angle is within half one angular step of a sample; every moving point travels at most2*rho_max*sin(step/4).",
+          "passed": true
+        },
+        {
+          "pair": "sphere_5layers layers2/3",
+          "initial_overlap_mm3": 0.0,
+          "sample_count": 74,
+          "angular_step_degrees": 4.864864864864865,
+          "smallest_sample_gap_mm": 0.34999999999999964,
+          "greatest_sample_gap_mm": 0.35000000000000053,
+          "worst_sample_angle_degrees": 0.0,
+          "moving_maximum_distance_to_axis_mm": 6.345746607436637,
+          "maximum_motion_to_nearest_sample_mm": 0.26938180856176736,
+          "numerical_allowance_mm": 3e-05,
+          "certified_continuous_rotation_gap_mm": 0.08058819143823229,
+          "elapsed_seconds": 1.9563876370011712,
+          "proof": "Each unsampled angle is within half one angular step of a sample; every moving point travels at most2*rho_max*sin(step/4).",
+          "passed": true
+        },
+        {
+          "pair": "sphere_5layers layers3/4",
+          "initial_overlap_mm3": 0.0,
+          "sample_count": 47,
+          "angular_step_degrees": 7.659574468085107,
+          "smallest_sample_gap_mm": 0.34999999999999964,
+          "greatest_sample_gap_mm": 0.35000000000000053,
+          "worst_sample_angle_degrees": 0.0,
+          "moving_maximum_distance_to_axis_mm": 4.0490122259377745,
+          "maximum_motion_to_nearest_sample_mm": 0.2705953008670079,
+          "numerical_allowance_mm": 3e-05,
+          "certified_continuous_rotation_gap_mm": 0.07937469913299175,
+          "elapsed_seconds": 1.2678337820034358,
+          "proof": "Each unsampled angle is within half one angular step of a sample; every moving point travels at most2*rho_max*sin(step/4).",
+          "passed": true
+        }
+      ],
+      "initial_print_connectivity": {
+        "build_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "moving_layers": [
+          {
+            "moving_layer": 1,
+            "first_moving_build_coordinate_mm": -10.739999999999998,
+            "early_prefix_checks": [
+              {
+                "height_above_first_moving_material_mm": 0.01,
+                "absolute_build_coordinate_mm": -10.729999999999999,
+                "moving_prefix_volume_mm3": 0.010684050181834069,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.04,
+                "absolute_build_coordinate_mm": -10.7,
+                "moving_prefix_volume_mm3": 0.04273620072733156,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.1,
+                "absolute_build_coordinate_mm": -10.639999999999999,
+                "moving_prefix_volume_mm3": 0.13941693342782288,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              }
+            ],
+            "passed": true
+          },
+          {
+            "moving_layer": 2,
+            "first_moving_build_coordinate_mm": -8.44,
+            "early_prefix_checks": [
+              {
+                "height_above_first_moving_material_mm": 0.01,
+                "absolute_build_coordinate_mm": -8.43,
+                "moving_prefix_volume_mm3": 0.010684050181831908,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.04,
+                "absolute_build_coordinate_mm": -8.4,
+                "moving_prefix_volume_mm3": 0.042736200727325604,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.1,
+                "absolute_build_coordinate_mm": -8.34,
+                "moving_prefix_volume_mm3": 0.12336549399673165,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              }
+            ],
+            "passed": true
+          },
+          {
+            "moving_layer": 3,
+            "first_moving_build_coordinate_mm": -6.140000000000001,
+            "early_prefix_checks": [
+              {
+                "height_above_first_moving_material_mm": 0.01,
+                "absolute_build_coordinate_mm": -6.130000000000001,
+                "moving_prefix_volume_mm3": 0.010684050181829911,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.04,
+                "absolute_build_coordinate_mm": -6.1000000000000005,
+                "moving_prefix_volume_mm3": 0.042736200727327416,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.1,
+                "absolute_build_coordinate_mm": -6.040000000000001,
+                "moving_prefix_volume_mm3": 0.12165002257096637,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              }
+            ],
+            "passed": true
+          },
+          {
+            "moving_layer": 4,
+            "first_moving_build_coordinate_mm": -3.84,
+            "early_prefix_checks": [
+              {
+                "height_above_first_moving_material_mm": 0.01,
+                "absolute_build_coordinate_mm": -3.83,
+                "moving_prefix_volume_mm3": 0.010684050181831953,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.04,
+                "absolute_build_coordinate_mm": -3.8,
+                "moving_prefix_volume_mm3": 0.04273620072732741,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              },
+              {
+                "height_above_first_moving_material_mm": 0.1,
+                "absolute_build_coordinate_mm": -3.7399999999999998,
+                "moving_prefix_volume_mm3": 0.11712349309347826,
+                "components_containing_moving_prefix": 1,
+                "connected_to_parent_material": true,
+                "passed": true
+              }
+            ],
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "scope": "Checks captive moving-part startup at0.01,0.04,0.10mm above its first material; this is not a full support or slicer certification."
+      },
+      "nonadjacent_shell_clearance": [
+        {
+          "outer_layer": 0,
+          "inner_layer": 2,
+          "initial_overlap_mm3": 0.0,
+          "centered_all_angle_spherical_separation_bound_mm": 1.4263070151354906,
+          "relative_center_displacement_bound_mm": 1.0760192817998921,
+          "surface_export_rounding_allowance_mm": 3e-05,
+          "all_angle_spherical_separation_bound_mm": 0.3502577333355985,
+          "passed": true
+        },
+        {
+          "outer_layer": 0,
+          "inner_layer": 3,
+          "initial_overlap_mm3": 0.0,
+          "centered_all_angle_spherical_separation_bound_mm": 3.7205615226747204,
+          "relative_center_displacement_bound_mm": 1.6174421050498016,
+          "surface_export_rounding_allowance_mm": 3e-05,
+          "all_angle_spherical_separation_bound_mm": 2.103089417624919,
+          "passed": true
+        },
+        {
+          "outer_layer": 0,
+          "inner_layer": 4,
+          "initial_overlap_mm3": 0.0,
+          "centered_all_angle_spherical_separation_bound_mm": 6.009673169395848,
+          "relative_center_displacement_bound_mm": 2.1649807189408907,
+          "surface_export_rounding_allowance_mm": 3e-05,
+          "all_angle_spherical_separation_bound_mm": 3.844662450454957,
+          "passed": true
+        },
+        {
+          "outer_layer": 1,
+          "inner_layer": 3,
+          "initial_overlap_mm3": 0.0,
+          "centered_all_angle_spherical_separation_bound_mm": 1.432215529090235,
+          "relative_center_displacement_bound_mm": 1.0801762348540094,
+          "surface_export_rounding_allowance_mm": 3e-05,
+          "all_angle_spherical_separation_bound_mm": 0.3520092942362256,
+          "passed": true
+        },
+        {
+          "outer_layer": 1,
+          "inner_layer": 4,
+          "initial_overlap_mm3": 0.0,
+          "centered_all_angle_spherical_separation_bound_mm": 3.7213271758113624,
+          "relative_center_displacement_bound_mm": 1.6277148487450983,
+          "surface_export_rounding_allowance_mm": 3e-05,
+          "all_angle_spherical_separation_bound_mm": 2.093582327066264,
+          "passed": true
+        },
+        {
+          "outer_layer": 2,
+          "inner_layer": 4,
+          "initial_overlap_mm3": 0.0,
+          "centered_all_angle_spherical_separation_bound_mm": 1.4411173366223737,
+          "relative_center_displacement_bound_mm": 1.0889614371409986,
+          "surface_export_rounding_allowance_mm": 3e-05,
+          "all_angle_spherical_separation_bound_mm": 0.3521258994813752,
+          "passed": true
+        }
+      ],
+      "release_access_and_extraction": {
+        "declared_sequence": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "wires": [
+          {
+            "wire_index": 0,
+            "host_index": 3,
+            "moving_index": 4,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -1.3275448178862006,
+                  -0.875514887392425,
+                  4.6588992679729335
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 11.791100732027067,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.40000028596952647,
+                  "actual_neck_width_mm": 0.39394552260637283,
+                  "actual_neck_thickness_mm": 0.3939455822110176,
+                  "actual_neck_cross_section_area_mm2": 0.12245873062578422,
+                  "area_equivalent_circular_diameter_mm": 0.39486617787653,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000034,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -0.4582046829058907,
+                  -0.2724596992880958,
+                  2.573766189688647
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 13.876233810311353,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.4000001426737589,
+                  "actual_neck_width_mm": 0.39402948319911957,
+                  "actual_neck_thickness_mm": 0.39402955025434494,
+                  "actual_neck_cross_section_area_mm2": 0.12245869554772507,
+                  "area_equivalent_circular_diameter_mm": 0.3948661213222114,
+                  "actual_maximum_axial_residue_mm": 0.19999999999999987,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R13_L5_wire_00_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 30.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.02959758133630622,
+              "adaptive_sweep_groups_checked": 3,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 1,
+            "host_index": 3,
+            "moving_index": 4,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -0.56,
+                  -4.67,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -0.56,
+                  -3.9899999999999998,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R13_L5_wire_01_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 30.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 4.336808689942018e-19,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 2,
+            "host_index": 3,
+            "moving_index": 4,
+            "neck_access": [
+              {
+                "neck_center": [
+                  0.56,
+                  -4.67,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  0.56,
+                  -3.9899999999999998,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R13_L5_wire_02_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 30.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 1.0842021724855044e-19,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 3,
+            "host_index": 2,
+            "moving_index": 3,
+            "neck_access": [
+              {
+                "neck_center": [
+                  2.4665512424063496,
+                  -0.2813685328373509,
+                  6.786703774312255
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 9.663296225687745,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.4000003850325431,
+                  "actual_neck_width_mm": 0.39238718897104263,
+                  "actual_neck_thickness_mm": 0.3923872113227844,
+                  "actual_neck_cross_section_area_mm2": 0.12245861612429895,
+                  "area_equivalent_circular_diameter_mm": 0.3948659932724018,
+                  "actual_maximum_axial_residue_mm": 0.1999999999999987,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  1.5290288034765973,
+                  -0.13720524531510173,
+                  4.6825253204780495
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 11.76747467952195,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.40000035117623234,
+                  "actual_neck_width_mm": 0.393209345638752,
+                  "actual_neck_thickness_mm": 0.3932095393538475,
+                  "actual_neck_cross_section_area_mm2": 0.12245873199809587,
+                  "area_equivalent_circular_diameter_mm": 0.3948661800890283,
+                  "actual_maximum_axial_residue_mm": 0.19999999999999868,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R13_L5_wire_03_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 30.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.001930005829111767,
+              "adaptive_sweep_groups_checked": 3,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 4,
+            "host_index": 2,
+            "moving_index": 3,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -0.56,
+                  -6.97,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -0.56,
+                  -6.290000000000001,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R13_L5_wire_04_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 30.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 5,
+            "host_index": 2,
+            "moving_index": 3,
+            "neck_access": [
+              {
+                "neck_center": [
+                  0.56,
+                  -6.97,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  0.56,
+                  -6.290000000000001,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000018,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R13_L5_wire_05_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 30.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 6,
+            "host_index": 1,
+            "moving_index": 2,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -3.2302594489784653,
+                  -0.692812717904403,
+                  8.932418244432629
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 7.51758175556737,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.40000046939149075,
+                  "actual_neck_width_mm": 0.39242446422576904,
+                  "actual_neck_thickness_mm": 0.3924245089292526,
+                  "actual_neck_cross_section_area_mm2": 0.12245878545256561,
+                  "area_equivalent_circular_diameter_mm": 0.3948662662705509,
+                  "actual_maximum_axial_residue_mm": 0.19999999999999918,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -2.454165715292005,
+                  -0.5046570714021563,
+                  6.775760311733963
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 9.674239688266038,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.4000002303679832,
+                  "actual_neck_width_mm": 0.39257022738456726,
+                  "actual_neck_thickness_mm": 0.39257023483514786,
+                  "actual_neck_cross_section_area_mm2": 0.12245867578503014,
+                  "area_equivalent_circular_diameter_mm": 0.39486608945996193,
+                  "actual_maximum_axial_residue_mm": 0.19999999999999943,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R13_L5_wire_06_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 30.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0007518451895331267,
+              "adaptive_sweep_groups_checked": 3,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 7,
+            "host_index": 1,
+            "moving_index": 2,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -0.56,
+                  -9.27,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000107,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -0.56,
+                  -8.59,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.1999999999999993,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R13_L5_wire_07_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 30.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 8,
+            "host_index": 1,
+            "moving_index": 2,
+            "neck_access": [
+              {
+                "neck_center": [
+                  0.56,
+                  -9.27,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000107,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  0.56,
+                  -8.59,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.1999999999999993,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R13_L5_wire_08_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 30.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 1.951563910473908e-18,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 9,
+            "host_index": 0,
+            "moving_index": 1,
+            "neck_access": [
+              {
+                "neck_center": [
+                  3.4395306299173183,
+                  -3.40985807095833,
+                  10.78473142947076
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 5.665268570529239,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.4000003562023058,
+                  "actual_neck_width_mm": 0.39658501744270325,
+                  "actual_neck_thickness_mm": 0.39658521115779877,
+                  "actual_neck_cross_section_area_mm2": 0.12245871561927901,
+                  "area_equivalent_circular_diameter_mm": 0.39486615368241373,
+                  "actual_maximum_axial_residue_mm": 0.1999999999999997,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  2.9279500636153295,
+                  -2.8963711857734173,
+                  8.584697436390744
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 7.865302563609255,
+                "taper_length_mm": 0.41999999999999993,
+                "needle_length_mm": 0.0,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "circle",
+                  "actual_neck_maximum_diameter_mm": 0.4000006080792593,
+                  "actual_neck_width_mm": 0.39692527055740356,
+                  "actual_neck_thickness_mm": 0.3969254717230797,
+                  "actual_neck_cross_section_area_mm2": 0.12245874370567253,
+                  "area_equivalent_circular_diameter_mm": 0.3948661989644726,
+                  "actual_maximum_axial_residue_mm": 0.2000000000000002,
+                  "declared_neck_width_mm": 0.4,
+                  "declared_neck_thickness_mm": 0.4,
+                  "expected_polygon_section_area_mm2": null,
+                  "declared_neck_area_mm2": null,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.4,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R13_L5_wire_09_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 30.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 3.547628092985186e-17,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0012195556167996762,
+              "adaptive_sweep_groups_checked": 3,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 10,
+            "host_index": 0,
+            "moving_index": 1,
+            "neck_access": [
+              {
+                "neck_center": [
+                  -0.56,
+                  -11.57,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000107,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  -0.56,
+                  -10.889999999999999,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.1999999999999993,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R13_L5_wire_10_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 30.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 0.0,
+              "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          },
+          {
+            "wire_index": 11,
+            "host_index": 0,
+            "moving_index": 1,
+            "neck_access": [
+              {
+                "neck_center": [
+                  0.56,
+                  -11.57,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.20000000000000107,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              },
+              {
+                "neck_center": [
+                  0.56,
+                  -10.889999999999999,
+                  0.0
+                ],
+                "tool_shaft_diameter_mm": 0.5,
+                "tool_tip_diameter_mm": 0.2,
+                "shaft_length_mm": 14.9,
+                "taper_length_mm": 0.6000000000000001,
+                "needle_length_mm": 1.37,
+                "obstruction_volume_mm3": 0.0,
+                "approach_to_actual_neck_center_obstruction_volume_mm3": 0.0,
+                "actual_neck_geometry": {
+                  "neck_profile": "ellipse",
+                  "actual_neck_maximum_diameter_mm": 0.7400000095367432,
+                  "actual_neck_width_mm": 0.7400000095367432,
+                  "actual_neck_thickness_mm": 0.5400000214576721,
+                  "actual_neck_cross_section_area_mm2": 0.3102722776293867,
+                  "area_equivalent_circular_diameter_mm": 0.6285307737197776,
+                  "actual_maximum_axial_residue_mm": 0.1999999999999993,
+                  "declared_neck_width_mm": 0.74,
+                  "declared_neck_thickness_mm": 0.54,
+                  "expected_polygon_section_area_mm2": 0.31027227126890183,
+                  "declared_neck_area_mm2": 0.31027227126890183,
+                  "section_axes_in_plane_and_orthogonal": true,
+                  "declared_neck_diameter_mm": 0.74,
+                  "declared_maximum_residue_mm": 0.2,
+                  "passed": true
+                },
+                "passed": true
+              }
+            ],
+            "extraction": {
+              "removable_mesh_file": "sphere_R13_L5_wire_11_removable.npz",
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "translation_mm": 30.0,
+              "retained_stump_state": "Actual central-piece mesh and matching nominal break-plane stumps; maximum stumps are separately covered by the rotation certificate.",
+              "passed": true,
+              "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+              "numerical_volume_tolerance_mm3": 1e-08,
+              "initial_obstruction_volume_mm3": 9.540979117872439e-18,
+              "coarse_convex_hull_obstruction_volume_mm3": 1.3010426069826053e-18,
+              "adaptive_sweep_groups_checked": 0,
+              "colliding_exact_triangle_prisms": 0,
+              "sum_of_colliding_prism_volumes_mm3": 0.0,
+              "collision_bounds_mm": []
+            },
+            "passed": true
+          }
+        ],
+        "passed": true
+      },
+      "support_projection_separation": {
+        "metadata_file": "sphere_5layers.json",
+        "metadata_sha256": "8aefb95f2b9e0832273252d4ba382837d79bdc5c8cf44039e286c87439d8a9c9",
+        "wire_count": 12,
+        "pair_count": 66,
+        "closest_pair": {
+          "wires": [
+            1,
+            2
+          ],
+          "projected_gap_lower_bound_mm": 0.29999999701976776
+        },
+        "smallest_projected_gap_after_export_allowance_mm": 0.2999699970197678,
+        "minimum_required_projected_gap_mm": 0.2,
+        "gap_search_limit_mm": 0.3,
+        "passed": true,
+        "proof": "Positive-fill XY projections of complete actual wire meshes are extruded to a common slab. Their separation is unchanged by any relative translation along Z and therefore bounds wire-to-wire extraction clearance continuously."
+      },
+      "moving_centered_radius_bound_mm": 12.014990636700473,
+      "moving_radius_including_conservative_play_mm": 12.552256506896265,
+      "measured_play_bounds_by_interface": [
+        {
+          "host_index": 0,
+          "moving_index": 1,
+          "source_measured_center_displacement_bound_mm": 0.5372458481953779,
+          "float32_padded_center_displacement_bound_mm": 0.5372658701957923,
+          "opposed_bearing_sides": [
+            -1,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "host_index": 1,
+          "moving_index": 2,
+          "source_measured_center_displacement_bound_mm": 0.5387332952814617,
+          "float32_padded_center_displacement_bound_mm": 0.5387534116040998,
+          "opposed_bearing_sides": [
+            -1,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "host_index": 2,
+          "moving_index": 3,
+          "source_measured_center_displacement_bound_mm": 0.5414025265604445,
+          "float32_padded_center_displacement_bound_mm": 0.5414228232499094,
+          "opposed_bearing_sides": [
+            -1,
+            1
+          ],
+          "passed": true
+        },
+        {
+          "host_index": 3,
+          "moving_index": 4,
+          "source_measured_center_displacement_bound_mm": 0.5475178571556235,
+          "float32_padded_center_displacement_bound_mm": 0.5475386138910892,
+          "opposed_bearing_sides": [
+            -1,
+            1
+          ],
+          "passed": true
+        }
+      ],
+      "cumulative_play_allowance_by_layer_mm": [
+        0.0,
+        0.5372658701957923,
+        1.0760192817998921,
+        1.6174421050498016,
+        2.1649807189408907
+      ],
+      "play_bounds_valid": true,
+      "play_allowance_per_nested_interface_mm": 0.5475386138910892,
+      "play_allowance_method": "Maximum of opposed measured journal bounds per interface, including export rounding; accumulated along each nested parent-child chain.",
+      "float32_export_allowance_mm": 3e-05,
+      "elapsed_seconds": 15.891870678002306,
+      "passed": true,
+      "scope": [
+        "The motion certificate includes the actual maximum retained breakaway stumps supplied in each layer mesh.",
+        "Centered continuous360degree relative rotation is certified for adjacent layers; independent rotations compose because they share one axis.",
+        "Bearing retention uses measured tip/stop/mouth coordinates with conservative opposite-endplay and tilt allowances.",
+        "Wall envelopes and nonadjacent spherical separation include the cumulative measured relative centre displacement along the intervening bearing chain.",
+        "Tool access and extraction apply to the declared aligned print orientation and declared release order.",
+        "Manufacturing tolerances, cured-resin friction and actual fracture behaviour still depend on the selected resin and printer."
+      ]
+    }
+  ],
+  "passed": true
+}

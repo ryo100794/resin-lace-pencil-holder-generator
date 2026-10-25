@@ -1,0 +1,3277 @@
+{
+  "passed": true,
+  "units": "mm",
+  "source_context_file": "reports/custom_support_assembly.json",
+  "source_context_type": "validated_print_assembly",
+  "input_files": [
+    {
+      "path": "cache/added_retained_v6.npz",
+      "sha256": "cdf2afa42669099b9afd3bf0c446bb8e7d220e750a9b7c2f364c7eacf74d4317"
+    },
+    {
+      "path": "cache/spheres/sphere_3layers.json",
+      "sha256": "f7bdcdc9530344f993dcbef0dd2d281098448436b55a6cfcce84b9859da6646a"
+    },
+    {
+      "path": "cache/spheres/sphere_4layers.json",
+      "sha256": "c02bab3a51a567dec0563b2e277365d90545a083ca2e57caa0cf8d5e0d804d99"
+    },
+    {
+      "path": "cache/spheres/sphere_5layers.json",
+      "sha256": "8aefb95f2b9e0832273252d4ba382837d79bdc5c8cf44039e286c87439d8a9c9"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_00_removable.npz",
+      "sha256": "d55af84742b4d4f37f53a27cf60e1a5c2e7628cb978dc7a8ea9dd4af17560c07"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_00_tool_corridor_0.npz",
+      "sha256": "99bbbf9e2b783b7ff22e84786cacdf16e205af6665b02a0a67ffac0415a8d380"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_00_tool_corridor_1.npz",
+      "sha256": "717f3134016d00395334233044c3948a4c54418fe96f4aef60b5b3feb58f6dd1"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_01_removable.npz",
+      "sha256": "2b590c43557d808385a03287ab12c5afa19a7af366072bae6ca1ad42aede6ebd"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_01_tool_corridor_0.npz",
+      "sha256": "617cf2947d6f925c5fcb2b2cb4a1f6a1b6960b11dbff2761c6180a77b6a45b58"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_01_tool_corridor_1.npz",
+      "sha256": "04dadf5348fe24686ccdca7c74421978c7a0c0c0638339c3fb54e4736b0bd337"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_02_removable.npz",
+      "sha256": "8ee324b94644cf4982d3ba690c0f52ed6f493148be16abea66ff3e06465d362e"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_02_tool_corridor_0.npz",
+      "sha256": "480714acde4da6eabc9ef5b76264d5dff2213d25dc86870eb05deca73e4fdc0f"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_02_tool_corridor_1.npz",
+      "sha256": "03f38a846bd4af27247fb3408e361f45774f5d9c3448eaa79eef5f2ccc238e1c"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_03_removable.npz",
+      "sha256": "b4cc63cec976612a084864a26d99ed45fc6ab33c664bea0f637d9029b2639ded"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_03_tool_corridor_0.npz",
+      "sha256": "4216d672aa9072b8e8534fb3c42ccdde4b4607b112a5a3e30bfd5e017051ad2b"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_03_tool_corridor_1.npz",
+      "sha256": "69781492fda2c5c367254c3a5783836968961242de934ab050f733d880a0dd56"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_04_removable.npz",
+      "sha256": "e1cde8e46ee12f5678876148e414daf12c9a540e1eb9a9f4f9b66e6161eb562f"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_04_tool_corridor_0.npz",
+      "sha256": "efea820011df8b047724bc03fe1ed82079fff96755c2e8c163a98ff8bf94f5a2"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_04_tool_corridor_1.npz",
+      "sha256": "df9a7821e143663eb976abaf867b5cb2e3fdf321d41e5296a85226f94c476679"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_05_removable.npz",
+      "sha256": "4685f00e5035514c1f22274240225ffa100271edf55ad1630a269c8858da3864"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_05_tool_corridor_0.npz",
+      "sha256": "dd25dad9d48003d0076994ffce39a192722d4b831ff0fb042ab23f2db5253101"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_05_tool_corridor_1.npz",
+      "sha256": "7b5edba381f0939eb93b0fb5475484e5288b689625d8698a18491e73f84385f6"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_06_removable.npz",
+      "sha256": "595263797ed048d336e0f1f8c8acfd83b6b3442bf3a39960e4b2f5614d260e0d"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_06_tool_corridor_0.npz",
+      "sha256": "2081e5ee457c4d0dc7f7c9a2eaf77c8e32d2e80c1314f2da023b6cd6ec928d48"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_06_tool_corridor_1.npz",
+      "sha256": "aa1934e6a730c1afc12ad43620aae8f41d99101004090b3222898cb182f1492d"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_07_removable.npz",
+      "sha256": "dcf406efe365fe1690c86d02e9fc1578bb30636d2dae6bc3f082b16c8ee31d8a"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_07_tool_corridor_0.npz",
+      "sha256": "de6f5db07d861c51ac07b7cf993e0320c6aaded7692b64a340eef879eda1985f"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_07_tool_corridor_1.npz",
+      "sha256": "026f424a02d71fde7d4f0c1fc37e850d95b19a9e63bb37467028fa37e614937b"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_08_removable.npz",
+      "sha256": "2271fa1e8f9cbd8ad1819ffac567f9228b8cb24e5a54f970be6ecd1c93322017"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_08_tool_corridor_0.npz",
+      "sha256": "7b07cbf5728ced65e6aa7ad0dc6e5d45b79179006fa8b67a9f7a2f18edc03b9a"
+    },
+    {
+      "path": "cache/spheres/sphere_R11_L4_wire_08_tool_corridor_1.npz",
+      "sha256": "01847bc69c214798e38cd893b1c3ab95932936c3cf5034299f45545020a06654"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_00_removable.npz",
+      "sha256": "a74e06fd00de3a80f9ce8490c09de7c6586b488f8764e3c408c972d8f13cbc90"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_00_tool_corridor_0.npz",
+      "sha256": "9abf0f4d9ba283993620fdf217caee1fd485502bb07c90d8d95c6a5998baec31"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_00_tool_corridor_1.npz",
+      "sha256": "abf3d92ab88bcc46978789b255ec0e531d587e79808333c6978b5464178a10e8"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_01_removable.npz",
+      "sha256": "52fdf3a33b9380f19699955996fc4cdee0fcdfaec592ea612e18da8175e49485"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_01_tool_corridor_0.npz",
+      "sha256": "bc3b8bb88a2ec99bd71c91e170d7d18db2bf802dbf941e7efa9498d9df2459a3"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_01_tool_corridor_1.npz",
+      "sha256": "5b7101e2b1fc9f5019e9784a737ecfe0ee1608d4e46ac2e8ace724dc63e9d882"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_02_removable.npz",
+      "sha256": "3ffaf68b8c681971c23ae548ce4b486d6f2b95b605004955cbc47e5a5e17f578"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_02_tool_corridor_0.npz",
+      "sha256": "c34184aca4b88224868f0b9e31840e9623de66616c545386654a650979c56e35"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_02_tool_corridor_1.npz",
+      "sha256": "bb48888110bb4555d54541d922b76a5ece7017cfdebc9355dcb96212592221f8"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_03_removable.npz",
+      "sha256": "170317a117f2b18678475f453694367e52a24ab55455109c4fad41b11aa2c5d6"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_03_tool_corridor_0.npz",
+      "sha256": "52e5ae8b56a6d4ab67b0a37f81cc8a4f671b1a3b83fd9bc2cfee26b025ae00ae"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_03_tool_corridor_1.npz",
+      "sha256": "dab7e0819b57bc9835afe7f7acb1f4ff58a842ab018d31d11a4eca2f8708f549"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_04_removable.npz",
+      "sha256": "288477fd3ca353b7f2a962a19e98fa4386c5cc938b8422a698e4a9bde54e41ab"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_04_tool_corridor_0.npz",
+      "sha256": "d93449e5827732cadc0aa03d39f83554be595a0ba004ad3976c8474b35d336ba"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_04_tool_corridor_1.npz",
+      "sha256": "af79363cfaf527867117b0c97b807026f4292e6281755bd2cebfe89e71ff9d26"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_05_removable.npz",
+      "sha256": "4e3095ad8ccb2c0d5a75d69dee2614d04a7ffe949a5debb66bfd02de8ea2827d"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_05_tool_corridor_0.npz",
+      "sha256": "2eabba1871b41acaf165e522eba39c9d3c7cfbdc46577a0464d1528e9a1de765"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_05_tool_corridor_1.npz",
+      "sha256": "de0425aa83157407baabe76def34ac15aa711e3e19d869e856b5429c241ec8e2"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_06_removable.npz",
+      "sha256": "7b24653d3d43677c7e2f97ab8ed1788c856fee531d1993cf827810aeaecbaf9a"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_06_tool_corridor_0.npz",
+      "sha256": "145ef5cd1bdf62065f698d60ef0fbddf0a56e8a920c6d85a40e1ab3c26c90f31"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_06_tool_corridor_1.npz",
+      "sha256": "681a7d6c92d366fa258897912be5c22a99b8450e9ea29e542f044dccdf52f8e8"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_07_removable.npz",
+      "sha256": "211a6dee96a9280b781c8610c4ea5fb8bbfe14182338eece43d29b525f140ef5"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_07_tool_corridor_0.npz",
+      "sha256": "7e9c876e3eca28874fd343bfdbfd16c1500ce43a20f980df40b097f9d379311b"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_07_tool_corridor_1.npz",
+      "sha256": "e106babce6ddc39fba0d2495d25db277efa4a04d06992dabcc5b2cb91ff207a6"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_08_removable.npz",
+      "sha256": "a055a381e365ccd1f34df14d8e12e7f318143fee5c4eba55c5019a37253cedff"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_08_tool_corridor_0.npz",
+      "sha256": "548ab884df4454145d62ccfc2a26e0f821d573372ddf1f3a8ae0d3d5ce61100a"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_08_tool_corridor_1.npz",
+      "sha256": "6cafb4ac133cafde5a6566cbd244e492aa35628c7a481572875e810e1607a0bb"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_09_removable.npz",
+      "sha256": "72d7cf8f0042d26d472d37a5027c585813eaec60f19a3afac61fcd262f4bdec1"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_09_tool_corridor_0.npz",
+      "sha256": "60ac48d66119549b74ccd9fbd50d406fc4eb4c4bce3cf599b16e71ccfe52b8d8"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_09_tool_corridor_1.npz",
+      "sha256": "74d015f0ffcd1f0372b03dc0be6e5a416e5caeab9240c01655cd0045fd688ceb"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_10_removable.npz",
+      "sha256": "52704fa494d12742406d3669fc5f3010eb854d06284de603222482061e1a97dd"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_10_tool_corridor_0.npz",
+      "sha256": "9cfa70a2a1ffdc7d928a3f4653d28e0408fc43c81cc52c29244172800b5be3c2"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_10_tool_corridor_1.npz",
+      "sha256": "caeacf2a08b8b04b20fab0ac5d73bb0875130196d9ad7029c1f3beb7d83e2e24"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_11_removable.npz",
+      "sha256": "e74f4802111607cb9148e972398547eb561b1051db4afc87667e81541f15305e"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_11_tool_corridor_0.npz",
+      "sha256": "7b1b23bd1764cb60d635e4882e0475cbb03b67c1b02948448eb1b3a0ebef07a7"
+    },
+    {
+      "path": "cache/spheres/sphere_R13_L5_wire_11_tool_corridor_1.npz",
+      "sha256": "04bd7b5eaab416be24a1cd1dbb002391baa670f0d90e41d0bdea0bcb841eb8dc"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_00_removable.npz",
+      "sha256": "b0cb60d8e6e1209699f959cdf5997a99a1fd96a494e1647fe2b6d04335a663ca"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_00_tool_corridor_0.npz",
+      "sha256": "bdfb9fe5aa94295ef418cdf07659462df755e1aad830a2eaf1f9c92757836cc2"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_00_tool_corridor_1.npz",
+      "sha256": "bd2d77eb1a485ded2913f7d77d978d345408d098e8ca0ab7e36e52da0965c855"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_01_removable.npz",
+      "sha256": "501049e099923cc6f2769cd2f456d127d51611d73eeb8f1c0e0717fbdaf26f3f"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_01_tool_corridor_0.npz",
+      "sha256": "ba2dfcee2510f6173888d66a2babb7b383e93c73b664bcaea45fa2caded0fdd9"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_01_tool_corridor_1.npz",
+      "sha256": "05d7ee3bccab901b444526a19a714569feb2454d5dbb6073026c25eacfaa8191"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_02_removable.npz",
+      "sha256": "bc158572afb90ad492ab4c3d5262e6fa3d20662107114f49a8cbb9ab8ae5e714"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_02_tool_corridor_0.npz",
+      "sha256": "0dc6d1a7ab7a44bed86e83bc8a3b832bc05ce57ce7a9cee0ca179454870157e2"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_02_tool_corridor_1.npz",
+      "sha256": "32d76c7d20f4f0cc97e1f380f91cc78af5ba3c45239d9d9be1420e69f218df06"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_03_removable.npz",
+      "sha256": "969df8a02821a779bebd35d19687f503e1731dd2200301dfa07ef0ba45546efd"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_03_tool_corridor_0.npz",
+      "sha256": "eb8cedac8a93bc62e00018926dddcd27739cfec7933003bf568d5dea0b181efe"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_03_tool_corridor_1.npz",
+      "sha256": "6089c4e6df01cce059ee0d1781f23ae86c807d0fa40bb81f640de467cd71f638"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_04_removable.npz",
+      "sha256": "88b6b11acde3e3e55d3c0d247d4e043beea72f8ef9382969672a974b9edc1d45"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_04_tool_corridor_0.npz",
+      "sha256": "5b81fba8c3e8162b61016f368a44f8d03e5417f94db851ec0d80324e8faa7afa"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_04_tool_corridor_1.npz",
+      "sha256": "2cab4f70be85b32349e1c9a42fab7a43562f9a919b50dfb62f1dffce2c1dc3a7"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_05_removable.npz",
+      "sha256": "e42202b1e7b6075d57363881db487be51613eb999e24ed9bfd55e27cbbfcaadf"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_05_tool_corridor_0.npz",
+      "sha256": "52465b888a2f36a0f3cac25b67b0fd7f04d6be3df897227d3366fb0732061cba"
+    },
+    {
+      "path": "cache/spheres/sphere_R9_L3_wire_05_tool_corridor_1.npz",
+      "sha256": "a83f74648a9b532031115aad92d5e8ae6261fab09007b01bdd2cf44d9d9ffa21"
+    },
+    {
+      "path": "reports/custom_support_assembly.json",
+      "sha256": "6a4d6b049faaae77bea4be95f8fce38b3586e53435140e91fd77de48fe077c62"
+    },
+    {
+      "path": "source/audit_motion.py",
+      "sha256": "faa2bdcb8956b3b9762ecd2e96f7f62a05e8a79a793b4ca25f38f4cca1422dfa"
+    },
+    {
+      "path": "source/audit_v6_service.py",
+      "sha256": "04887f31577eb9c265bfd8d6c0887da0eff3392046072e9cece9a6d00d021971"
+    },
+    {
+      "path": "source/build_holder.py",
+      "sha256": "e4c3d0cc5fb25dd46df51ac3b710333002e488ce30eee010f29a8b912a56df62"
+    }
+  ],
+  "retained_state_sha256": "cdf2afa42669099b9afd3bf0c446bb8e7d220e750a9b7c2f364c7eacf74d4317",
+  "placements": [
+    {
+      "layers": 5,
+      "azimuth_deg": 0,
+      "module_metadata_sha256": "8aefb95f2b9e0832273252d4ba382837d79bdc5c8cf44039e286c87439d8a9c9",
+      "wires": [
+        {
+          "wire_index": 0,
+          "endpoints": [
+            {
+              "neck_center": [
+                -1.3275448178862006,
+                -0.875514887392425,
+                4.6588992679729335
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.4582046829058907,
+                -0.2724596992880958,
+                2.573766189688647
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 1,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -4.67,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 2,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -4.67,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 3,
+          "endpoints": [
+            {
+              "neck_center": [
+                2.4665512424063496,
+                -0.2813685328373509,
+                6.786703774312255
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                1.5290288034765973,
+                -0.13720524531510173,
+                4.6825253204780495
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 4,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -6.97,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -6.290000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 5,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -6.97,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -6.290000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 6,
+          "endpoints": [
+            {
+              "neck_center": [
+                -3.2302594489784653,
+                -0.692812717904403,
+                8.932418244432629
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -2.454165715292005,
+                -0.5046570714021563,
+                6.775760311733963
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 7,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -9.27,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -8.59,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 8,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -9.27,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -8.59,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 9,
+          "endpoints": [
+            {
+              "neck_center": [
+                3.4395306299173183,
+                -3.40985807095833,
+                10.78473142947076
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                2.9279500636153295,
+                -2.8963711857734173,
+                8.584697436390744
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 10,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -11.57,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -10.889999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 11,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -11.57,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -10.889999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "layers": 5,
+      "azimuth_deg": 120,
+      "module_metadata_sha256": "8aefb95f2b9e0832273252d4ba382837d79bdc5c8cf44039e286c87439d8a9c9",
+      "wires": [
+        {
+          "wire_index": 0,
+          "endpoints": [
+            {
+              "neck_center": [
+                -1.3275448178862006,
+                -0.875514887392425,
+                4.6588992679729335
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.4582046829058907,
+                -0.2724596992880958,
+                2.573766189688647
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 1,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -4.67,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 2,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -4.67,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 3,
+          "endpoints": [
+            {
+              "neck_center": [
+                2.4665512424063496,
+                -0.2813685328373509,
+                6.786703774312255
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                1.5290288034765973,
+                -0.13720524531510173,
+                4.6825253204780495
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 4,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -6.97,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -6.290000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 5,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -6.97,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -6.290000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 6,
+          "endpoints": [
+            {
+              "neck_center": [
+                -3.2302594489784653,
+                -0.692812717904403,
+                8.932418244432629
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -2.454165715292005,
+                -0.5046570714021563,
+                6.775760311733963
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 7,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -9.27,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -8.59,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 8,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -9.27,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -8.59,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 9,
+          "endpoints": [
+            {
+              "neck_center": [
+                3.4395306299173183,
+                -3.40985807095833,
+                10.78473142947076
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                2.9279500636153295,
+                -2.8963711857734173,
+                8.584697436390744
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 10,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -11.57,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -10.889999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 11,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -11.57,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -10.889999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "layers": 5,
+      "azimuth_deg": 240,
+      "module_metadata_sha256": "8aefb95f2b9e0832273252d4ba382837d79bdc5c8cf44039e286c87439d8a9c9",
+      "wires": [
+        {
+          "wire_index": 0,
+          "endpoints": [
+            {
+              "neck_center": [
+                -1.3275448178862006,
+                -0.875514887392425,
+                4.6588992679729335
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.4582046829058907,
+                -0.2724596992880958,
+                2.573766189688647
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 1,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -4.67,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 2,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -4.67,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 3,
+          "endpoints": [
+            {
+              "neck_center": [
+                2.4665512424063496,
+                -0.2813685328373509,
+                6.786703774312255
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                1.5290288034765973,
+                -0.13720524531510173,
+                4.6825253204780495
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 4,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -6.97,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -6.290000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 5,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -6.97,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -6.290000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 6,
+          "endpoints": [
+            {
+              "neck_center": [
+                -3.2302594489784653,
+                -0.692812717904403,
+                8.932418244432629
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -2.454165715292005,
+                -0.5046570714021563,
+                6.775760311733963
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 7,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -9.27,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -8.59,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 8,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -9.27,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -8.59,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 9,
+          "endpoints": [
+            {
+              "neck_center": [
+                3.4395306299173183,
+                -3.40985807095833,
+                10.78473142947076
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                2.9279500636153295,
+                -2.8963711857734173,
+                8.584697436390744
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 10,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -11.57,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -10.889999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 11,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -11.57,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -10.889999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "layers": 4,
+      "azimuth_deg": 40,
+      "module_metadata_sha256": "c02bab3a51a567dec0563b2e277365d90545a083ca2e57caa0cf8d5e0d804d99",
+      "wires": [
+        {
+          "wire_index": 0,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.8569987145246515,
+                -1.7002397174047874,
+                4.6588129503836475
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.31566562580264906,
+                -0.6262637566577856,
+                2.540462343705078
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 1,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -4.77,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 2,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -4.77,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 3,
+          "endpoints": [
+            {
+              "neck_center": [
+                -2.4941413590817474,
+                -0.5143883256308253,
+                6.97377205536003
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -1.5634655436110896,
+                -0.28897734008317527,
+                4.767356076005294
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 4,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -7.169999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -6.390000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 5,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -7.169999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -6.390000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 6,
+          "endpoints": [
+            {
+              "neck_center": [
+                3.131003818201302,
+                -0.5728181532663656,
+                9.295024859466476
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                2.486429309042468,
+                -0.43564673128800296,
+                6.982687512265209
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 7,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -9.57,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -8.79,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 8,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -9.57,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -8.79,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "layers": 4,
+      "azimuth_deg": 160,
+      "module_metadata_sha256": "c02bab3a51a567dec0563b2e277365d90545a083ca2e57caa0cf8d5e0d804d99",
+      "wires": [
+        {
+          "wire_index": 0,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.8569987145246515,
+                -1.7002397174047874,
+                4.6588129503836475
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.31566562580264906,
+                -0.6262637566577856,
+                2.540462343705078
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 1,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -4.77,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 2,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -4.77,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 3,
+          "endpoints": [
+            {
+              "neck_center": [
+                -2.4941413590817474,
+                -0.5143883256308253,
+                6.97377205536003
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -1.5634655436110896,
+                -0.28897734008317527,
+                4.767356076005294
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 4,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -7.169999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -6.390000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 5,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -7.169999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -6.390000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 6,
+          "endpoints": [
+            {
+              "neck_center": [
+                3.131003818201302,
+                -0.5728181532663656,
+                9.295024859466476
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                2.486429309042468,
+                -0.43564673128800296,
+                6.982687512265209
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 7,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -9.57,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -8.79,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 8,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -9.57,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -8.79,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "layers": 4,
+      "azimuth_deg": 280,
+      "module_metadata_sha256": "c02bab3a51a567dec0563b2e277365d90545a083ca2e57caa0cf8d5e0d804d99",
+      "wires": [
+        {
+          "wire_index": 0,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.8569987145246515,
+                -1.7002397174047874,
+                4.6588129503836475
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.31566562580264906,
+                -0.6262637566577856,
+                2.540462343705078
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 1,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -4.77,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 2,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -4.77,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 3,
+          "endpoints": [
+            {
+              "neck_center": [
+                -2.4941413590817474,
+                -0.5143883256308253,
+                6.97377205536003
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -1.5634655436110896,
+                -0.28897734008317527,
+                4.767356076005294
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 4,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -7.169999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -6.390000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 5,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -7.169999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -6.390000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 6,
+          "endpoints": [
+            {
+              "neck_center": [
+                3.131003818201302,
+                -0.5728181532663656,
+                9.295024859466476
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                2.486429309042468,
+                -0.43564673128800296,
+                6.982687512265209
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 7,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -9.57,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -8.79,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 8,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -9.57,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -8.79,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "layers": 3,
+      "azimuth_deg": 80,
+      "module_metadata_sha256": "f7bdcdc9530344f993dcbef0dd2d281098448436b55a6cfcce84b9859da6646a",
+      "wires": [
+        {
+          "wire_index": 0,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.9437758765517752,
+                -1.747291604925161,
+                4.841286930372645
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.333297074892413,
+                -0.6170608884742744,
+                2.540462343705078
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 1,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -4.97,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 2,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -4.97,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 3,
+          "endpoints": [
+            {
+              "neck_center": [
+                -2.2591856631202405,
+                -0.38771355711992267,
+                7.482584859492054
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -1.6411264116227868,
+                -0.25609279674637814,
+                4.955058124081827
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 4,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -7.569999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -6.590000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 5,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -7.569999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -6.590000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "layers": 3,
+      "azimuth_deg": 200,
+      "module_metadata_sha256": "f7bdcdc9530344f993dcbef0dd2d281098448436b55a6cfcce84b9859da6646a",
+      "wires": [
+        {
+          "wire_index": 0,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.9437758765517752,
+                -1.747291604925161,
+                4.841286930372645
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.333297074892413,
+                -0.6170608884742744,
+                2.540462343705078
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 1,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -4.97,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 2,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -4.97,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 3,
+          "endpoints": [
+            {
+              "neck_center": [
+                -2.2591856631202405,
+                -0.38771355711992267,
+                7.482584859492054
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -1.6411264116227868,
+                -0.25609279674637814,
+                4.955058124081827
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 4,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -7.569999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -6.590000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 5,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -7.569999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -6.590000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "layers": 3,
+      "azimuth_deg": 320,
+      "module_metadata_sha256": "f7bdcdc9530344f993dcbef0dd2d281098448436b55a6cfcce84b9859da6646a",
+      "wires": [
+        {
+          "wire_index": 0,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.9437758765517752,
+                -1.747291604925161,
+                4.841286930372645
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.333297074892413,
+                -0.6170608884742744,
+                2.540462343705078
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 1,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -4.97,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 2,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -4.97,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -3.9899999999999998,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 3,
+          "endpoints": [
+            {
+              "neck_center": [
+                -2.2591856631202405,
+                -0.38771355711992267,
+                7.482584859492054
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -1.6411264116227868,
+                -0.25609279674637814,
+                4.955058124081827
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 4,
+          "endpoints": [
+            {
+              "neck_center": [
+                -0.56,
+                -7.569999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                -0.56,
+                -6.590000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        },
+        {
+          "wire_index": 5,
+          "endpoints": [
+            {
+              "neck_center": [
+                0.56,
+                -7.569999999999999,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            },
+            {
+              "neck_center": [
+                0.56,
+                -6.590000000000001,
+                0.0
+              ],
+              "added_obstruction_volume_mm3": 0.0,
+              "passed": true
+            }
+          ],
+          "extraction": {
+            "passed": true,
+            "certificate": "Original solid plus all forward-facing triangle prisms covers its full straight sweep. Convex bounds are recursively divided until clear or an exact single-triangle prism is reached.",
+            "numerical_volume_tolerance_mm3": 1e-08,
+            "initial_obstruction_volume_mm3": 0.0,
+            "coarse_convex_hull_obstruction_volume_mm3": 0.0,
+            "adaptive_sweep_groups_checked": 0,
+            "colliding_exact_triangle_prisms": 0,
+            "sum_of_colliding_prism_volumes_mm3": 0.0,
+            "collision_bounds_mm": []
+          },
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "elapsed_seconds": 11.15885991299001,
+  "order": "Remove V6 external temporary supports first; permanent micro-braces remain; then follow the unchanged V5 internal wire order.",
+  "scope": "Actual tool volumes to neck centres and adaptive continuous triangle-prism extraction sweeps. No physical cutting-force certification."
+}

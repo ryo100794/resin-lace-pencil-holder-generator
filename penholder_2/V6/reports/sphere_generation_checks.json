@@ -1,0 +1,38 @@
+[
+  {
+    "layers": 3,
+    "faces": 102154,
+    "supports": 6,
+    "endpoints": 12,
+    "min_endpoint_shell_bond_volume_mm3": 0.01702850122121361,
+    "zero_area_triangles": 0,
+    "supported_sha256": "8d1a6846a59ae02f95f77c91fb13fb9981c572df8fd3553507a704798baa88b2",
+    "minimum_wire_gap_mm": 0.30000000000000016,
+    "partition_overlap_mm3": 3.209238430557093e-17,
+    "passed": true
+  },
+  {
+    "layers": 4,
+    "faces": 119280,
+    "supports": 9,
+    "endpoints": 18,
+    "min_endpoint_shell_bond_volume_mm3": 0.005239089410265794,
+    "zero_area_triangles": 0,
+    "supported_sha256": "c2ae19748d5bdb2ba227c7f985ef67b8f3f8ebf8241f4105addb7c0f19f7fc34",
+    "minimum_wire_gap_mm": 0.30000000000000016,
+    "partition_overlap_mm3": 4.387630666777276e-18,
+    "passed": true
+  },
+  {
+    "layers": 5,
+    "faces": 138996,
+    "supports": 12,
+    "endpoints": 24,
+    "min_endpoint_shell_bond_volume_mm3": 0.051203947998062174,
+    "zero_area_triangles": 0,
+    "supported_sha256": "c313b0ab8bb215a860fe5a06af40b47d4281e32fd03d0c397812352a09933b83",
+    "minimum_wire_gap_mm": 0.30000000000000016,
+    "partition_overlap_mm3": 3.3285006695304986e-17,
+    "passed": true
+  }
+]

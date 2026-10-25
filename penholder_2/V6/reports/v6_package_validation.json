@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "version": 6,
+  "project_files": 17519,
+  "main_project_files": 722,
+  "support_asset_files": 16797,
+  "required_rebuild_archives": [
+    "ivory_v6_project.zip",
+    "ivory_v6_support_assets.zip"
+  ],
+  "packages": [
+    {
+      "file": "ivory_v6_project.zip",
+      "bytes": 75443087,
+      "sha256": "932e622d88c7aaa2cf811efdef336f00cafc6150f5458689e3b97853778ddcb2",
+      "members": 723,
+      "crc_passed": true
+    },
+    {
+      "file": "ivory_v6_support_assets.zip",
+      "bytes": 73949882,
+      "sha256": "626d63d79064c7b07265898adc9ee17af5d7c1f7cdaed6e759826fd4820d12ee",
+      "members": 16798,
+      "crc_passed": true
+    },
+    {
+      "file": "ivory_v6_stl.zip",
+      "bytes": 82080795,
+      "sha256": "63167ef3cbc6c2420cd8847ed2d9e484fafb204b352f096f048da22318a54d96",
+      "members": 2,
+      "crc_passed": true
+    },
+    {
+      "file": "ivory_v6_repair_history.zip",
+      "bytes": 44244657,
+      "sha256": "8cfa518792f1e42bcddcaa0fa66922562bd046d2595dc00caedae2e515417b70",
+      "members": 320,
+      "crc_passed": true
+    }
+  ],
+  "publish_files": [
+    {
+      "name": "ivory_penholder_v6_custom_supported.3mf",
+      "bytes": 70531562,
+      "sha256": "d7d72127579dd9ab1cc64e3216ffd86eff1ddd82a86e3ba1e94c241949c91efe"
+    },
+    {
+      "name": "ivory_v6_stl.zip",
+      "bytes": 82080795,
+      "sha256": "63167ef3cbc6c2420cd8847ed2d9e484fafb204b352f096f048da22318a54d96"
+    },
+    {
+      "name": "ivory_v6_project.zip",
+      "bytes": 75443087,
+      "sha256": "932e622d88c7aaa2cf811efdef336f00cafc6150f5458689e3b97853778ddcb2"
+    },
+    {
+      "name": "ivory_v6_support_assets.zip",
+      "bytes": 73949882,
+      "sha256": "626d63d79064c7b07265898adc9ee17af5d7c1f7cdaed6e759826fd4820d12ee"
+    },
+    {
+      "name": "ivory_v6_repair_history.zip",
+      "bytes": 44244657,
+      "sha256": "8cfa518792f1e42bcddcaa0fa66922562bd046d2595dc00caedae2e515417b70"
+    },
+    {
+      "name": "README_V6_JA.txt",
+      "bytes": 14607,
+      "sha256": "2198ab5b458b1ca56a046c2817145854b4132fd4457742964f52f091a8de320a"
+    },
+    {
+      "name": "REMOVE_ORDER_JA.txt",
+      "bytes": 1054929,
+      "sha256": "dec40ee47e0e57b86096ae2eecefd564617b2660f827f5166a3d6e2aa17672dd"
+    },
+    {
+      "name": "support_removal_index.json",
+      "bytes": 11552860,
+      "sha256": "d45466432819326c8b9a142773d6f242f7a85728980d951d6643897e6dc9f543"
+    },
+    {
+      "name": "ivory_v6_support_overview.jpg",
+      "bytes": 939367,
+      "sha256": "27d3f70a6e882c150923f0afd47609253e718449589b601275b33a86a5fcceab"
+    },
+    {
+      "name": "ivory_v6_sphere_support_detail.jpg",
+      "bytes": 884553,
+      "sha256": "3134378b9fe0983e1d083701c8c8b10b4195dc874cdbd35b54ad0ef7fac77f15"
+    },
+    {
+      "name": "ivory_v6_wall_support_detail.jpg",
+      "bytes": 850193,
+      "sha256": "8ba993d9b2eb260edca6133ba22858f49942692b4504149c38f55d998ca16622"
+    },
+    {
+      "name": "ivory_v6_base_support_detail.jpg",
+      "bytes": 948176,
+      "sha256": "734ac2a9d67a0609658c84a2c69a924d121293f058df50a4f2febcebafd57654"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 1121,
+      "sha256": "5aaf3ee818296b107d56cd944db81a444ded206f3b26e7c3459f732e70c447de"
+    }
+  ],
+  "scope": "ZIP CRC, declared member inventory and content hashes. Actual Drive readback is a separate delivery check."
+}

@@ -1,0 +1,13 @@
+# Versions used to build and geometrically validate V6 on 2026-10-25
+numpy==2.3.5
+scipy==1.17.0
+trimesh==4.12.2
+manifold3d==3.5.2
+shapely==2.1.2
+vtk==9.3.1
+Pillow==12.3.0
+networkx==3.5
+rtree==1.4.1
+threadpoolctl==3.6.0
+# A C++17-compatible g++ is required for the whole-height topology auditor.
+# Xvfb is required for VTK rendering on headless X11 systems.

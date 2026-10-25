@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "method": "Exact point-to-triangle minimum against a rotation-invariant spherical envelope",
+  "angular_coverage": "all orientations about the module center",
+  "basis": "actual wall used for assembly and conservative bounds supplied for moving solids",
+  "wall_mesh": "wall_for_assembly.npz",
+  "modules": [
+    {
+      "kind": "large",
+      "layers": 5,
+      "azimuth_degrees": 0,
+      "moving_envelope_radius_mm": 12.552286506896266,
+      "wall_nearest_radius_mm": 13.320134700823695,
+      "minimum_clearance_lower_bound_mm": 0.7678481939274295,
+      "nearest_wall_point_mm": [
+        42.69104921482121,
+        13.10162210291613,
+        46.15143966674805
+      ]
+    },
+    {
+      "kind": "large",
+      "layers": 5,
+      "azimuth_degrees": 120,
+      "moving_envelope_radius_mm": 12.552286506896266,
+      "wall_nearest_radius_mm": 13.320133614780653,
+      "minimum_clearance_lower_bound_mm": 0.7678471078843874,
+      "nearest_wall_point_mm": [
+        -32.691861429559964,
+        30.42072288852382,
+        46.15143966674805
+      ]
+    },
+    {
+      "kind": "large",
+      "layers": 5,
+      "azimuth_degrees": 240,
+      "moving_envelope_radius_mm": 12.552286506896266,
+      "wall_nearest_radius_mm": 13.320137096533852,
+      "minimum_clearance_lower_bound_mm": 0.767850589637586,
+      "nearest_wall_point_mm": [
+        -9.999184669298073,
+        -43.52234472933624,
+        46.15143966674805
+      ]
+    },
+    {
+      "kind": "medium",
+      "layers": 4,
+      "azimuth_degrees": 40,
+      "moving_envelope_radius_mm": 10.55667116700169,
+      "wall_nearest_radius_mm": 11.456154564018695,
+      "minimum_clearance_lower_bound_mm": 0.8994833970170042,
+      "nearest_wall_point_mm": [
+        40.75491885100098,
+        19.38850121195615,
+        76.85892486572266
+      ]
+    },
+    {
+      "kind": "medium",
+      "layers": 4,
+      "azimuth_degrees": 160,
+      "moving_envelope_radius_mm": 10.55667116700169,
+      "wall_nearest_radius_mm": 11.45615289821187,
+      "minimum_clearance_lower_bound_mm": 0.8994817312101802,
+      "nearest_wall_point_mm": [
+        -37.16839497765526,
+        25.6005430524962,
+        76.85892486572266
+      ]
+    },
+    {
+      "kind": "medium",
+      "layers": 4,
+      "azimuth_degrees": 280,
+      "moving_envelope_radius_mm": 10.55667116700169,
+      "wall_nearest_radius_mm": 11.456149392949763,
+      "minimum_clearance_lower_bound_mm": 0.8994782259480729,
+      "nearest_wall_point_mm": [
+        -3.5865195905511533,
+        -44.98904607817656,
+        76.85892486572266
+      ]
+    },
+    {
+      "kind": "small",
+      "layers": 3,
+      "azimuth_degrees": 80,
+      "moving_envelope_radius_mm": 8.563808472852578,
+      "wall_nearest_radius_mm": 9.46250010193596,
+      "minimum_clearance_lower_bound_mm": 0.8986916290833822,
+      "nearest_wall_point_mm": [
+        15.399213883032674,
+        40.55244592247536,
+        30.330687948788032
+      ]
+    },
+    {
+      "kind": "small",
+      "layers": 3,
+      "azimuth_degrees": 200,
+      "moving_envelope_radius_mm": 8.563808472852578,
+      "wall_nearest_radius_mm": 9.46167090745438,
+      "minimum_clearance_lower_bound_mm": 0.8978624346018016,
+      "nearest_wall_point_mm": [
+        -44.89601380457733,
+        -8.931273319745362,
+        32.39122910124459
+      ]
+    },
+    {
+      "kind": "small",
+      "layers": 3,
+      "azimuth_degrees": 320,
+      "moving_envelope_radius_mm": 8.563808472852578,
+      "wall_nearest_radius_mm": 9.458864581852506,
+      "minimum_clearance_lower_bound_mm": 0.8950561089999276,
+      "nearest_wall_point_mm": [
+        29.612688446927784,
+        -34.986543209441315,
+        31.386171890688
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2135 @@
+{
+  "schema": "penholder_v6_github_payload_manifest_v2",
+  "repository": "ryo100794/resin-lace-pencil-holder-generator",
+  "repository_directory": "penholder_2/V6",
+  "published_release_files": 13,
+  "source_files": 112,
+  "selected_original_reports": 22,
+  "post_package_records": 3,
+  "manifest_self_excluded": true,
+  "created_at_utc": "2026-10-25T21:58:25.467955+00:00",
+  "scope": "Exact stored byte parts and normal files for GitHub upload. Reconstructed originals are excluded from this stored-file manifest and remain identified by BINARY_PARTS.json. No remote upload is claimed here.",
+  "logical_large_binaries": 5,
+  "stored_binary_parts": 43,
+  "stored_part_limit_bytes": 8388608,
+  "excluded_reconstructed_binary_paths": [
+    "archives/ivory_v6_project.zip",
+    "archives/ivory_v6_support_assets.zip",
+    "history/ivory_v6_repair_history.zip",
+    "models/ivory_penholder_v6_custom_supported.3mf",
+    "models/ivory_v6_stl.zip"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 336,
+      "sha256": "be22c8c5cb5ad794950703991ad7aed1d7bb668780e3f2b81b7eccce6632183a",
+      "git_blob_sha1": "dc8d90178360966c1bdcacc443d435f5ff582ac1",
+      "origin": {
+        "kind": "ignore_reconstructed_binary_outputs"
+      }
+    },
+    {
+      "path": "BINARY_PARTS.json",
+      "bytes": 15083,
+      "sha256": "e68d7bfbf1125b3dbcf5604887fb4cb9baa73294af3c5aa39b6f03dc2a8d5cf1",
+      "git_blob_sha1": "e9978027aa3f1dc1d895c910afa6711784766ea0",
+      "origin": {
+        "kind": "binary_part_map_preserving_original_file_identity"
+      }
+    },
+    {
+      "path": "README.md",
+      "bytes": 7917,
+      "sha256": "9c127b268189c20bf235fbeeb4d5e3c6d12f760897b198b2ae03073b0275690c",
+      "git_blob_sha1": "8717da01b2183a7eb6480c57d727d826ca583b37",
+      "origin": {
+        "kind": "github_navigation_document"
+      }
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "bytes": 1121,
+      "sha256": "5aaf3ee818296b107d56cd944db81a444ded206f3b26e7c3459f732e70c447de",
+      "git_blob_sha1": "a920c26a2eba10c0d377ac93a3bf23b003594251",
+      "origin": {
+        "kind": "frozen_published_file",
+        "name": "SHA256SUMS.txt"
+      }
+    },
+    {
+      "path": "archives/ivory_v6_project.zip.part001",
+      "bytes": 8388608,
+      "sha256": "c13364515cdde18a4fa6ab29f8c192afc388d8ad8a8d92cfbbf9f8f0a3775694",
+      "git_blob_sha1": "98de1ac57aac9e31a99d2d49e4db6b98bbf82fc1",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_project.zip",
+        "offset_bytes": 0
+      }
+    },
+    {
+      "path": "archives/ivory_v6_project.zip.part002",
+      "bytes": 8388608,
+      "sha256": "67106af54d8afeaf52bfa604dbada4e380de8e316fa4bf7f9a3cf206d6ad7b13",
+      "git_blob_sha1": "8fccb350984bd5c0dfbe39c21bacec2d3a29d1bf",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_project.zip",
+        "offset_bytes": 8388608
+      }
+    },
+    {
+      "path": "archives/ivory_v6_project.zip.part003",
+      "bytes": 8388608,
+      "sha256": "50171817ff73ec5431f9c8bc980851b4cf23c055f28cc639c8415bc61d5544b9",
+      "git_blob_sha1": "c04781016f80818bef30fc7cd18a35b37f7d6b08",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_project.zip",
+        "offset_bytes": 16777216
+      }
+    },
+    {
+      "path": "archives/ivory_v6_project.zip.part004",
+      "bytes": 8388608,
+      "sha256": "56cab266b11d280a92c749270f185630d6227f34471b85e3972109e9156cbed0",
+      "git_blob_sha1": "14fdd87517c8088daf33de35bef4df94ba7b4abe",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_project.zip",
+        "offset_bytes": 25165824
+      }
+    },
+    {
+      "path": "archives/ivory_v6_project.zip.part005",
+      "bytes": 8388608,
+      "sha256": "5e125db0815a0f1186cd8715ae70954ba7510e0555c3e93a30ee42de33df3724",
+      "git_blob_sha1": "a7cbd5bebe7e744394a2e421a3d4e383f11525a0",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_project.zip",
+        "offset_bytes": 33554432
+      }
+    },
+    {
+      "path": "archives/ivory_v6_project.zip.part006",
+      "bytes": 8388608,
+      "sha256": "282a26f03ae5db84271ae8f23bbca01f904f821c61986cbcec6e6be6607b6103",
+      "git_blob_sha1": "4c608f22ab4dc5d77ff34264a41e9cfe6f372f29",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_project.zip",
+        "offset_bytes": 41943040
+      }
+    },
+    {
+      "path": "archives/ivory_v6_project.zip.part007",
+      "bytes": 8388608,
+      "sha256": "e758ed8ae020b2fae6e4d5acbf4ec1d82b48df26a58733595b904b541866e14a",
+      "git_blob_sha1": "7e814174d840430ffcd557d571d6aabd2073e64a",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_project.zip",
+        "offset_bytes": 50331648
+      }
+    },
+    {
+      "path": "archives/ivory_v6_project.zip.part008",
+      "bytes": 8388608,
+      "sha256": "47e57653f9a89c432fdd3e3903f5e6c4176491ff9993d39a9084dfc9c9972a3d",
+      "git_blob_sha1": "820812cea0220da58590c8ea0d6a50e559332136",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_project.zip",
+        "offset_bytes": 58720256
+      }
+    },
+    {
+      "path": "archives/ivory_v6_project.zip.part009",
+      "bytes": 8334223,
+      "sha256": "48253ff6e0e459d638b98db328c4b50b7f89ddcebd4420686213c36bdb106adc",
+      "git_blob_sha1": "df206f531a0f436fa0407db97c756d4d64f3d2bd",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_project.zip",
+        "offset_bytes": 67108864
+      }
+    },
+    {
+      "path": "archives/ivory_v6_support_assets.zip.part001",
+      "bytes": 8388608,
+      "sha256": "d3244a3bff73907b6c22528bd984d92900c42c3fd78e48a7a67173d88a99421f",
+      "git_blob_sha1": "ef566681446f9488630a340db44e4eaeff335ca0",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_support_assets.zip",
+        "offset_bytes": 0
+      }
+    },
+    {
+      "path": "archives/ivory_v6_support_assets.zip.part002",
+      "bytes": 8388608,
+      "sha256": "095d3fe1c924b7e873f54714be3196f26b9c3e002de81c3aa3ed06f43102b44d",
+      "git_blob_sha1": "ba103770fa55ccf41e368b14b9631743eb734f8a",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_support_assets.zip",
+        "offset_bytes": 8388608
+      }
+    },
+    {
+      "path": "archives/ivory_v6_support_assets.zip.part003",
+      "bytes": 8388608,
+      "sha256": "7dcdd2fb0003a6fbfefd9728b7c8aaaf7f09dfc2a5f38a8bd48e29681fc296e1",
+      "git_blob_sha1": "079e3994763d9c4bd73067c1231ac674d3f5aaf8",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_support_assets.zip",
+        "offset_bytes": 16777216
+      }
+    },
+    {
+      "path": "archives/ivory_v6_support_assets.zip.part004",
+      "bytes": 8388608,
+      "sha256": "3a9a7f4df0adcea89d3b2c162d6aa429e022daf86f67960224dad3278848f69c",
+      "git_blob_sha1": "b22ea5672f4729b8873f5240c6bbb3b1996a0a48",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_support_assets.zip",
+        "offset_bytes": 25165824
+      }
+    },
+    {
+      "path": "archives/ivory_v6_support_assets.zip.part005",
+      "bytes": 8388608,
+      "sha256": "d306ef20d8697c95cf080b77ef5bd304b858f08b4dc6143e4e3e183918aa9558",
+      "git_blob_sha1": "25cf47cdb079c774c1567ae70d0963d91734e56b",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_support_assets.zip",
+        "offset_bytes": 33554432
+      }
+    },
+    {
+      "path": "archives/ivory_v6_support_assets.zip.part006",
+      "bytes": 8388608,
+      "sha256": "28a74754969bc24abf90e5add82ea41aa379e56c47b18c2fdf13c72c8217709e",
+      "git_blob_sha1": "b8a7f8f60d98db3a3b962aa4be39805f46e1c1bc",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_support_assets.zip",
+        "offset_bytes": 41943040
+      }
+    },
+    {
+      "path": "archives/ivory_v6_support_assets.zip.part007",
+      "bytes": 8388608,
+      "sha256": "4d618635646117191c56b4ef4daeb2b8bf42a520dbe8ba259772cf20df2a5958",
+      "git_blob_sha1": "982f7d1a820376668def07788fef5b6c710c6237",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_support_assets.zip",
+        "offset_bytes": 50331648
+      }
+    },
+    {
+      "path": "archives/ivory_v6_support_assets.zip.part008",
+      "bytes": 8388608,
+      "sha256": "d743f7a25c9d89b002886ed3a5ff237e5381db7d896d7cd5b172883853b53840",
+      "git_blob_sha1": "f11ff0f6f0c5bd6225eb024690446b5e71095386",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_support_assets.zip",
+        "offset_bytes": 58720256
+      }
+    },
+    {
+      "path": "archives/ivory_v6_support_assets.zip.part009",
+      "bytes": 6841018,
+      "sha256": "d665f1d74afd0ae41ef803413bdb84e8569687e5bdf9fbdc000393d426c021a7",
+      "git_blob_sha1": "23d2a815f556ede3a614b453d9748217b3fdece6",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "archives/ivory_v6_support_assets.zip",
+        "offset_bytes": 67108864
+      }
+    },
+    {
+      "path": "docs/README_V6_JA.txt",
+      "bytes": 14607,
+      "sha256": "2198ab5b458b1ca56a046c2817145854b4132fd4457742964f52f091a8de320a",
+      "git_blob_sha1": "6f9ac50a62ca67deb6fb25bfcedbad84a1f1376b",
+      "origin": {
+        "kind": "frozen_published_file",
+        "name": "README_V6_JA.txt"
+      }
+    },
+    {
+      "path": "docs/REMOVE_ORDER_JA.txt",
+      "bytes": 1054929,
+      "sha256": "dec40ee47e0e57b86096ae2eecefd564617b2660f827f5166a3d6e2aa17672dd",
+      "git_blob_sha1": "110233ef6fc49dbe5b2d5d3372e2d0f7c6651929",
+      "origin": {
+        "kind": "frozen_published_file",
+        "name": "REMOVE_ORDER_JA.txt"
+      }
+    },
+    {
+      "path": "docs/support_removal_index.json",
+      "bytes": 11552860,
+      "sha256": "d45466432819326c8b9a142773d6f242f7a85728980d951d6643897e6dc9f543",
+      "git_blob_sha1": "a813d6173535f6227ebda80a9b26dac570aa59ef",
+      "origin": {
+        "kind": "frozen_published_file",
+        "name": "support_removal_index.json"
+      }
+    },
+    {
+      "path": "history/ivory_v6_repair_history.zip.part001",
+      "bytes": 8388608,
+      "sha256": "2f73f9bf0b02be9dc121343af70cc1188cfc81f30bbc81d8e52a2b44008c4cfe",
+      "git_blob_sha1": "77d0ba0852b79521f495db30f6d900c67cc567e6",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "history/ivory_v6_repair_history.zip",
+        "offset_bytes": 0
+      }
+    },
+    {
+      "path": "history/ivory_v6_repair_history.zip.part002",
+      "bytes": 8388608,
+      "sha256": "ff1e76318c4007bb6d34ed1750e978704f278318e89c92ab8205f17907967f0e",
+      "git_blob_sha1": "554d04c922b5ab1f4eaca25ec8edbae5443bbb0e",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "history/ivory_v6_repair_history.zip",
+        "offset_bytes": 8388608
+      }
+    },
+    {
+      "path": "history/ivory_v6_repair_history.zip.part003",
+      "bytes": 8388608,
+      "sha256": "0c659d26bb5d4552b5e4073b3b72019e1a8495c284f5be6e307f72c27e02c6be",
+      "git_blob_sha1": "5b845c72b995685b2226314188046a0487efa92b",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "history/ivory_v6_repair_history.zip",
+        "offset_bytes": 16777216
+      }
+    },
+    {
+      "path": "history/ivory_v6_repair_history.zip.part004",
+      "bytes": 8388608,
+      "sha256": "0634575f00cc1e687aaef878b130a9bd41297c03c74867c006661b3665edbdc9",
+      "git_blob_sha1": "5b6589f19b81107dbc683b67544ef434ae29bd04",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "history/ivory_v6_repair_history.zip",
+        "offset_bytes": 25165824
+      }
+    },
+    {
+      "path": "history/ivory_v6_repair_history.zip.part005",
+      "bytes": 8388608,
+      "sha256": "2bfb9be8ed5a3374479fa990a1d1539f79150bed5e6692428e036e13993b97a6",
+      "git_blob_sha1": "3e6cdb6b7b9dea9808b54fa6aface9244bdde0a1",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "history/ivory_v6_repair_history.zip",
+        "offset_bytes": 33554432
+      }
+    },
+    {
+      "path": "history/ivory_v6_repair_history.zip.part006",
+      "bytes": 2301617,
+      "sha256": "45287e5944a38441d24eb933286fc9decde0dba0645772c0fb8bb9c8b1e0c632",
+      "git_blob_sha1": "c421f8271f7d4296f53264f4263afa6c1c040668",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "history/ivory_v6_repair_history.zip",
+        "offset_bytes": 41943040
+      }
+    },
+    {
+      "path": "models/ivory_penholder_v6_custom_supported.3mf.part001",
+      "bytes": 8388608,
+      "sha256": "d39e2a6af84bdb6d81586baa86ce15eb18c51fdd379f2a50ed5c81e750db202e",
+      "git_blob_sha1": "7fa4acf44a8e4f5ff7ebfff20325eed67d5c5c12",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_penholder_v6_custom_supported.3mf",
+        "offset_bytes": 0
+      }
+    },
+    {
+      "path": "models/ivory_penholder_v6_custom_supported.3mf.part002",
+      "bytes": 8388608,
+      "sha256": "aa3283aebe36ee8651701ad925626de9389643d2aa8d0f95dbdd20ed1cc29df6",
+      "git_blob_sha1": "077d8a745138fe99ecef012afbd7ee0dc1b25802",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_penholder_v6_custom_supported.3mf",
+        "offset_bytes": 8388608
+      }
+    },
+    {
+      "path": "models/ivory_penholder_v6_custom_supported.3mf.part003",
+      "bytes": 8388608,
+      "sha256": "01d3dc534979a6cbc6f72d9aa59b720fd8c16a4d00455d8d38aec2920093de8d",
+      "git_blob_sha1": "f1f71da1999a600686f34c9f95c4f8d01cf32421",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_penholder_v6_custom_supported.3mf",
+        "offset_bytes": 16777216
+      }
+    },
+    {
+      "path": "models/ivory_penholder_v6_custom_supported.3mf.part004",
+      "bytes": 8388608,
+      "sha256": "cf3b64ed7db8b06888e8d83e67d4bd7e7c54bb34e35e3d848afd6c36890b055f",
+      "git_blob_sha1": "c9085141eaecfaa6238743861dc454f407aa0fa2",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_penholder_v6_custom_supported.3mf",
+        "offset_bytes": 25165824
+      }
+    },
+    {
+      "path": "models/ivory_penholder_v6_custom_supported.3mf.part005",
+      "bytes": 8388608,
+      "sha256": "f72facc0d1fc2585e0dba436cf50ac1e4c2dfe3b75cc04e4c3bdd7697dc0d665",
+      "git_blob_sha1": "b26fc96ef9a5fa29c98fc23c044ff8aca709c7c4",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_penholder_v6_custom_supported.3mf",
+        "offset_bytes": 33554432
+      }
+    },
+    {
+      "path": "models/ivory_penholder_v6_custom_supported.3mf.part006",
+      "bytes": 8388608,
+      "sha256": "c9e1759dafe7cc4760707dfc418bed93680dc96b4718ed42f6b6991f71544c5e",
+      "git_blob_sha1": "d5f45d0e15d2810fdb812984433cdadf75ce0722",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_penholder_v6_custom_supported.3mf",
+        "offset_bytes": 41943040
+      }
+    },
+    {
+      "path": "models/ivory_penholder_v6_custom_supported.3mf.part007",
+      "bytes": 8388608,
+      "sha256": "f59b8bf20b067d2bbd00c9ee3e6ddfd788013f35f81afb17bca184c287e951cb",
+      "git_blob_sha1": "2ee1984422a788d8f41119c9fd0620941e28e677",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_penholder_v6_custom_supported.3mf",
+        "offset_bytes": 50331648
+      }
+    },
+    {
+      "path": "models/ivory_penholder_v6_custom_supported.3mf.part008",
+      "bytes": 8388608,
+      "sha256": "b2b426cc61b46839eaabbe8d71a6c49eff37b2fe9b2e85001219b63e5bf270da",
+      "git_blob_sha1": "4a475500f8daed81368eac687bb96d6bae7fc7a8",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_penholder_v6_custom_supported.3mf",
+        "offset_bytes": 58720256
+      }
+    },
+    {
+      "path": "models/ivory_penholder_v6_custom_supported.3mf.part009",
+      "bytes": 3422698,
+      "sha256": "c2ad70b26158ec3fa21c8ba18748e9116c0ca16ef4e173cec2e218f70859f019",
+      "git_blob_sha1": "4365540a8d961b7a8169332f182a6ac723928373",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_penholder_v6_custom_supported.3mf",
+        "offset_bytes": 67108864
+      }
+    },
+    {
+      "path": "models/ivory_v6_stl.zip.part001",
+      "bytes": 8388608,
+      "sha256": "12336b4b449b4ce0330e8f4341836ffb9fc609a9c618c0e625dfbbdcc9805ff5",
+      "git_blob_sha1": "f69115ad5e2a589771cf99dede3a53234f1d5b72",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_v6_stl.zip",
+        "offset_bytes": 0
+      }
+    },
+    {
+      "path": "models/ivory_v6_stl.zip.part002",
+      "bytes": 8388608,
+      "sha256": "5ef0a0a9d4bd14ad443672af12df2ad4335b3556824226040772b3b3bc8671f4",
+      "git_blob_sha1": "5828016cbf42a4ddc2abf1a2142f602fd80dbb93",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_v6_stl.zip",
+        "offset_bytes": 8388608
+      }
+    },
+    {
+      "path": "models/ivory_v6_stl.zip.part003",
+      "bytes": 8388608,
+      "sha256": "3b8d35ffc2a88cc30a8df191ad42b82ef89cd47db25c9abad32c8fe725a7d432",
+      "git_blob_sha1": "ead0eb573a43ad0deb9a6c51a5f5326f4d86004a",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_v6_stl.zip",
+        "offset_bytes": 16777216
+      }
+    },
+    {
+      "path": "models/ivory_v6_stl.zip.part004",
+      "bytes": 8388608,
+      "sha256": "56318109fd94a7884f229c012b439ef72112e5b451907c88f6a31e2bf430d469",
+      "git_blob_sha1": "4eca45f31c40a01bc35d6d0cffba60f50fe65812",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_v6_stl.zip",
+        "offset_bytes": 25165824
+      }
+    },
+    {
+      "path": "models/ivory_v6_stl.zip.part005",
+      "bytes": 8388608,
+      "sha256": "f905ddbc00adabd3ee0874125dc1b4a6dde549d63d24ebacdf9aa7b9a495c40b",
+      "git_blob_sha1": "e0aced3b73a6ecae6377d8bde932e4ce16780e1a",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_v6_stl.zip",
+        "offset_bytes": 33554432
+      }
+    },
+    {
+      "path": "models/ivory_v6_stl.zip.part006",
+      "bytes": 8388608,
+      "sha256": "915f80d12ec0d56cea52be1c118fde486e31f46ba69dc6a518641a417b0642de",
+      "git_blob_sha1": "8af2ab3a4b1df710531e5064553999ad30f82729",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_v6_stl.zip",
+        "offset_bytes": 41943040
+      }
+    },
+    {
+      "path": "models/ivory_v6_stl.zip.part007",
+      "bytes": 8388608,
+      "sha256": "cffd8bdcb2a4a0ab42ea724f760d9a8351f908b2eb16a04a54fb6b9bb2bdbb74",
+      "git_blob_sha1": "40b57e19390278899a2bb91eb0315fdcfb4b8755",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_v6_stl.zip",
+        "offset_bytes": 50331648
+      }
+    },
+    {
+      "path": "models/ivory_v6_stl.zip.part008",
+      "bytes": 8388608,
+      "sha256": "cc67ff3866afb00853b74d06d2fd45204fd1b35d787e9380bfc538eac95939e2",
+      "git_blob_sha1": "816254e6252ee66f619ab97cd68d7e9847289dbe",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_v6_stl.zip",
+        "offset_bytes": 58720256
+      }
+    },
+    {
+      "path": "models/ivory_v6_stl.zip.part009",
+      "bytes": 8388608,
+      "sha256": "fdcf92783143d5a11009c749f7a37707930256ec3395dd812e4f0212eee3f4da",
+      "git_blob_sha1": "0d9afff792020512840a6eb667a849fdb778d071",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_v6_stl.zip",
+        "offset_bytes": 67108864
+      }
+    },
+    {
+      "path": "models/ivory_v6_stl.zip.part010",
+      "bytes": 6583323,
+      "sha256": "5771011bc52155e28ed362e5b29cbf9af94bf396d75fdeb5007ebf5d44f09af9",
+      "git_blob_sha1": "697059c0d7e52a11753ab4d35f35f973a5cf65f5",
+      "origin": {
+        "kind": "exact_binary_part",
+        "logical_original": "models/ivory_v6_stl.zip",
+        "offset_bytes": 75497472
+      }
+    },
+    {
+      "path": "previews/ivory_v6_base_support_detail.jpg",
+      "bytes": 948176,
+      "sha256": "734ac2a9d67a0609658c84a2c69a924d121293f058df50a4f2febcebafd57654",
+      "git_blob_sha1": "18db45be20dcc96f2e49e774b3fb9607e8b455a4",
+      "origin": {
+        "kind": "frozen_published_file",
+        "name": "ivory_v6_base_support_detail.jpg"
+      }
+    },
+    {
+      "path": "previews/ivory_v6_sphere_support_detail.jpg",
+      "bytes": 884553,
+      "sha256": "3134378b9fe0983e1d083701c8c8b10b4195dc874cdbd35b54ad0ef7fac77f15",
+      "git_blob_sha1": "ffa8f0f06f87429ebb438086a211e39319cdc283",
+      "origin": {
+        "kind": "frozen_published_file",
+        "name": "ivory_v6_sphere_support_detail.jpg"
+      }
+    },
+    {
+      "path": "previews/ivory_v6_support_overview.jpg",
+      "bytes": 939367,
+      "sha256": "27d3f70a6e882c150923f0afd47609253e718449589b601275b33a86a5fcceab",
+      "git_blob_sha1": "4229516970d2fdca7f4699c877e688a91330364e",
+      "origin": {
+        "kind": "frozen_published_file",
+        "name": "ivory_v6_support_overview.jpg"
+      }
+    },
+    {
+      "path": "previews/ivory_v6_wall_support_detail.jpg",
+      "bytes": 850193,
+      "sha256": "8ba993d9b2eb260edca6133ba22858f49942692b4504149c38f55d998ca16622",
+      "git_blob_sha1": "a8d5f4e50cc83ea98b9a0a51230139e84640bc56",
+      "origin": {
+        "kind": "frozen_published_file",
+        "name": "ivory_v6_wall_support_detail.jpg"
+      }
+    },
+    {
+      "path": "reports/DOWNLOAD_VERIFICATION.json",
+      "bytes": 20879,
+      "sha256": "069bbdd18d5ccb27644538de3bd60cc6465e49ae32f74d93671684a674aad18b",
+      "git_blob_sha1": "23db54a14f0b1f1facbb32303baa71609e58135f",
+      "origin": {
+        "kind": "post_package_verification_record",
+        "name": "DOWNLOAD_VERIFICATION.json"
+      }
+    },
+    {
+      "path": "reports/PAIRED_ARCHIVE_AUDIT.json",
+      "bytes": 3109,
+      "sha256": "25d4f0638f14fe1b95d82b884dc46228ec82da8a7f0a4dcd1cd0ddc7d8b9945d",
+      "git_blob_sha1": "6140f075a3b339887b1fac3cfdaf5a46a160bc66",
+      "origin": {
+        "kind": "post_package_verification_record",
+        "name": "PAIRED_ARCHIVE_AUDIT.json"
+      }
+    },
+    {
+      "path": "reports/binary_parts_validation.json",
+      "bytes": 10195,
+      "sha256": "6e847eaaca4b842928f8910fcb2e0f6ff32df564f1c8cd3fe2ceb6f9f7405bbf",
+      "git_blob_sha1": "c8309505cce9c64d45804c4489a4ef7d19d7fdea",
+      "origin": {
+        "kind": "hash_only_verification_of_all_ordered_binary_parts"
+      }
+    },
+    {
+      "path": "reports/custom_supports_validation.json",
+      "bytes": 7824700,
+      "sha256": "62bcfa2b2475059adebb156f31f2beb0c545bce6dff9f43d5533a7169345cca0",
+      "git_blob_sha1": "83facfae4e0e762c69e7ea6f1fcbb4963ff800be",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/custom_supports_validation.json"
+      }
+    },
+    {
+      "path": "reports/external_removal_prism_stream_equivalence_v6.json",
+      "bytes": 5806,
+      "sha256": "aab2f454936c23494273eb3727c2ebb02746e2dce8c076301989f6b2e8e2af59",
+      "git_blob_sha1": "76ccc1ffe7e70d316eee18014a0bc91e1fffd1a2",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/external_removal_prism_stream_equivalence_v6.json"
+      }
+    },
+    {
+      "path": "reports/full_height_validation.json",
+      "bytes": 1058871,
+      "sha256": "c5aa6e1fa0cb83d7eff5fbcd25f63a5b94be0288c654f36db475e7bbc69d7d12",
+      "git_blob_sha1": "24b7410c2b525f9a4f6c56cd27e0c2f9b3cf3b03",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/full_height_validation.json"
+      }
+    },
+    {
+      "path": "reports/geometry_validation.json",
+      "bytes": 2442,
+      "sha256": "64a643fe85e11da570cc726c9b4e4f857f40eec1071ca1f123226b1b46fa320d",
+      "git_blob_sha1": "78e5f3288d94c84866567d8ba5a6f43aa237f50d",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/geometry_validation.json"
+      }
+    },
+    {
+      "path": "reports/holder_finite_endpoint_partition_v6.json",
+      "bytes": 87081,
+      "sha256": "4c9fe72cf36d03e00016cf5ea314c6bbb56858b320126d951788c370d5601b6c",
+      "git_blob_sha1": "e94da5639f6fd47fce450079f26335ecceca3ac1",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/holder_finite_endpoint_partition_v6.json"
+      }
+    },
+    {
+      "path": "reports/holder_motion_clearance.json",
+      "bytes": 3708,
+      "sha256": "2f58f53a7b13e56779694a2fec0db5d2c27d175c7198d6dacc2c063283d04413",
+      "git_blob_sha1": "f2681343fec7e682f1af08e704f67cd5c77f0d58",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/holder_motion_clearance.json"
+      }
+    },
+    {
+      "path": "reports/holder_service_access.json",
+      "bytes": 6014,
+      "sha256": "66b960df894adb1be4e0e0cba1673569a9ad3e56d54567703ce8e583e0758c3c",
+      "git_blob_sha1": "5a832514e09750922ce301f19fa3cf1d7fd61e74",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/holder_service_access.json"
+      }
+    },
+    {
+      "path": "reports/motion_validation.json",
+      "bytes": 186117,
+      "sha256": "e6109da5ccbe9fece4b8083fa2fa09743c584b6733e2fa0c05c5a146cc160edb",
+      "git_blob_sha1": "bdc01e326304a01e4d6b4336f3432a3e5620685e",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/motion_validation.json"
+      }
+    },
+    {
+      "path": "reports/print_preparation.json",
+      "bytes": 15243,
+      "sha256": "309ec4d440d3254cec35d67bd20c30bf8046f7bb6deb3a1badc810ab98898a84",
+      "git_blob_sha1": "b7fdd1f03cfd8afd9ffcead7d70d2ea32cd8a9d4",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/print_preparation.json"
+      }
+    },
+    {
+      "path": "reports/rotation_envelope_certificate.json",
+      "bytes": 44966,
+      "sha256": "49ff48ab128b202442fcc221eef5846629d0dd2a4ef33acd0b97eda82ee45a8b",
+      "git_blob_sha1": "fae1e18ae297dfce74199144f2e6fdf45db41582",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/rotation_envelope_certificate.json"
+      }
+    },
+    {
+      "path": "reports/sphere_generation_checks.json",
+      "bytes": 1180,
+      "sha256": "c87a0135f17013c66108c6ab1ad3981bae6434b81986719e818651eaf6945e5b",
+      "git_blob_sha1": "c3cf683ad483b8692521faad55a3981bf22fa323",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/sphere_generation_checks.json"
+      }
+    },
+    {
+      "path": "reports/strength_validation.json",
+      "bytes": 392893,
+      "sha256": "81075c13f411d05d37ec825a6c5aa9d18923e6bda0a2d7fd4e2803ada7cf8fd3",
+      "git_blob_sha1": "c171f6e6b2a79ef03eaf79377d453548bd7e9e19",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/strength_validation.json"
+      }
+    },
+    {
+      "path": "reports/v5_mechanism_unchanged.json",
+      "bytes": 84277,
+      "sha256": "b2c49144db92e1db606d08c9e2d891005721e8b7441e019c915e754c0f316a14",
+      "git_blob_sha1": "1e3baae477838f31e3e47d2cdc412c91ff6b6264",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/v5_mechanism_unchanged.json"
+      }
+    },
+    {
+      "path": "reports/v6_delivery_summary.json",
+      "bytes": 1217,
+      "sha256": "18d6d6c2b7a17f115abbeaaf9a0e00ce73acddf602f8d269e00df23d292be9a9",
+      "git_blob_sha1": "6aa5376023e29e7daa5890ed07d9d0a978d17334",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/v6_delivery_summary.json"
+      }
+    },
+    {
+      "path": "reports/v6_export_validation.json",
+      "bytes": 1492,
+      "sha256": "4d7d448e2bc253c7c068897520a4e8d4be54162f13079556cdf0fbb744085bfa",
+      "git_blob_sha1": "1df725352f1a145f4fe23dedb0f1dac838ab9984",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/v6_export_validation.json"
+      }
+    },
+    {
+      "path": "reports/v6_external_removal_validation.json",
+      "bytes": 10109906,
+      "sha256": "872734251d9a45354c90650ad8a10fbd00c693063914b66c082e02a72707e5be",
+      "git_blob_sha1": "3d5097a1137aa3d06e7454e8e679a3f38f9169f2",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/v6_external_removal_validation.json"
+      }
+    },
+    {
+      "path": "reports/v6_internal_service_validation.json",
+      "bytes": 116674,
+      "sha256": "1feb78f3b2e5e7ccbac9e1a14d75797f4576e07fe3b14311b72c3f532613d7f0",
+      "git_blob_sha1": "3b88c24286b322623b1932c8cbd5f28e8219086a",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/v6_internal_service_validation.json"
+      }
+    },
+    {
+      "path": "reports/v6_nominal_design_context.json",
+      "bytes": 2618,
+      "sha256": "5af92fdbc506f44403a8c1694b917174cdd64371e36d0fc8e8b018d13568a604",
+      "git_blob_sha1": "a1d185137b45b2be88d7fd3a26c1b7f8360c1c22",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/v6_nominal_design_context.json"
+      }
+    },
+    {
+      "path": "reports/v6_package_validation.json",
+      "bytes": 3350,
+      "sha256": "d3fd6d5828f4620633dd3fee9ca01f0eeee93dd857e437b63341a22e7c4b228b",
+      "git_blob_sha1": "7541cdbf9210f42a5d4d8bf51aad2966595573ad",
+      "origin": {
+        "kind": "post_package_verification_record",
+        "name": "v6_package_validation.json"
+      }
+    },
+    {
+      "path": "reports/v6_precision_motion_validation.json",
+      "bytes": 24195,
+      "sha256": "487fda721d1ea89917df69bf69904930265deb2975aaf992e04f5ca501ed3834",
+      "git_blob_sha1": "ec9922bca1378289069ecf87834b2be2e5382577",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/v6_precision_motion_validation.json"
+      }
+    },
+    {
+      "path": "reports/v6_precision_preparation.json",
+      "bytes": 3967,
+      "sha256": "641a87c27a38a1a54662de4f189684ae13eb51580a0269c36d74eb42f36125d9",
+      "git_blob_sha1": "159b3b7ebd396e44766316c3f6acc246763550b4",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/v6_precision_preparation.json"
+      }
+    },
+    {
+      "path": "reports/v6_rebuild_route_candidates.json",
+      "bytes": 276,
+      "sha256": "30eb42b9c2a893285428e1a759ba9cad1e5efc2e77f5a28b1755a86c3062382c",
+      "git_blob_sha1": "b6fb33e68e8717566eb358a45a3ec2c10d0ac64d",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/v6_rebuild_route_candidates.json"
+      }
+    },
+    {
+      "path": "reports/v6_release_validation.json",
+      "bytes": 2869,
+      "sha256": "4bb47faaba8fb4cd410f818d856901057bdb188932b7afe11763248abf6dfa10",
+      "git_blob_sha1": "cb46db3e0f3bac34c9506c9f49e36973253f492c",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/reports/v6_release_validation.json"
+      }
+    },
+    {
+      "path": "restore_parts.py",
+      "bytes": 7198,
+      "sha256": "5b51c5d920b809b81956e521993968aa465f4123e8b9ac376e0dad8557898151",
+      "git_blob_sha1": "e00d0adfa2c3d837f9b792e50bf03e1aed6db885",
+      "origin": {
+        "kind": "standard_library_binary_restoration_utility"
+      }
+    },
+    {
+      "path": "source/append_final_fixed_rim_v6.py",
+      "bytes": 8316,
+      "sha256": "a2f634730e4a08b94f9c05b046c94888734f1419fb4f7bd7c46df2f54cf3e636",
+      "git_blob_sha1": "1d3cec4ac38b76c856252a9b21cd518cd3eb83a8",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/append_final_fixed_rim_v6.py"
+      }
+    },
+    {
+      "path": "source/assemble_custom_supports.py",
+      "bytes": 11361,
+      "sha256": "27a9e244b1b64b6679ff59206806e4f31ee5912052371697c580b74f362db970",
+      "git_blob_sha1": "798f7340c4aeb5e9d9b435ab2f7d4dbab0fb23cc",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/assemble_custom_supports.py"
+      }
+    },
+    {
+      "path": "source/audit_additional_fixed_rim_v6.py",
+      "bytes": 12735,
+      "sha256": "b3a2045cd176f1f077ed40ea215305ed6fa07b835932d29e69805630973817b3",
+      "git_blob_sha1": "bca90eb408d594c642bfda83928781f478ac18bd",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_additional_fixed_rim_v6.py"
+      }
+    },
+    {
+      "path": "source/audit_custom_supports.py",
+      "bytes": 15979,
+      "sha256": "a3b7f99cc8d769f9061d6078085fd07a8f7cd13d5680dca87ef60e34d5649baa",
+      "git_blob_sha1": "7a72dfd63436eaf595bca9b07977571d9eb8c2cb",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_custom_supports.py"
+      }
+    },
+    {
+      "path": "source/audit_early_supports.py",
+      "bytes": 31480,
+      "sha256": "d1ce8c954724391eaac3e87e542488fc9ae7ca8404508c097c4128f3815bec74",
+      "git_blob_sha1": "221631e03514158de3334f40cf1d8e672e732d2e",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_early_supports.py"
+      }
+    },
+    {
+      "path": "source/audit_final_rounded_cap_v6.py",
+      "bytes": 12930,
+      "sha256": "94c34231140d32f4b80fd3d9e9318f795979f41acfdade182f5c0b4aa997cbc5",
+      "git_blob_sha1": "352f97f5df7e55607d67dc69df060a84d4423462",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_final_rounded_cap_v6.py"
+      }
+    },
+    {
+      "path": "source/audit_fixed_point_contact_boxes_v6.py",
+      "bytes": 12723,
+      "sha256": "9d5ca17578f032b4b213821e12a824988462c64db28d2ea1340d090f01203114",
+      "git_blob_sha1": "0c391a6521d78fa1f14b544dffacc5486ac12d75",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_fixed_point_contact_boxes_v6.py"
+      }
+    },
+    {
+      "path": "source/audit_fixed_precision_repairs_v6.py",
+      "bytes": 12696,
+      "sha256": "df839bed71eb818e91299f2f1c7dcbbd9ebb235518abb4a3743c45b188cfc68e",
+      "git_blob_sha1": "f7c3305196685ed67f5c50106d7706c7e079a340",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_fixed_precision_repairs_v6.py"
+      }
+    },
+    {
+      "path": "source/audit_full_height.py",
+      "bytes": 14557,
+      "sha256": "598652b448dbf47c671da20f42d3272d049409f13e729d01a300e80813a17628",
+      "git_blob_sha1": "4c1559cb1419c2257074ec165dc026e4d9037b0b",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_full_height.py"
+      }
+    },
+    {
+      "path": "source/audit_geometry.py",
+      "bytes": 9390,
+      "sha256": "5974b2cfde176d166c96aee3641267ed5ac1f56aecd5ff2cad85c020c82649b0",
+      "git_blob_sha1": "e4779294b45c72a83ac28383c5a9c4f79a247483",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_geometry.py"
+      }
+    },
+    {
+      "path": "source/audit_holder_access.py",
+      "bytes": 4425,
+      "sha256": "a40df3539dfa3b04cacee3214abee29ca6a1a336e3caaa182b1713e75ca61d9d",
+      "git_blob_sha1": "c28abc6b58287fec227c2aa47e7d311b8ce5050c",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_holder_access.py"
+      }
+    },
+    {
+      "path": "source/audit_holder_clearance.py",
+      "bytes": 2870,
+      "sha256": "e31568fe36c12746196f2c05783fc2e110889f0fe6930f6c3793694ffc2346a0",
+      "git_blob_sha1": "d1243dd1504e5333f701f7cfe3028458d6b34d3d",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_holder_clearance.py"
+      }
+    },
+    {
+      "path": "source/audit_motion.py",
+      "bytes": 38890,
+      "sha256": "faa2bdcb8956b3b9762ecd2e96f7f62a05e8a79a793b4ca25f38f4cca1422dfa",
+      "git_blob_sha1": "378f11297eb539d3d990cf5590f61526b64525df",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_motion.py"
+      }
+    },
+    {
+      "path": "source/audit_precision_repairs.py",
+      "bytes": 10576,
+      "sha256": "2705b2dc9e48eb1221c70e9e251e1c044ea6b8e2971239eb039641b17266237e",
+      "git_blob_sha1": "c43e26ce39053faa9360177abba1f3494ccf4373",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_precision_repairs.py"
+      }
+    },
+    {
+      "path": "source/audit_precision_transfer_v6.py",
+      "bytes": 11853,
+      "sha256": "26f55a176f912c02c8dc6a0b18357b63d1e238199c35ddcb0ccaa95e8f6878e5",
+      "git_blob_sha1": "42d78ee77bd20bdd93c4a2424559c8734a7a9052",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_precision_transfer_v6.py"
+      }
+    },
+    {
+      "path": "source/audit_residual_rounded_caps_v6.py",
+      "bytes": 12957,
+      "sha256": "ae5cde4c3a5535a9496dbf8f7086754495ee630e13d229077cc6129ad52fe01e",
+      "git_blob_sha1": "d507f5081ab483b2acee9e718d9f02e278fcbc3b",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_residual_rounded_caps_v6.py"
+      }
+    },
+    {
+      "path": "source/audit_rim_cap_bedding_v6.py",
+      "bytes": 12778,
+      "sha256": "bbc6482f6f49bd72ea6b49ba2fb76a8ba76ec9cd30941d54aeb235be85b7d319",
+      "git_blob_sha1": "8202eeb5497990fb7253785e335dcd2fc21368a7",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_rim_cap_bedding_v6.py"
+      }
+    },
+    {
+      "path": "source/audit_rim_cap_corner_expansions_v6.py",
+      "bytes": 12957,
+      "sha256": "fce0c4c4d89b9b72e195a5b5879064aa241fe92df494533a22ff247b6aa03fc7",
+      "git_blob_sha1": "3a54c9596c4ded531431f3c5e58e59c6fcd8e1e3",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_rim_cap_corner_expansions_v6.py"
+      }
+    },
+    {
+      "path": "source/audit_robust_fixed_rim_v6.py",
+      "bytes": 12719,
+      "sha256": "f3041905bc9db9a7e5fef67767c8ce91de6841bff5285a3374fe7b652684459e",
+      "git_blob_sha1": "75125243067443836104115277cefd2389399641",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_robust_fixed_rim_v6.py"
+      }
+    },
+    {
+      "path": "source/audit_rotation_envelope.py",
+      "bytes": 18523,
+      "sha256": "a398ca79a3ce89d723d30917b0564efc4caa212b660519bf0ee8fc6b7f9b5e33",
+      "git_blob_sha1": "b08702e1b04ed9354de1b5a316c13956e9fb6b7d",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_rotation_envelope.py"
+      }
+    },
+    {
+      "path": "source/audit_sphere_removal_partition_context_v6.py",
+      "bytes": 5832,
+      "sha256": "15f4dbbb4f9e0f70f71a5803cac2bea6966b8764c65efc94a67122f1a631e488",
+      "git_blob_sha1": "664f1652662027dca6b4fdbb2789ee618eadc80c",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_sphere_removal_partition_context_v6.py"
+      }
+    },
+    {
+      "path": "source/audit_sphere_support_motion_v6.py",
+      "bytes": 3106,
+      "sha256": "bfecc47eb70b620738328fdf302fc1ff0d7840550f2034574cb39f6da314dfa7",
+      "git_blob_sha1": "c172d96abbb0f9aad70f3f4ef4308c1a4a8f2f61",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_sphere_support_motion_v6.py"
+      }
+    },
+    {
+      "path": "source/audit_strength.py",
+      "bytes": 23782,
+      "sha256": "2b8e16eb52d63552dbd7efb722386ac2055c3d1b0cdbfb3524e20d1a4d3a30c2",
+      "git_blob_sha1": "e9efb5a18877c5c2b7ed21430db71ed6472d65a7",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_strength.py"
+      }
+    },
+    {
+      "path": "source/audit_v6_release.py",
+      "bytes": 23558,
+      "sha256": "ffa273a933eb10359d09f9750e27ef74361ad83018bebb7662925a11ab2e3151",
+      "git_blob_sha1": "46329b806cb8aaf6f99d4d641d85422c878a07fc",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_v6_release.py"
+      }
+    },
+    {
+      "path": "source/audit_v6_service.py",
+      "bytes": 4342,
+      "sha256": "04887f31577eb9c265bfd8d6c0887da0eff3392046072e9cece9a6d00d021971",
+      "git_blob_sha1": "ea6f3b00ce31cf7b382e6bd5f95e10458d8c2eab",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/audit_v6_service.py"
+      }
+    },
+    {
+      "path": "source/build_additional_fixed_rim_v6.py",
+      "bytes": 5802,
+      "sha256": "390cbd5fd274d59dc9619328cef02e19231aa5e5d1e2c6bb508eaf788bc5f0b3",
+      "git_blob_sha1": "8dcf2cb19b96dcac1eeaec66c921d70d42d3c2e7",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_additional_fixed_rim_v6.py"
+      }
+    },
+    {
+      "path": "source/build_azimuth_route_candidates_v6.py",
+      "bytes": 14976,
+      "sha256": "bf8600f8ee368666069b19ce403b7a2dd1c7efca24305f15cc2363b2fd0bba76",
+      "git_blob_sha1": "ecfc089d8094f84ca268e594dfb88fe415820b54",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_azimuth_route_candidates_v6.py"
+      }
+    },
+    {
+      "path": "source/build_final_rounded_cap_v6.py",
+      "bytes": 8852,
+      "sha256": "eb3f145c8cb876f5bb8adbe7652cb1ab7630c08d7aba79918670e3f1a69c355d",
+      "git_blob_sha1": "8c6686ec4bef7a33cb47519dc331a8ac31c68459",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_final_rounded_cap_v6.py"
+      }
+    },
+    {
+      "path": "source/build_finer_body_partition_menu_v6.py",
+      "bytes": 10039,
+      "sha256": "637203d3f4603c6c97a7657be88205c4f3c58bd1b3e5e351c156f47af974b139",
+      "git_blob_sha1": "4fb85432d477e5567243b775081969711be5bdb4",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_finer_body_partition_menu_v6.py"
+      }
+    },
+    {
+      "path": "source/build_fixed_point_contact_boxes_v6.py",
+      "bytes": 5895,
+      "sha256": "af3d3f246a22638eb5aef3679af995e72cbfaf3d84a976ac50315e54af057409",
+      "git_blob_sha1": "0381200f8acb685850c7a04afb09564f630f69c7",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_fixed_point_contact_boxes_v6.py"
+      }
+    },
+    {
+      "path": "source/build_fixed_precision_repairs_v6.py",
+      "bytes": 9357,
+      "sha256": "776668f93b99f39fd2cccef0a82976d6e776fa9dd2ec0c26082ef458a3b2a087",
+      "git_blob_sha1": "1466140ae5b5be1afd5252cdaf544cb6b68297cc",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_fixed_precision_repairs_v6.py"
+      }
+    },
+    {
+      "path": "source/build_holder.py",
+      "bytes": 15672,
+      "sha256": "e4c3d0cc5fb25dd46df51ac3b710333002e488ce30eee010f29a8b912a56df62",
+      "git_blob_sha1": "7d1bd1a242f0735e89a97064ff54cbfb7a27b6c3",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_holder.py"
+      }
+    },
+    {
+      "path": "source/build_residual_rounded_caps_v6.py",
+      "bytes": 10145,
+      "sha256": "c7c24192e10c46797290925c4f55a3a0236f88c100be2f5be911e41d805fb946",
+      "git_blob_sha1": "8bce04c857f58c54ee60d0788f5b228cdff71e07",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_residual_rounded_caps_v6.py"
+      }
+    },
+    {
+      "path": "source/build_rim_cap_bedding_v6.py",
+      "bytes": 10568,
+      "sha256": "013eaf609319dec7ebadad6b526384f1205dda9a657c2a5b7affb67e2c94076f",
+      "git_blob_sha1": "6ccbb0ee196d9c2bda485b8869eb31889f318623",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_rim_cap_bedding_v6.py"
+      }
+    },
+    {
+      "path": "source/build_rim_cap_corner_expansions_v6.py",
+      "bytes": 6673,
+      "sha256": "d0a9b33678dc8bc42c3c13ada964e53eca14ec6e36e2202cd8a261088ac405d0",
+      "git_blob_sha1": "a208323bc77a414c72c2d79531f54d678d71c800",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_rim_cap_corner_expansions_v6.py"
+      }
+    },
+    {
+      "path": "source/build_robust_fixed_rim_v6.py",
+      "bytes": 6385,
+      "sha256": "7aeb10c0b0586391963700351d86bdd4369908d13f184f70c2c1a3fbf71cbf31",
+      "git_blob_sha1": "747f16d2be0588f29e7f7cf0b6950e487da1705f",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_robust_fixed_rim_v6.py"
+      }
+    },
+    {
+      "path": "source/build_support_environment.py",
+      "bytes": 13688,
+      "sha256": "1689d0838231e56620a5b1bd1c2b1bf1dd55536d56ae55e434f7f509e72ff051",
+      "git_blob_sha1": "2c657b315c863d3848f0410e57bfd4222b73b041",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_support_environment.py"
+      }
+    },
+    {
+      "path": "source/build_test_coupon.py",
+      "bytes": 24667,
+      "sha256": "8f75a3d4abb8ef313ae2d386cacf7da1e4751da23126cc2bbfb8a5822920b583",
+      "git_blob_sha1": "59d9ce4cee8cfbdf16fa895ab9161128a253bfdc",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/build_test_coupon.py"
+      }
+    },
+    {
+      "path": "source/certify_external_removal_prefix_v6.py",
+      "bytes": 5358,
+      "sha256": "07212a86474f33fdfe6058efacd0e167f41a130db4379ccc932e4daccaa132cc",
+      "git_blob_sha1": "8c749ce327fa6a4f24584b81ed31e284d122dbed",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/certify_external_removal_prefix_v6.py"
+      }
+    },
+    {
+      "path": "source/continue_external_removal_cached_bounds_v6.py",
+      "bytes": 10328,
+      "sha256": "89cf86698ad3464eae8962954efe641db5cb9b65c48807a01916f8b260cdc129",
+      "git_blob_sha1": "99ba5d786560e0b67645fa40a6c95ba1146125d9",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/continue_external_removal_cached_bounds_v6.py"
+      }
+    },
+    {
+      "path": "source/continue_external_removal_candidates_v6.py",
+      "bytes": 4941,
+      "sha256": "7631c1fa7d426dd6a8dadb366d26a39cbcf5ca4c977c004ccb2e975bf39de815",
+      "git_blob_sha1": "c228438ea66617a6b241c0c0d3e26911e9d591bb",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/continue_external_removal_candidates_v6.py"
+      }
+    },
+    {
+      "path": "source/continue_external_removal_exact_direct_v6.py",
+      "bytes": 3174,
+      "sha256": "7a3e8a8bb8a8dc045bda45665b7c4130ae1cf792cb20bc543b28407942dcecfa",
+      "git_blob_sha1": "11d4ab7149ee4a692fd9dc53fa8564b7ef5ab791",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/continue_external_removal_exact_direct_v6.py"
+      }
+    },
+    {
+      "path": "source/continue_external_removal_extended_v6.py",
+      "bytes": 10098,
+      "sha256": "64656577b5e4e404b7f1939794e841ea172e1d082b1d100488759a012aaf4b83",
+      "git_blob_sha1": "3f17c907c49eab1187c26a412c5ec9f5cd1b568b",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/continue_external_removal_extended_v6.py"
+      }
+    },
+    {
+      "path": "source/continue_external_removal_fine_v6.py",
+      "bytes": 12647,
+      "sha256": "e38cd15d85878f2b31f2a79cdd056e4ce07e28cb43fccaa9f28c318388946426",
+      "git_blob_sha1": "30f9f72c3e8c7709e26eb0351feb88f132b49071",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/continue_external_removal_fine_v6.py"
+      }
+    },
+    {
+      "path": "source/continue_external_removal_holder_endpoints_v6.py",
+      "bytes": 866,
+      "sha256": "da7ffefe8620920c7d0615aa591137791dcb6d4dc21e85f4d9ff445b3a25b578",
+      "git_blob_sha1": "7ba1d81728e7685016d20e4976918ab5bbbb3a9c",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/continue_external_removal_holder_endpoints_v6.py"
+      }
+    },
+    {
+      "path": "source/continue_external_removal_phase_v6.py",
+      "bytes": 10304,
+      "sha256": "96e9591002d1f8b567b8a9ba3bf682d638ad165c403023335301759b269ba270",
+      "git_blob_sha1": "db2d137abbce59ff88973069c10bcc78489d89f6",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/continue_external_removal_phase_v6.py"
+      }
+    },
+    {
+      "path": "source/continue_external_removal_pose_witness_v6.py",
+      "bytes": 3368,
+      "sha256": "33c413e09663774a12d37db48c747bcd3b98a8a47a7c1dfb95fa41771382a6a2",
+      "git_blob_sha1": "d5b8d1e7d822e14519880659c9c1cebc50bd5b25",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/continue_external_removal_pose_witness_v6.py"
+      }
+    },
+    {
+      "path": "source/continue_external_removal_staged_v6.py",
+      "bytes": 10224,
+      "sha256": "de2c5efabbc2a6da859c40b34f6e55cf5f78480b5215cca883c9597858f4da4d",
+      "git_blob_sha1": "16b8369945695f78e826952ed4e9f8a45ff4fd7b",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/continue_external_removal_staged_v6.py"
+      }
+    },
+    {
+      "path": "source/continue_external_removal_streaming_v6.py",
+      "bytes": 8369,
+      "sha256": "7d0a036448d8ef6984ad0dd23b31a2227a377dab0a747dd84e52455beeddcc17",
+      "git_blob_sha1": "c2dc0df770412f09d3c7cbab4d85923eaecfa6df",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/continue_external_removal_streaming_v6.py"
+      }
+    },
+    {
+      "path": "source/continue_external_removal_v6.py",
+      "bytes": 9550,
+      "sha256": "81b88e7ba6fa5cf745b5c3a704f95c9aeab9115bcad30a3260e5e9a11e413d02",
+      "git_blob_sha1": "884ff84d250510f89d3c196a2b5cde625259047c",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/continue_external_removal_v6.py"
+      }
+    },
+    {
+      "path": "source/custom_holder_supports.py",
+      "bytes": 72463,
+      "sha256": "0e8953282a7fea05c7dd25f40fc2f4c4cbe8514ff9c6f414ccabb66b72067808",
+      "git_blob_sha1": "b39e4fc615489638bf6963c79456a6e9d6317eac",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/custom_holder_supports.py"
+      }
+    },
+    {
+      "path": "source/custom_sphere_supports.py",
+      "bytes": 59036,
+      "sha256": "aa0321c8fc731af6eb4e6ee1549df3eaf0e5b6e54c2e614ca27d3276eb87bef9",
+      "git_blob_sha1": "907c06efb83a8989ca12c1610c7ef76372c5f4c5",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/custom_sphere_supports.py"
+      }
+    },
+    {
+      "path": "source/custom_sphere_supports_cross_contacts.py",
+      "bytes": 10969,
+      "sha256": "6094accd1896283e1b255cdcac480848a66849b8bbda551b55808d6bba92882b",
+      "git_blob_sha1": "1ceaaebb703ad13ef21f1dacdd96b39bdc12eeec",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/custom_sphere_supports_cross_contacts.py"
+      }
+    },
+    {
+      "path": "source/custom_sphere_supports_joint_repairs.py",
+      "bytes": 31272,
+      "sha256": "a4b24dbca73c9614a785ffff1adfeb5e6f7d2a6c768b5fa64cb3e8f8ff2cfff7",
+      "git_blob_sha1": "8b8b52cab21d6fdb1ab8767a7b766a9c6a33f6e7",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/custom_sphere_supports_joint_repairs.py"
+      }
+    },
+    {
+      "path": "source/diagnose_external_removal_collisions_v6.py",
+      "bytes": 17269,
+      "sha256": "2b65bc77187cd244e1da2c9277525d3a5742a260fbd23d27d4b93226ee88bb52",
+      "git_blob_sha1": "0acc86c0c932bd0975d1073616a832f59eb64e3d",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/diagnose_external_removal_collisions_v6.py"
+      }
+    },
+    {
+      "path": "source/diagnose_final_all_gates_v6.py",
+      "bytes": 7062,
+      "sha256": "a2bf9babebcc027be6244f76a5ee61de9ddc56de609223fd821bfd795f6a3d17",
+      "git_blob_sha1": "36df8dd1b9845a0f4a292c5a1c9cda7d95c07a6a",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/diagnose_final_all_gates_v6.py"
+      }
+    },
+    {
+      "path": "source/diagnose_fixed_precision_v6.py",
+      "bytes": 5245,
+      "sha256": "d9c761f8709743e562d2790fd202c2a36fc34859564b649be47c4753180243a1",
+      "git_blob_sha1": "cbe18058405857effe9621bb5d191574da63a322",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/diagnose_fixed_precision_v6.py"
+      }
+    },
+    {
+      "path": "source/diagnose_holder_endpoint_clearance_v6.py",
+      "bytes": 8111,
+      "sha256": "5824c5d3290eea4d183419fe084e170c60688254f6639e43d4d3905556ca750e",
+      "git_blob_sha1": "5004b0867bdff4fbf4acc184694b6688efcaa96f",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/diagnose_holder_endpoint_clearance_v6.py"
+      }
+    },
+    {
+      "path": "source/diagnose_plate_noop_v6.py",
+      "bytes": 3642,
+      "sha256": "568c5366cfb9eaa234bfcddc0369556fce51d6a95a3e458b2b7018f49f75a413",
+      "git_blob_sha1": "2b406c49e78ed13bee11a7302ff75ec6f1181df6",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/diagnose_plate_noop_v6.py"
+      }
+    },
+    {
+      "path": "source/diagnose_residual_cap_births_v6.py",
+      "bytes": 4636,
+      "sha256": "201202bb4b77abb326791c8e0dad8329171b182299c740e68e0f5d3162c2028d",
+      "git_blob_sha1": "061a354829e604588c311832f468ad8097776629",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/diagnose_residual_cap_births_v6.py"
+      }
+    },
+    {
+      "path": "source/diagnose_sphere3_support11_departure_v6.py",
+      "bytes": 6564,
+      "sha256": "ce66a2aadc143ad3050f66c2c3116fb7dc378bd3e8fcef3fc7bf3393588fc764",
+      "git_blob_sha1": "7beb050ec74525840a1138a559d6db4ee280912e",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/diagnose_sphere3_support11_departure_v6.py"
+      }
+    },
+    {
+      "path": "source/diagnose_v6_bounded_preparation.py",
+      "bytes": 14441,
+      "sha256": "09edb756a9d56eacbda206d35bbb04b4bfd6e27b5e7c7b7ae850bd1da4abbd0e",
+      "git_blob_sha1": "13aea74982fbc8aed2194f0b18b27ea9020a5bff",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/diagnose_v6_bounded_preparation.py"
+      }
+    },
+    {
+      "path": "source/diagnose_v6_fresh_preparation.py",
+      "bytes": 6183,
+      "sha256": "077aa24b6b442d885cfc39c83ada21d12d5bba25da4457e6c95c5badf925efc3",
+      "git_blob_sha1": "a84ae25c49c40cc6c93035d1e83f365d46fa11e0",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/diagnose_v6_fresh_preparation.py"
+      }
+    },
+    {
+      "path": "source/diagnose_v6_point_preparation.py",
+      "bytes": 6181,
+      "sha256": "e06ad8066a57bcbed415ef66cdd5f584a9b753746b60cdb082988fae923e87f2",
+      "git_blob_sha1": "94e609e3bc47714fe27b289695f9efc224a38f3d",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/diagnose_v6_point_preparation.py"
+      }
+    },
+    {
+      "path": "source/embroidery_technique.py",
+      "bytes": 65275,
+      "sha256": "64b8f321aea65d72aef75fbb282f2db6a5b89b5ae00eed079614cc257781859b",
+      "git_blob_sha1": "3842f307b6c1483d2db41b420840fa72a3e91b6e",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/embroidery_technique.py"
+      }
+    },
+    {
+      "path": "source/export_models.py",
+      "bytes": 30436,
+      "sha256": "f85a86e2ae6db690cbf1894fb3dbdefdd35d095327f0cc397374208135c33103",
+      "git_blob_sha1": "680f7c844c12206c763609daf0c69d5e9f522c72",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/export_models.py"
+      }
+    },
+    {
+      "path": "source/export_v6.py",
+      "bytes": 2032,
+      "sha256": "c7aa60cd4ba80ee286dbb08e9b63e5655d2f533eaca4a437091c40026d66d6a6",
+      "git_blob_sha1": "7d86cf80df44a2f171b4486be76bedd43ae8e475",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/export_v6.py"
+      }
+    },
+    {
+      "path": "source/external_removal_cached_bounds_v6.py",
+      "bytes": 5221,
+      "sha256": "84d6e33ccde6d4ecba810af1709248ff2f04e4eabf04993f695bb583e056e40c",
+      "git_blob_sha1": "8e5e31fc86e02ef8fa25642bff53cf3d09bd9cd9",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/external_removal_cached_bounds_v6.py"
+      }
+    },
+    {
+      "path": "source/external_removal_extended_v6.py",
+      "bytes": 23407,
+      "sha256": "af406935143d53ec2b1c0a5982a1f284dc1d8a9c0fc0665a13c68af80f56c903",
+      "git_blob_sha1": "b869f59abf01347f9dd482b3626b6a74b1b2d80a",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/external_removal_extended_v6.py"
+      }
+    },
+    {
+      "path": "source/external_removal_holder_endpoints_v6.py",
+      "bytes": 16203,
+      "sha256": "3174646c16e3a0fced02f6f29ff891bfe195363f9bc72edbcafd1a28fee899bf",
+      "git_blob_sha1": "d422e39c53c93a3169d97029acb3e5fe59ea71a4",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/external_removal_holder_endpoints_v6.py"
+      }
+    },
+    {
+      "path": "source/external_removal_phase_v6.py",
+      "bytes": 3864,
+      "sha256": "ebaa6b6757fc62f91a40f67dd9e45e7b65ae7bb0e864d11aa9cb0d24c8626f42",
+      "git_blob_sha1": "8b3e306076ca9acfe1d91430b1b0232278186109",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/external_removal_phase_v6.py"
+      }
+    },
+    {
+      "path": "source/external_removal_plate_stock_v6.py",
+      "bytes": 31687,
+      "sha256": "bdcc40203f31000d8918066de93de0a525e9cc493f7c4ceb29c13f631b11b019",
+      "git_blob_sha1": "2e2a40698596707f174f51981603bdc9d2f84e75",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/external_removal_plate_stock_v6.py"
+      }
+    },
+    {
+      "path": "source/external_removal_plate_stock_v6_b2.py",
+      "bytes": 12178,
+      "sha256": "725de4a52698fb83ab99f4c5945aa57f213ec15a3e63851c38c129e06cf5af40",
+      "git_blob_sha1": "2d60d8d0e2008069818a078d69107811dccc1b36",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/external_removal_plate_stock_v6_b2.py"
+      }
+    },
+    {
+      "path": "source/external_removal_prism_stream_v6.py",
+      "bytes": 12230,
+      "sha256": "a84181f8985aebfa89deb7f775d747731c7caa768467d9d47bba1ba4fc12f37c",
+      "git_blob_sha1": "77a4ee778cef8403f31344210987928b65877c41",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/external_removal_prism_stream_v6.py"
+      }
+    },
+    {
+      "path": "source/external_removal_prisms_v6_b3.py",
+      "bytes": 16813,
+      "sha256": "80382dd83c97a8802756c47cf332ffb8cbefb049f1bc9d08945dd5dc7358f6c3",
+      "git_blob_sha1": "61daab4dc6c8ef3f5f53157f3bd3ef6971f22bff",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/external_removal_prisms_v6_b3.py"
+      }
+    },
+    {
+      "path": "source/external_removal_sequential_v6.py",
+      "bytes": 4294,
+      "sha256": "90ea28a3f3a6c3abb88cfb2669cc5ddc8285ef67771df5cc0dd4f3e6d3b5ce40",
+      "git_blob_sha1": "af0bb8969cbb14ac4902bc26101b5e14e0848187",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/external_removal_sequential_v6.py"
+      }
+    },
+    {
+      "path": "source/external_removal_staged_v6.py",
+      "bytes": 6116,
+      "sha256": "b54f7e0684240601755e05662d928648c3b63ac6cf6819e4c8e95f89c0d768d4",
+      "git_blob_sha1": "6966c6c1f11aee4cb04c4c9b4bac6d66180c915f",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/external_removal_staged_v6.py"
+      }
+    },
+    {
+      "path": "source/finalize_reports.py",
+      "bytes": 4254,
+      "sha256": "d9df3fe40ff55dfff8c10202b09c73880206bf36dfa25f867851f9489119ac39",
+      "git_blob_sha1": "d1ee98a2b0c08b802333be93d5a288abe59cc41d",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/finalize_reports.py"
+      }
+    },
+    {
+      "path": "source/holder_finite_endpoint_partition_v6.py",
+      "bytes": 16935,
+      "sha256": "8c7c53d2f04de0fdcba536376d84c14bcf90aea60403e85a78c0027fd1ace3ae",
+      "git_blob_sha1": "63060b34fcb08bea8ec4342c5e2e115b19318230",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/holder_finite_endpoint_partition_v6.py"
+      }
+    },
+    {
+      "path": "source/integrate_fixed_cap_bedding_v6.py",
+      "bytes": 9681,
+      "sha256": "c019934f6313175d0d49caa08ed3a2fa4306a303e71fbead76b5be3d9a2dd0b0",
+      "git_blob_sha1": "6fec145f6f31ef04a4583835896031b6e06abe4d",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/integrate_fixed_cap_bedding_v6.py"
+      }
+    },
+    {
+      "path": "source/integrate_fixed_precision_repairs_v6.py",
+      "bytes": 10511,
+      "sha256": "73db708b559cdadf0a0d700b77d309a3bf9f03ff9b97889fbb7e84c197db15c1",
+      "git_blob_sha1": "d891e54368e940a1f5620ac311b02af129dee025",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/integrate_fixed_precision_repairs_v6.py"
+      }
+    },
+    {
+      "path": "source/package_delivery.py",
+      "bytes": 21478,
+      "sha256": "74fcff06d3b8403cb86c1882538ea5687be9073355e85408621e85d0a2246d51",
+      "git_blob_sha1": "7f17655a4b1b30590bac41e089487522118d83f9",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/package_delivery.py"
+      }
+    },
+    {
+      "path": "source/package_v6_delivery.py",
+      "bytes": 20437,
+      "sha256": "5f8dd2deaa37340f5d6bfb2d0163917c3a65253506e4776ce57eee571aed394c",
+      "git_blob_sha1": "80f2cde6143b16d38080f26edf97a8ea5de7aeb6",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/package_v6_delivery.py"
+      }
+    },
+    {
+      "path": "source/package_working_removal_checkpoint07.py",
+      "bytes": 12769,
+      "sha256": "938f5fb7cc965a0792e56dca83be1a55243f8342f826d0f6383434b61320ef00",
+      "git_blob_sha1": "1f347a4fefef8b6694262d32d57ee41d2b4ed2b0",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/package_working_removal_checkpoint07.py"
+      }
+    },
+    {
+      "path": "source/plan_external_removal_v6.py",
+      "bytes": 31016,
+      "sha256": "325a75cbaf954719c6ec768d3652e3467fc251a1efbfcba1831250e5de843acb",
+      "git_blob_sha1": "807692ed9b34d64561e0cc3d0309ba3b8bb114fb",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/plan_external_removal_v6.py"
+      }
+    },
+    {
+      "path": "source/prepare_print.py",
+      "bytes": 3478,
+      "sha256": "d9eea1fa365bc9c022d4d3fa7e67a234ab6f9f73f7e744e1e025ee7e207b4f5e",
+      "git_blob_sha1": "e716c163c607984f57327094c4784495fdc0acb4",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/prepare_print.py"
+      }
+    },
+    {
+      "path": "source/prepare_v6_export.py",
+      "bytes": 9045,
+      "sha256": "236211aff686b998e6f86e838306581cc6491a7b89011d6fee1bb257ee1ffb33",
+      "git_blob_sha1": "695b667449426c331bf9a6aab1dda3fc02b7c7a2",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/prepare_v6_export.py"
+      }
+    },
+    {
+      "path": "source/printable_shell_starts.py",
+      "bytes": 9349,
+      "sha256": "aab85cd5e4579d41178134d7bf4dbe36a24398b58e542568038432400a2c65c5",
+      "git_blob_sha1": "0360f73e0988106997c91c8a7702047549c9b930",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/printable_shell_starts.py"
+      }
+    },
+    {
+      "path": "source/prove_mesh_import_surface_v6.py",
+      "bytes": 6176,
+      "sha256": "58ca2441a2dd4351495aef9ba50ab1cceadabae99f35b0c6a09dd3bdb9f10980",
+      "git_blob_sha1": "fdfeb6e0994482d831366bfb98b60a6a96373ecf",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/prove_mesh_import_surface_v6.py"
+      }
+    },
+    {
+      "path": "source/rebuild.py",
+      "bytes": 155,
+      "sha256": "bf37548949d60b2175b41e601e8cbabf74f6b2a7c75684f8ccef7f3c693f8283",
+      "git_blob_sha1": "6d2a53314fc0d548631bd5e9180bb8eb2f7680d5",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/rebuild.py"
+      }
+    },
+    {
+      "path": "source/rebuild_v5_reference.py",
+      "bytes": 4434,
+      "sha256": "1ab6df1af02f8572f0fd80547828cd1f0fc8bfb09c190101bfc292bee532ac85",
+      "git_blob_sha1": "bcdc9b2bc37930150859ad53f6ef905e996fe446",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/rebuild_v5_reference.py"
+      }
+    },
+    {
+      "path": "source/rebuild_v6.py",
+      "bytes": 5510,
+      "sha256": "62488f343a8dd960d2a05878b93c27e883997a6a0a42ace183d5b92bdc03cdcc",
+      "git_blob_sha1": "a8654fb6ea66047c1d73841541e1fee92564aa04",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/rebuild_v6.py"
+      }
+    },
+    {
+      "path": "source/render_coupon.py",
+      "bytes": 5347,
+      "sha256": "1ffe20069467f5d623ddc46b076064305f79c1a4b8081ad60a5fc60586932876",
+      "git_blob_sha1": "6292127bd71c84ea9018d6af4628847777aeb207",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/render_coupon.py"
+      }
+    },
+    {
+      "path": "source/render_custom_supports.py",
+      "bytes": 3908,
+      "sha256": "4aaafff4bf85c1999109346fdadc2cdc45f1b90216768b4ffe4453a7174934b5",
+      "git_blob_sha1": "93ef8b9c6d398f3f78c4d40353ab0d6dc0abc32f",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/render_custom_supports.py"
+      }
+    },
+    {
+      "path": "source/render_mechanism.py",
+      "bytes": 54668,
+      "sha256": "81a22c08d1d5b21308e525c56c8ac43a6efd7ddee141fd0783f85f4ea727665e",
+      "git_blob_sha1": "d69d57dab22ba2216c6a17b0caf1d93b50505c97",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/render_mechanism.py"
+      }
+    },
+    {
+      "path": "source/render_model.py",
+      "bytes": 32884,
+      "sha256": "11f33b41dc4d1d33df16879417fd8ccb5e97fd020c60bead3b9d3751b9df9b9d",
+      "git_blob_sha1": "c8297e568ae7ec2aafa901e0dd75b8ef0d4487bd",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/render_model.py"
+      }
+    },
+    {
+      "path": "source/repair_holder_carrier_joints.py",
+      "bytes": 14117,
+      "sha256": "f7d520cb472ab1783ee2d2da646145a7ec78f6cb8e4addba0f6d94cea7d309ac",
+      "git_blob_sha1": "4613a9de53d0d3c5b3fdea7c9427e65b2df06486",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/repair_holder_carrier_joints.py"
+      }
+    },
+    {
+      "path": "source/replace_cap_bedding_corners_v6.py",
+      "bytes": 9162,
+      "sha256": "1513264c3e11de6c26888baa5cddd3972ef38e04e4fc97bbba3eda5f90b29ca6",
+      "git_blob_sha1": "4b51e9aa9bfcfca829261545c127542921feb39d",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/replace_cap_bedding_corners_v6.py"
+      }
+    },
+    {
+      "path": "source/replace_final_cap_bedding_v6.py",
+      "bytes": 9119,
+      "sha256": "47a300294eeb33ba46ef74069fe880a209eda485dd76a0de8321f80d1fc872b5",
+      "git_blob_sha1": "505ee7c373c03aef849aa6376351016d58142272",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/replace_final_cap_bedding_v6.py"
+      }
+    },
+    {
+      "path": "source/replace_final_fixed_rim_v6.py",
+      "bytes": 8387,
+      "sha256": "ac2661837ecd6cd66e46656ed49feb01ef806567c34accdd3b0f089f063dcee6",
+      "git_blob_sha1": "45f94325cfe93bf6bebdbae84bc78be390f00d0d",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/replace_final_fixed_rim_v6.py"
+      }
+    },
+    {
+      "path": "source/replace_fixed_point_boxes_v6.py",
+      "bytes": 8980,
+      "sha256": "4f2aa979c615e37240e3f180346a6d469af2d2533491aca30dbfc8e1d199d91c",
+      "git_blob_sha1": "ea4766542a076a8af4bb59032333bccacd275334",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/replace_fixed_point_boxes_v6.py"
+      }
+    },
+    {
+      "path": "source/replace_residual_cap_bedding_v6.py",
+      "bytes": 10430,
+      "sha256": "998b0825df6f5dfb6ef75ab6b5a75d89c285f0869c3e2b08de4a8e321fb5ce7b",
+      "git_blob_sha1": "8be3e12ff6c361176d94edcb2e46868c1099d6af",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/replace_residual_cap_bedding_v6.py"
+      }
+    },
+    {
+      "path": "source/requirements.txt",
+      "bytes": 357,
+      "sha256": "640655fc776b3eb7a8fd6e7027ac3b8654bbea9bba0cd0793f428526f9bad9a3",
+      "git_blob_sha1": "fd794b46bc9d3acd575ceb9ac556138648c79ccc",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/requirements.txt"
+      }
+    },
+    {
+      "path": "source/restore_base.py",
+      "bytes": 1754,
+      "sha256": "77f6f9ea2406729986c1358c97c418fa3260aa554964b206b1d4c68e676d292b",
+      "git_blob_sha1": "b6deef138391fbcdeadd6149972c463150d2ebc6",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/restore_base.py"
+      }
+    },
+    {
+      "path": "source/restore_holder_full_aggregate_v6.py",
+      "bytes": 3848,
+      "sha256": "9bdddf4702f6b0fa80e6037684a30e023bb2df1a55cfbb528ed971734b3de041",
+      "git_blob_sha1": "8dc3f9666991ae5555f27712d6cb8222f92530aa",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/restore_holder_full_aggregate_v6.py"
+      }
+    },
+    {
+      "path": "source/service_edge_ribs.py",
+      "bytes": 5782,
+      "sha256": "813b73a0b03047e8c3a8201768e1ade7e924c714eac27a2187edec4a46d0e050",
+      "git_blob_sha1": "9c32c103c83641dc58826ae739fcfff7f601984c",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/service_edge_ribs.py"
+      }
+    },
+    {
+      "path": "source/sphere_geometry.py",
+      "bytes": 67091,
+      "sha256": "673f8e742d3bdfa32104ba27d09f5dfd92592df5034493e3dac2a7d24686ce02",
+      "git_blob_sha1": "b319e56d101516a45a98276f2c94864e89ac385d",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/sphere_geometry.py"
+      }
+    },
+    {
+      "path": "source/sphere_removal_partition_v6.py",
+      "bytes": 13133,
+      "sha256": "180d47b962ba4386d663dce9fcf03495cba4b42bffd30576c5c75720d13bf0c8",
+      "git_blob_sha1": "350703355636ebaaa0ded8249e5c812376401c1a",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/sphere_removal_partition_v6.py"
+      }
+    },
+    {
+      "path": "source/validate_prism_stream_small_v6.py",
+      "bytes": 5998,
+      "sha256": "ed1d2a56aa11b8a4087fc1d4dc24bd3759d0bac463f57521cdce132a77e2f2f0",
+      "git_blob_sha1": "0ad7da2a41a51cbc7bda198c117e0bd61969333d",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/validate_prism_stream_small_v6.py"
+      }
+    },
+    {
+      "path": "source/write_release_notes.py",
+      "bytes": 20771,
+      "sha256": "f8f84c97f5ea441a07f41ce3d7113da802b716891e75f2ed36d31dffcc4f6ec5",
+      "git_blob_sha1": "a30a483b86cac7338f442572b01eb17e4d077450",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/write_release_notes.py"
+      }
+    },
+    {
+      "path": "source/write_v6_delivery_notes.py",
+      "bytes": 28898,
+      "sha256": "b916692cefe97b009cda308822b415af3b6344bd7f99384e4f0b04582fff9d9c",
+      "git_blob_sha1": "11f58d7504f6413b3bcf881e5be923b84941eecd",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/write_v6_delivery_notes.py"
+      }
+    },
+    {
+      "path": "source/write_v6_download_verification.py",
+      "bytes": 18072,
+      "sha256": "a89888e76bd4bb8f17e2d42960a073e61063feb6cf7c1bba5b55310819e2c78b",
+      "git_blob_sha1": "17f564b7e7842203274d75937471a5c69087d8bf",
+      "origin": {
+        "kind": "archive_member",
+        "archive": "ivory_v6_project.zip",
+        "member": "project/source/write_v6_download_verification.py"
+      }
+    },
+    {
+      "path": "verify_files.py",
+      "bytes": 1391,
+      "sha256": "f066899c8fabd56df31e8bad612b0ee48f644123eef71693bb28e8164c52a578",
+      "git_blob_sha1": "7628f4a457dd951983e4c4d5caf48fda4bc85919",
+      "origin": {
+        "kind": "github_file_integrity_utility"
+      }
+    }
+  ]
+}
